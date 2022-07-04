@@ -53,7 +53,10 @@ The following amounts requested are not final and would love the community input
 | D  | $15K USD for airfare, hotel, and food arrangements for the core team  |
 | E  | $10K USD for volunteer compensation and meal comps  |
 | F  | $10K USD for any unexpected, unforeseen expenses that may arise.  |
+|---|---|
+| Sum  | $200K, or roughly 0.35% of the community pool*  |
 
+\* As of Jul 4th 10PM UTC+9
 
 
 
