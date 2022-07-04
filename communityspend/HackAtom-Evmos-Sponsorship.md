@@ -98,7 +98,7 @@ Late July is peak season for air travel to Korea, and hotels are nearing an all-
 
 **E. Volunteer Compensation + Labor**
 
-For those that have boothed at crypto events, you'll know that _it is not easy._ I have discussed with a respected Korean validator and community that are active in Evmos as well as other Cosmos chains, and have confirmed their willingness to help boothing as well as provide translation services,** if needed.**
+For those that have boothed at crypto events, you'll know that _it is not easy._ I have discussed with a respected Korean validator and community that is active in Evmos as well as other Cosmos chains, and have confirmed their willingness to help boothing as well as provide translation services, **if needed.**
 
 **F. Emergency Fund**
 
