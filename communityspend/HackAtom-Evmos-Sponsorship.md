@@ -125,7 +125,7 @@ All these events will be happening roughly 15 minutes from where I live, so I wi
 
 The cost to become an official sponsor of Korea Blockchain Week is $50K with no booth, and $100K with booth. There are more sponsorship levels that range up to $400K. I have not included these in the request, but I would like to receive sincere feedback and thoughts on whether we should sponsor this larger event. You may learn more about Korea Blockchain Week 2022 and the Sponsor packages [on their website.](https://koreablockchainweek.com/)
 
-Although we would like to have sponsored ETH Seoul, they are unfortunately at capacity. However, it should be noted that we also have two major hackathons already planned or in planning that are ETH-community focused, which begin as soon as these events in Korea end. In other words, you can expect the next few months to be very crazy and event-packed for the Evmos ecosystem.
+Although we would like to have sponsored ETH Seoul, they are unfortunately at capacity. However, it should be noted that we also have three major hackathons already planned or in planning that are ETH-community focused, which begin as soon as these events in Korea end. In other words, you can expect the next few months to be very crazy and event-packed for the Evmos ecosystem.
 
 An additional expense request for airfare and hotel for the core team was removed at the request of a team member. If the community believes that these expenses should be covered by the pool, please indicate that in the comments. 
 
