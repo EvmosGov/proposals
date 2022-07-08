@@ -1,6 +1,8 @@
+# Evmos Sponsorship of HackAtom 2022 Seoul and Korea Blockchain Week
+
 ## **Summary**
 
-This thread will serve as a signaling + discussion thread regarding a possible sponsorship of the upcoming HackAtom 2022 event in Seoul which will be held July 29th to 31th.
+This thread will serve as a signaling + discussion thread regarding a possible sponsorship of the upcoming HackAtom 2022 event in Seoul which will be held July 29th to 31th, followed by ETH Seoul and Korea Blockchain Week which ends on August 14th.
 
 ---
 
@@ -28,7 +30,7 @@ The full announcement [can be read here](https://blog.cosmos.network/announcing-
 
 **Participating IBC Frens:**
 
-* Cosmos Hub (obviously 😅) 
+* Cosmos Hub
 * Interchain 
 * Cosmostation 
 * Osmosis 
@@ -49,12 +51,10 @@ The following amounts requested are not final and would love the community input
 |---|---|
 | A  | $50K USD in Evmos tokens for the platinum sponsorship spot  |
 | B  | $100K USD in Evmos tokens for hackathon prizes  |
-| C  | $15K USD for booth design and Evmos merch to giveaway  |
-| D  | $15K USD for airfare, hotel, and food arrangements for the core team  |
-| E  | $10K USD for volunteer compensation and meal comps  |
-| F  | $10K USD for any unexpected, unforeseen expenses that may arise.  |
+| C  | $50K USD for marketing and PR expenses |
+| D  | $20K USD for volunteer compensation and miscellaneous expenses |
 |---|---|
-| Sum  | $200K, or roughly 0.35% of the community pool*  |
+| Sum  | $220K, or roughly 0.34% of the community pool*  |
 
 \* As of Jul 4th 10PM UTC+9
 
@@ -62,7 +62,7 @@ The following amounts requested are not final and would love the community input
 
 ## **Funding Request Justification**
 
-**A. Sponsorship Fees**
+### **A. Sponsorship Fees**
 
 Platinum Sponsorship Package Includes:
 
@@ -82,36 +82,52 @@ Alternatively, there is the Gold Sponsorship Package for $30K USD, **which exclu
 
 If the community feels that a Gold Sponsorship Package is more appropriate, I respect the cost-saving mindset.
 
-**B. Hackathon Prizes**
+### **B. Hackathon Prizes**
 
 The prize amount was selected simply based on the amount that Osmosis and Juno are offering ($100K each). Please participate in the polls to voice your opinion on whether we should decrease the prize amount, leave it, or go guns blazing and increase the amount to show hackers and everyone watching that we mean business.
 
 [Current Hackathon Challenges and Prize Pool](https://bafybeienbj44fytisfpq6a5svc5t32qcxgwjvdkqejfys2degjnhhotbkm.ipfs.dweb.link/tracks.png)
 
-**C. Booth and Merchandise**
+The hackathon tracks and respective rewards for the tracks will be discussed and determined with the core team as soon as signaling indicate that the community is largely in favor of this proposal.
 
-Because of the limited time to prepare, booth design and merch will likely have to be rushed. While the booth design is not extremely important, if we are going to be represented at HackAtom, we might as well do it professionally.
+### **C. Marketing and PR Expenses**
 
-**D. Airfare, Hotel, and Food**
+**PR Expenses** - Evmos is unique in the Cosmos ecosystem because we are able to tap into a much bigger pool of developers (devs already familiar with solidity), we should do our best to optimize the results of the hackathon by reaching out to ETH and L2 communities that already exist in Korea. 
 
-Late July is peak season for air travel to Korea, and hotels are nearing an all-time high in 3 years.
+**Marketing Expenses** - Following the HackAtom event, buidl.asia, ETH Seoul, and Korea Blockchain Week will be taking place back to back to back. This gives us a great opportunity to do further outreach beyond the scope of the hackathon, through smaller meetups, cross-promotions, and related events. 
 
-**E. Volunteer Compensation + Labor**
+Potential "side events" - As of now, talks have been initiated, but nothing is final. A few examples would be: 1) Co-hosting an event with the Interchain Foundation; 2) Hosting an official Korea Blockchain Week 2022 Side Event. 
 
-For those that have boothed at crypto events, you'll know that _it is not easy._ I have discussed with a respected Korean validator and community that is active in Evmos as well as other Cosmos chains, and have confirmed their willingness to help boothing as well as provide translation services, **if needed.**
+**Booth and Evmos Merch** - Because of the limited time to prepare, booth design and merch will likely have to be rushed. While the booth design is not extremely important, if we are going to be represented at HackAtom, we might as well do it professionally.
 
-**F. Emergency Fund**
+**D. Volunteer Compensation + Miscellaneous Expenses**
 
-Unexpected expenses are not uncommon, especially for a team in a foreign country. These funds will not be touched except under extraordinary circumstances.
+For those that have boothed at crypto events, you'll know that _it is not easy._ I have discussed with a respected Korean validator and community that is active in Evmos as well as other Cosmos chains, and have confirmed their willingness to help boothing as well as provide translation services. While the event will bring the global community to Seoul, it should be expected that a huge portion of the attendees will, of course be Korean. 
+
+In addition, unexpected expenses are not uncommon, especially for a team in a foreign country. An emergency fund for miscellaneous expenses, in my opinion, would be smart to have as events are very fluid and other sponsorship or outreach opportunities may come up. For example, although ETH Seoul is currently at capacity in terms of sponsorship and their hackathon, we hope to still engage and support their event, even if it must be done in a "non-official" capacity.
 
 ## Fund Usage, Transparency, and Accountability 
 
-1. All expenses incurred will be documented and itemized, from A to E. Whatever can transaction that can be done on chain will be done so. For expenses that require fiat, an expense report will be provided after the event. 
-2. All unused funds, including item F, will be returned to the community pool. 
+1. All expenses incurred will be documented and itemized, from A to D. Whatever  transactions that can be done on chain will be done so. For expenses that require fiat, an expense report will be provided after the event. 
+2. All unused funds will be returned to the community pool.
+3. The volunteer and miscellaneous expenses fund will be placed in a multi-sig wallet, and with funds only moving in case the needs are justified. I propose three signers for this wallet -- myself, and two members of the core team that will be in attendance. 
 
 ## Time Constraints
 
 July 29th is fast approaching. I will be in constant contact with the HackAtom organizers, so please ask any questions that you may have.
+
+I would like to apologize for the currently vague sections in Items C and D, but because of the limited preparation times and unfinalized commitments, it is difficult to provide final details this early. However, I will be in constant coordination with all parties involved, and provide updates as they come. 
+
+All these events will be happening roughly 15 minutes from where I live, so I will do my best to accomodate the core Evmos team with any logistical needs. However, I will most likely be needing external help and planning should begin ASAP, so I would appreciate any and all concerns from the community to be asked in a timely manner so that the proposal can move into the next stages ASAP. 
+
+
+## Other Considerations
+
+The cost to become an official sponsor of Korea Blockchain Week is $50K with no booth, and $100K with booth. There are more sponsorship levels that range up to $400K. I have not included these in the request, but I would like to receive sincere feedback and thoughts on whether we should sponsor this larger event. You may learn more about Korea Blockchain Week 2022 and the Sponsor packages [on their website.](https://koreablockchainweek.com/)
+
+Although we would like to have sponsored ETH Seoul, they are unfortunately at capacity. However, it should be noted that we also have two major hackathons already planned or in planning that are ETH-community focused, which begin as soon as these events in Korea end. In other words, you can expect the next few months to be very crazy and event-packed for the Evmos ecosystem.
+
+An additional expense request for airfare and hotel for the core team was removed at the request of a team member. If the community believes that these expenses should be covered by the pool, please indicate that in the comments. 
 
 ---
 
@@ -121,5 +137,7 @@ Reference Links:
 * [Cosmos Signaling Proposal](https://forum.cosmos.network/t/proposal-signaling-proposal-hackatom-seoul-2022/6799?u=catdotfish) 
 * [Official Cosmos Announcement](https://blog.cosmos.network/announcing-cosmoss-hackatom-seoul-b6858b9beac7) 
 * [HackAtom Official Site](https://hackatom.org/)
+* [ETH Seoul 2022](https://2022.ethseoul.org/)
+* [Blockchain Week Korea 2022](https://koreablockchainweek.com/)
 
-Thank you [@catdotfish](https://twitter.com/catdotfish) and Erica from KryptoSeoul for the help in organizing this proposal.
+Thank you [@catdotfish](https://twitter.com/catdotfish) from Interchain and Erica from KryptoSeoul for the help in organizing this proposal.
