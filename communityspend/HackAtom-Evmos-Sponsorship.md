@@ -97,7 +97,7 @@ Potential "side events" - As of now, talks have been initiated, but nothing is f
 
 **Blockchain week...? More like blockchain marathon** - From start to finish, the events will last from July 29th to August 13th. This is a pretty epic blockchain marathon, and the possilities and opportunities for developer onboarding, meetups, workships, and side events are endless. Huge shoutout to Interchain Foundation, again, for allowing us to use the waived sponsorship fee for initiatives to grow our ecosystem. 
 
-**D. Volunteer Compensation + Miscellaneous Expenses**
+### **D. Volunteer Compensation + Miscellaneous Expenses**
 
 For those that have boothed at crypto events, you'll know that _it is not easy._ I have discussed with a respected Korean validator and community that is active in Evmos as well as other Cosmos chains, and have confirmed their willingness to help boothing as well as provide translation services. While the event will bring the global community to Seoul, it should be expected that a huge portion of the attendees will, of course be Korean. 
 
