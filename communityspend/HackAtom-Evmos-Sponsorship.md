@@ -15,8 +15,6 @@ Evmos is incredibly special in that it has the best of both worlds - EVM and Cos
 Everyone is aware of the famous saying, "If you build it, they will come." The truth of the matter is, at the moment, we are lacking builders. HackAtom is the perfect opportunity to attract top notch developers in both the EVM and the Cosmos networks.
 
 ---
-in necessariis unitas, in dubiis libertas, in omnibus communitatis	
-pro scientia et communitatis	
 
 ## **The Event**
 
