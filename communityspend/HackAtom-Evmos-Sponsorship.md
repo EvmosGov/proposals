@@ -2,7 +2,7 @@
 
 ## **Summary**
 
-This thread will serve as a signaling + discussion thread regarding a possible sponsorship of the upcoming HackAtom 2022 event in Seoul which will be held July 29th to 31th, followed by ETH Seoul and Korea Blockchain Week.
+This thread will serve as a signaling + discussion thread regarding a possible sponsorship of the upcoming HackAtom 2022 event in Seoul which will be held July 29th to 31th, followed by ETH Seoul and Korea Blockchain Week which ends on the 14th.
 
 ---
 
@@ -45,16 +45,16 @@ The full announcement [can be read here](https://blog.cosmos.network/announcing-
 
 ## Community Funding Request
 
-**The following amounts requested are not final and would love the community input.** The requested amount as it stands is $200K, with the bulk of it going towards hackathon prizes and developer outreach. The $50K out of $75K for marketing and PR will come from the waived sponsorship fee. 
+**The following amounts requested are not final and would love the community input.** The requested amount as it stands is $195K, with the bulk of it going towards hackathon prizes and developer outreach. The $50K out of $70K for marketing and PR will come from the waived sponsorship fee. 
 
 | Item  | Usage  |
 |---|---|
 | A  | ~~$50K USD in Evmos tokens for the platinum sponsorship spot~~  |
 | B  | $100K USD in Evmos tokens for hackathon prizes  |
 | C  | $70K USD for marketing and PR expenses |
-| D  | $20K USD for miscellaneous expenses and volunteer compensation |
+| D  | $25K USD for airfare, room, and volunteer compensation |
 |---|---|
-| Sum  | $200K, or roughly 0.31% of the community pool*  |
+| Sum  | $195K, or roughly 0.31% of the community pool*  |
 
 \* Interchain Foundation has waived our sponsorship fee completely to give us more firepower in the outreach and events department without having to request for more community funding! A huge thank you to our IBC frens.
 
@@ -111,23 +111,22 @@ And it's almost a rule of thumb that a project can not go to an event without br
 
 For those that have boothed at crypto events, you'll know that _it is not easy._ I have discussed with BeeHive, a respected Korean validator and community that is active in Evmos as well as other Cosmos chains, and have confirmed their willingness to help boothing as well as provide translation services. While the event will bring the global community to Seoul, it should be expected that a huge portion of the attendees will, of course be Korean. We should respect the value of peoples' time and work, and volunteers should be provided with meals and compensation. 
 
-At the moment since we are not 100% sure which days we will be working or hosting events (besides HackAtom), I can only estimate the amount for compensation expenses. If we were to "work" 6 days with 5 volunteers (3 days for HackAtom, 3 misc. days TBD), and a compensation of $500 per per day per volunteer, that's $3K, excluding lunch and dinner.  I am ballparking this expensive to be anywhere from $4K to $6K. 
+At the moment since we are not 100% sure which days we will be working or hosting events (besides HackAtom), I can only estimate the amount for compensation expenses. If we were to "work" 5 days with the help of 3 volunteers (3 days for HackAtom, 2 misc. days TBD), and a compensation of $500 per per day per volunteer, excluding lunch and dinner we should be around the $7.5K ballpark.  
 
-In addition, unexpected expenses are not uncommon, especially for a team in a foreign country. An emergency fund for miscellaneous expenses, in my opinion, would be smart to have as events are very fluid and other sponsorship or outreach opportunities may come up. 
+At the moment airfare to Korea from the States as well as Europe are well over $2K. Assuming that four Evmos representaives will in attendance, the cost for airfare should exceed just over $10K. Prices will likely fluctuate between now and then. Accomodation for housing is showing anywhere from $4K to $6K for the time periods of the events.
 
 ## Fund Usage, Transparency, and Accountability 
 
 1. All expenses incurred will be documented and itemized, from A to D. Whatever  transactions that can be done on chain will be done so. For expenses that require fiat, an expense report will be provided after the event. 
 2. All unused funds will be returned to the community pool.
-3. The volunteer and miscellaneous expenses fund will be placed in a multi-sig wallet, and with funds only moving in case the needs are justified. I propose three signers for this wallet -- myself, and two members of the core team that will be in attendance. 
-4. 50% of the marketing and PR budget will be sent to a multi-sig wallet, while 50% will be held in a liquid wallet so that we can immediately get to work on the countless tasks and preparations that need to be made. 
+3. $50K of the marketing and PR budget will be sent to a multi-sig wallet, while $20K will be held in a liquid wallet so that we can immediately get to work on the countless tasks and preparations that need to be made. 
+4. The miscellaneous fund will be released immediately and distributed to the Evmos representatives that will be in attendance, and roughly $5K will be released to me to book housing accomodations for the team as soon as possible. If the number of attending Evmos team member drops, then adjustments will be made acccordingly. However, we will cap this budgetary expense to $25K. 
 
-
-I will work with the core team to be as frugal as possible, while consulting with them to take as many opportunities that would benefit Evmos and help with onboarding and exposure.  
+I will work with the core team to be as frugal as possible, while consulting with them to take as many opportunities that would benefit Evmos and help with onboarding and exposure. The multisig signers should be people on the ground in Seoul, so please keep that in mind when proposing signatories. 
 
 ## Time Constraints
 
-July 29th is fast approaching. I will be in constant contact with the HackAtom organizers, so please ask any questions that you may have.
+July 29th is fast approaching. I will be in constant contact with the HackAtom organizers, blockchain incubators and communities, and everyone in between so please ask any questions that you may have. Although I hate to sound like a hypocrite in trying to move this through quickly, 
 
 I would like to apologize for the currently vague sections in Items C and D, but because of the limited preparation times and unfinalized commitments, it is difficult to provide final details this early. However, I will be in constant coordination with all parties involved, and provide updates as they come. 
 
@@ -136,15 +135,13 @@ All these events will be happening roughly 15 minutes from where I live, so I wi
 
 ## Other Considerations
 
-The cost to become an official sponsor of Korea Blockchain Week is $50K with no booth, and $100K with booth. There are more sponsorship levels that range up to $400K. I have not included these in the request, but I would like to receive sincere feedback and thoughts on whether we should sponsor this larger event. You may learn more about Korea Blockchain Week 2022 and the Sponsor packages [on their website.](https://koreablockchainweek.com/)
+The cost to become an official sponsor of Korea Blockchain Week is $50K with no booth, and $100K with booth. I have not included these in the request, but I would like to receive sincere feedback and thoughts on whether we should sponsor this larger event. You may learn more about Korea Blockchain Week 2022 and the Sponsor packages [on their website.](https://koreablockchainweek.com/)
 
-Alternatively, we can host a side event that is officially registered with KBC, which allows us to tap into their pool of attendees. 
+Alternatively, we can host a side event that is officially registered with KBC, which allows us to tap into their pool of attendees. Personally, this is the route I would take, but please leave comments for any concerns or questions.
 
-Although we would like to have sponsored ETH Seoul, they are unfortunately at capacity. However, it should be noted that we also have three major hackathons already planned or in planning that are ETH-community focused, which begin as soon as these events in Korea end. In other words, you can expect the next few months to be very crazy and event-packed for the Evmos ecosystem.
+We would like to have sponsored ETH Seoul, they are unfortunately at capacity. However, it should be noted that we also have three major hackathons already planned or in planning that are ETH-community focused, which begin as soon as these events in Korea end. In other words, you can expect the next few months to be very crazy and event-packed for the Evmos ecosystem.
 
 With that being said, if at any point or time something doesn't feel right, or we feel that our spending is not justified, we can simply decide to not host anything, count our blessings and new frens made at HackAtom, and just spend the rest of the time spreading Evmos through good ole' fashioned networking. **I am fairly certain that our actual spending will not exceed the requested amount.** 
-
-An additional expense request for airfare and hotel for the core team was removed at the request of a team member. If the community believes that these expenses should be covered by the pool, please indicate that in the comments. 
 
 ---
 
