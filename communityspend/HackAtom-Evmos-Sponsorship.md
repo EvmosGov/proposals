@@ -1,8 +1,8 @@
-# Evmos Sponsorship of HackAtom 2022 Seoul and Korea Blockchain Week
+# Evmos Sponsorship of HackAtom 2022 Seoul and Participation in Korea Blockchain Week
 
 ## **Summary**
 
-This thread will serve as a signaling + discussion thread regarding a possible sponsorship of the upcoming HackAtom 2022 event in Seoul which will be held July 29th to 31th, followed by ETH Seoul and Korea Blockchain Week which ends on August 14th.
+This thread will serve as a signaling + discussion thread regarding a possible sponsorship of the upcoming HackAtom 2022 event in Seoul which will be held July 29th to 31th, followed by ETH Seoul and Korea Blockchain Week.
 
 ---
 
@@ -15,6 +15,8 @@ Evmos is incredibly special in that it has the best of both worlds - EVM and Cos
 Everyone is aware of the famous saying, "If you build it, they will come." The truth of the matter is, at the moment, we are lacking builders. HackAtom is the perfect opportunity to attract top notch developers in both the EVM and the Cosmos networks.
 
 ---
+in necessariis unitas, in dubiis libertas, in omnibus communitatis	
+pro scientia et communitatis	
 
 ## **The Event**
 
@@ -30,7 +32,7 @@ The full announcement [can be read here](https://blog.cosmos.network/announcing-
 
 **Participating IBC Frens:**
 
-* Cosmos Hub
+* Cosmos Hub (obviously 😅) 
 * Interchain 
 * Cosmostation 
 * Osmosis 
@@ -45,18 +47,19 @@ The full announcement [can be read here](https://blog.cosmos.network/announcing-
 
 ## Community Funding Request
 
-The following amounts requested are not final and would love the community input. The requested amount as it stands is $200K, with the bulk of it going towards sponsorship fees and hackathon prizes.
+The following amounts requested are not final and would love the community input. The requested amount as it stands is $200K, with the bulk of it going towards hackathon prizes and developer outreach.
 
 | Item  | Usage  |
 |---|---|
-| A  | $50K USD in Evmos tokens for the platinum sponsorship spot  |
+| A  | ~~$50K USD in Evmos tokens for the platinum sponsorship spot~~  |
 | B  | $100K USD in Evmos tokens for hackathon prizes  |
-| C  | $50K USD for marketing and PR expenses |
-| D  | $20K USD for volunteer compensation and miscellaneous expenses |
+| C  | $75K USD for marketing and PR expenses |
+| D  | $25K USD for miscellaneous expenses and volunteer compensation |
 |---|---|
-| Sum  | $220K, or roughly 0.34% of the community pool*  |
+| Sum  | $200K, or roughly 0.31% of the community pool*  |
 
-\* As of Jul 4th 10PM UTC+9
+\* Interchain Foundation has waived our sponsorship fee completely to give us more firepower in the outreach and events department without having to request for more community funding! A sincere thank you to our IBC fren.
+\** As of Jul 4th 10PM UTC+9
 
 
 
@@ -75,12 +78,7 @@ Platinum Sponsorship Package Includes:
 * HackAtom badges printed with your Evmos under Platinum Sponsor 
 * Evmos logo insignia on the marketing video produced during HackAtom Seoul 2022
 
-Alternatively, there is the Gold Sponsorship Package for $30K USD, **which excludes**:
-
-* 1 judging seat at HackAtom Seoul 2022 
-* 10-minute speaker spot at the Welcome Ceremony, Day 1
-
-If the community feels that a Gold Sponsorship Package is more appropriate, I respect the cost-saving mindset.
+🔥 **SPONRORSHIP FEE HAS BEEN WAIVED FOR EVMOS**
 
 ### **B. Hackathon Prizes**
 
@@ -100,6 +98,8 @@ Potential "side events" - As of now, talks have been initiated, but nothing is f
 
 **Booth and Evmos Merch** - Because of the limited time to prepare, booth design and merch will likely have to be rushed. While the booth design is not extremely important, if we are going to be represented at HackAtom, we might as well do it professionally.
 
+**Blockchain week...? More like blockchain marathon** - From start to finish, the events will last from July 29th to August 13th. This is a pretty epic blockchain marathon, and the possilities and opportunities for developer onboarding, meetups, workships, and side events are endless. Huge shoutout to Interchain Foundation, again, for allowing us to use the waived sponsorship fee for initiatives to grow our ecosystem. 
+
 **D. Volunteer Compensation + Miscellaneous Expenses**
 
 For those that have boothed at crypto events, you'll know that _it is not easy._ I have discussed with a respected Korean validator and community that is active in Evmos as well as other Cosmos chains, and have confirmed their willingness to help boothing as well as provide translation services. While the event will bring the global community to Seoul, it should be expected that a huge portion of the attendees will, of course be Korean. 
@@ -111,6 +111,10 @@ In addition, unexpected expenses are not uncommon, especially for a team in a fo
 1. All expenses incurred will be documented and itemized, from A to D. Whatever  transactions that can be done on chain will be done so. For expenses that require fiat, an expense report will be provided after the event. 
 2. All unused funds will be returned to the community pool.
 3. The volunteer and miscellaneous expenses fund will be placed in a multi-sig wallet, and with funds only moving in case the needs are justified. I propose three signers for this wallet -- myself, and two members of the core team that will be in attendance. 
+4. 50% of the marketing and PR budget will be sent to a multi-sig wallet, while 50% will be held in a liquid wallet so that we can immediately get to work on the countless tasks and preparations that need to be made. 
+
+
+I will work with the core team to be as frugal as possible, while consulting with them to take as many opportunities that would benefit Evmos and help with onboarding and exposure.  
 
 ## Time Constraints
 
@@ -140,4 +144,4 @@ Reference Links:
 * [ETH Seoul 2022](https://2022.ethseoul.org/)
 * [Blockchain Week Korea 2022](https://koreablockchainweek.com/)
 
-Thank you [@catdotfish](https://twitter.com/catdotfish) from Interchain and Erica from KryptoSeoul for the help in organizing this proposal.
+A huge thank you to [@catdotfish](https://twitter.com/catdotfish) from Interchain and Erica from KryptoSeoul for the help in organizing this proposal.
