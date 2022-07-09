@@ -58,10 +58,9 @@ The following amounts requested are not final and would love the community input
 |---|---|
 | Sum  | $200K, or roughly 0.31% of the community pool*  |
 
-\* Interchain Foundation has waived our sponsorship fee completely to give us more firepower in the outreach and events department without having to request for more community funding! A sincere thank you to our IBC fren.
+\* Interchain Foundation has waived our sponsorship fee completely to give us more firepower in the outreach and events department without having to request for more community funding! A huge thank you to our IBC frens.
+
 \** As of Jul 4th 10PM UTC+9
-
-
 
 ## **Funding Request Justification**
 
