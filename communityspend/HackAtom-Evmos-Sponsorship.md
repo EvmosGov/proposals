@@ -148,6 +148,13 @@ We would like to have sponsored ETH Seoul, they are unfortunately at capacity. H
 
 With that being said, if at any point or time something doesn't feel right, or we feel that our spending is not justified, we can simply decide to not host anything, count our blessings and new frens made at HackAtom, and just spend the rest of the time spreading Evmos through good ole' fashioned networking. 
 
+## Multisig Signatories
+
+3 out of 5 signatories for multisig execution is proposed:
+- LPX (myself, who will be coordinating much of logistics here in Seoul)
+- Three core team members in attendance
+- One Evmos governance representative in attendance 
+
 ---
 
 Reference Links:
