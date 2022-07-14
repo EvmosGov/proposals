@@ -13,7 +13,6 @@ Since Evmos is an EVM compatible chain, there’s a huge opportunity for us to c
 - In the past, we’ve had speakers like: Vitalik Buterin, Austin Griffith, the Flashbot’s team, Stani Kulechov, the CEO of Aave, the SEC Commissioner, and more. TLDR; you will be in good company at our events. 
 - Other sponsors include: UMA, 1inch Exchange, Figment, Rarible, and more. 
 
-
 ## We’re Part Of The Ecosystem: 
 
 Our goal is to build a long-term relationship w/ the Evmos team / ecosystem and be a consistent contributor through events. 
