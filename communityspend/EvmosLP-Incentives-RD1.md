@@ -26,25 +26,26 @@ Diffusion will be the first DEX to receive incentives, as they have been the lea
 
 Diffusion will continue with their DIFF rewards for existing pools, resulting in *double rewards* for the pools that will be incentivized further with Evmos tokens.
 
-2mil EVMOS tokens will be released into a Gnosis Safe Multisig (3/5 signatures). Over the course of 180 days, the allocated EVMOS rewards will be released into Diffusion's staking contract (MiniChefv2 & Audited). We are initially aiming to minimize risk by releasing the funds every two weeks allowing time for assessments, and if needed, the re-balancing of rewards for underperforming pools. 
+2mil EVMOS tokens will be released into a Gnosis Safe (3/5 signatures). Over the course of 180 days, the allocated EVMOS rewards will be released into Diffusion's staking contract (MiniChefv2 & Audited). We are initially aiming to minimize risk by releasing the funds every two weeks allowing time for assessments, and if needed, the re-balancing of rewards for underperforming pools. 
 
 The multisig will be managed by: 
 
-- 2 Evmos DAO Governance members (Benny Lava, Tricky, LPX)
-- 1 Diffusion team member (0x3no)
+- 3 Evmos DAO Governance members (Benny Lava, Tricky, LPX)
+- 1 Diffusion team member (mercenaryApe)
 - 1 Evmos Foundation member (<WHO WILL IT BE>
 
 ## **Incentives Allocations**
 
 The EVMOS incentives will go towards attracting liquidity for EVMOS pairs with ATOM, WETH, WBTC, OSMO, JUNO, DIFF, and USDC pools. The EVMOS token incentive breakdown for those pools would be as follows:
 
-- EVMOS/ATOM - 400k
-- EVMOS/wETH - 300k (150k each Axelar, Celer)
-- EVMOS/wBTC - 300k (100k each Axelar, Gravity Bridge, Celer)
-- EVMOS/stables - 800k (evenly between Axelar,Celer USDC & grav USDT, DAI) 
-- EVMOS/OSMO - 50k
-- EVMOS/JUNO - 50k
-- EVMOS/DIFF - 100k
+- (POOL PAIRS) - EVMOS INCENTIVES (Amount per Bridge)
+- EVMOS / ATOM - 400k
+- EVMOS / wETH - 300k (150k each Axelar, Celer)
+- EVMOS / wBTC - 300k (100k each Axelar, Gravity Bridge, Celer)
+- EVMOS / Stablecoins - 800k (USDC split evenly between Axelar and Celer -- USDT and DAI for Gravity Bridge) 
+- EVMOS / OSMO - 50k
+- EVMOS / JUNO - 50k
+- EVMOS / DIFF - 100k
   
 For the kickoff program, we propose the equal distribution of incentives between the bridged assets **with the exception of gUSDC and gWETH pools**, as they are already being incentivized and are locked into smart contracts for the time being. 
 
