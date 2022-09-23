@@ -38,7 +38,7 @@ The multisig will be managed by:
 
 The EVMOS incentives will go towards attracting liquidity for EVMOS pairs with ATOM, WETH, WBTC, OSMO, JUNO, DIFF, and USDC pools. The EVMOS token incentive breakdown for those pools would be as follows:
 
-<FIX AND CHECK NUMBERS HERE PLEASE>
+FIX AND CHECK NUMBERS HERE PLEASE
   
 - EVMOS/ATOM - 400k
 - EVMOS/wETH - 300k (100k each Axelar, Gravity Bridge, Celer)
@@ -49,7 +49,7 @@ The EVMOS incentives will go towards attracting liquidity for EVMOS pairs with A
 - EVMOS/DIFF - 50k
 - DIFF/xxx - 50k
   
-<FIX AND CHECK NUMBERS HERE PLEASE>
+FIX AND CHECK NUMBERS HERE PLEASE
 
 For the kickoff program, we propose the equal distribution of incentives between the bridged assets with the exception of gUSDC and gWETH pools, as they are already being incentivized and are locked into smart contracts already. 
 
