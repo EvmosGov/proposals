@@ -4,8 +4,8 @@ authors: Tricky, Benny Lava, LPX
 proposal: ECP-PS-1
 type: CommunityPoolSpend
 discussion: https://commonwealth.im/evmos/discussion/6977-prevote-kickstart-defi-on-evmos
-govreviewed: true
 polls: https://bafybeieyr4vsc3gubivurtvvuunhmkl3uqvsuv3zuag34gnh3xzgdyzcpe.ipfs.w3s.link/polls.json
+govreviewed: true
 
 ---
 
