@@ -14,7 +14,9 @@ Despite the hurdles, we are confident in saying that we had great success with o
 
 As more EVMOS tokens are staked, the APR rates have been decreasing at an accellerated rate. Millions of tokens are being unbonded at this moment, and without alternative pools with very appealing rates, they will most likely be going to Osmosis to be sold. Our first priority is to 1) build the much needed liquidity to wean off our reliance on Osmosis pools for liquid markets; 2) attract fellow IBC friends to participate in our high rewards programs and attract the unbonding Evmos tokens to find its way into these incentivized pools.  
 
-The Community Treasury is currently sitting around 33mil EVMOS tokens with ~75mil EVMOS tokens returning from the unclaimed airdrops, as well as the usage incentives escrow wallet which is now nearing 35mil tokens. In total, roughly 143mil EVMOS (~$357mil @ $2.5), is sitting in the module wallets, when they can be put to strategic use that not only encourages more network participants, but also brings the community rewards for helping with the bootstrap initiative. 
+The Community Treasury is currently sitting around 33mil EVMOS tokens with 75mil+ EVMOS tokens returning from the unclaimed airdrops, and with an usage incentives escrow wallet which is now nearing 35mil tokens. 
+
+In total, roughly 143mil EVMOS (~$357mil @ $2.5), is left sitting with no benefits, when they can be put to strategic use that not only encourages more network participants, but also brings the community rewards for helping with the bootstrap initiative. 
 
 In summary, this is an aggressive but needed first step in further growing the Evmos network. Liam from Evmos explains eloquently in [this comment](https://commonwealth.im/evmos/discussion/6977-prevote-kickstart-defi-on-evmos?comment=30063) why this proposal is so important. We highly suggest reading it if you are unsure or on the fence.
 
