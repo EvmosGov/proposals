@@ -60,6 +60,6 @@ Diffusion is the a Uniswap v2 fork with Sushi's MinichefV2 implemented for rewar
 
 ---
 
-Authors: Tricky (Evmos DAO), Benny Lava (Evmos DAO)
-Editor: LPX (Evmos DAO)
-Reviewed by Diffusion team, funding amount signaled by [The Evmos Community on Commonwealth](https://commonwealth.im/evmos/discussion/6977-kickstart-defi-on-evmos) and our Governance Call.
+- Authors: Tricky (Evmos DAO), Benny Lava (Evmos DAO), LPX (Evmos DAO)
+- Reviewed by Diffusion team
+- Funding amount signaled by [the Evmos Community on Commonwealth](https://commonwealth.im/evmos/discussion/6977-kickstart-defi-on-evmos) and during Governance Call.
