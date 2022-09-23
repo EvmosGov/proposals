@@ -63,7 +63,24 @@ Future proposals can use this data to gauge their own bridge incentives. This wi
 Diffusion is the a Uniswap v2 fork with Sushi's MinichefV2 implemented for rewards distribution. Diffusion was the first DEX and by far the largest in TVL and volume before the Nomad hack. With stablecoins back on Evmos and incentives to give them a boost, the revitalized team will soon be releasing a new roadmap and their plans to continually improve the DEX.
 
 ---
-
 - Authors: Tricky, Benny Lava, & LPX of Evmos DAO Governance Workstream
 - Reviewed by Diffusion team
 - Funding amount signaled by [the Evmos Community on Commonwealth](https://commonwealth.im/evmos/discussion/6977-kickstart-defi-on-evmos) and during Governance Call.
+---
+  
+Payload:
+  
+  `./evmosd tx gov submit-proposal community-pool-spend ./liqme.json --from lpx --gas 1000000 --fees 100000000000000000atevmos --chain-id "evmos_9000-4" --node https://evmos-testnet-rpc.polkachu.com:443`
+
+  ```
+  
+
+ {
+    "title": "",
+    "description: "",
+    "recipient": "holdup",
+    "amount": "0aevmos",
+    "deposit":"10000000000000000aevmos"
+ }
+  ```
+
