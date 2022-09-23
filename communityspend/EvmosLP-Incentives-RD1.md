@@ -1,3 +1,12 @@
+---
+title: Kickstart DeFi on Evmos: Launching the Evmos Liquidity Incentives Program
+authors: Tricky, Benny Lava, LPX
+proposal: ECP-PS-1
+type: CommunityPoolSpend
+discussion: https://commonwealth.im/evmos/discussion/6977-prevote-kickstart-defi-on-evmos
+
+---
+
 # Kickstart DeFi on Evmos: Launching the Evmos Liquidity Incentives Program
 
 ## **Summary** 
