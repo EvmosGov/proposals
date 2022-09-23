@@ -49,6 +49,9 @@ The EVMOS incentives will go towards attracting liquidity for EVMOS pairs with A
   
 For the kickoff program, we propose the equal distribution of incentives between the bridged assets **with the exception of gUSDC and gWETH pools**, as they are already being incentivized and are locked into smart contracts for the time being. 
 
+![image](https://user-images.githubusercontent.com/16395727/192063915-ba6c8ae0-6e67-4eaf-9e87-3704002cfa8a.png)
+
+  
 ## **Future Plans**
   
 Future proposals can use this data to gauge their own bridge incentives. This will help the most desired liquidity continue to come onto Evmos and maintain attractive APRs while doing so. We are currently aiming to hit a TVL of $20mil on Evmos by the end of the year (across the entire network).
@@ -61,6 +64,6 @@ Diffusion is the a Uniswap v2 fork with Sushi's MinichefV2 implemented for rewar
 
 ---
 
-- Authors: Tricky (Evmos DAO), Benny Lava (Evmos DAO), LPX (Evmos DAO)
+- Authors: Tricky, Benny Lava, & LPX of Evmos DAO Governance Workstream
 - Reviewed by Diffusion team
 - Funding amount signaled by [the Evmos Community on Commonwealth](https://commonwealth.im/evmos/discussion/6977-kickstart-defi-on-evmos) and during Governance Call.
