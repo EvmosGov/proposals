@@ -4,6 +4,8 @@ authors: Tricky, Benny Lava, LPX
 proposal: ECP-PS-1
 type: CommunityPoolSpend
 discussion: https://commonwealth.im/evmos/discussion/6977-prevote-kickstart-defi-on-evmos
+govreviewed: true
+polls: https://bafybeieyr4vsc3gubivurtvvuunhmkl3uqvsuv3zuag34gnh3xzgdyzcpe.ipfs.w3s.link/polls.json
 
 ---
 
@@ -35,7 +37,7 @@ Diffusion will be the first DEX to receive incentives, as they have been the lea
 
 Diffusion will continue with their DIFF rewards for existing pools, resulting in *double rewards* for the pools that will be incentivized further with Evmos tokens.
 
-2mil EVMOS tokens will be released into a Gnosis Safe (3/5 signatures). Over the course of 18543584390 days, the allocated EVMOS rewards will be released into Diffusion's staking contract (MiniChefv2 & Audited). We are initially aiming to minimize risk by releasing the funds every two weeks allowing time for assessments, and if needed, the re-balancing of rewards for underperforming pools. 
+2mil EVMOS tokens will be released into a Gnosis Safe (3/5 signatures). Over the course of 180 days, the allocated EVMOS rewards will be released into Diffusion's staking contract (MiniChefv2 & Audited). We are initially aiming to minimize risk by releasing the funds every two weeks allowing time for assessments, and if needed, the re-balancing of rewards for underperforming pools. 
 
 The multisig will be managed by: 
 
