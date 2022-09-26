@@ -17,7 +17,7 @@ This proposal will kickstart the Evmos Liquidity Incentives Program with the boo
 
 ## **Motivation** 
 
-The Evmos blockchain is a superior environment for DeFi, but it has had its fair share of roadblocks that have slowed down and limited growth in the Evmos ecosystem. We have also had very attractive staking APR that gave a higher return than most liquidity pools, and a bridge exploit that destroyed the TVL of Evmos DeFi in a matter of hours.
+The Evmos blockchain has the potential to become a unique environment for DeFi in the IBC ecosystem, but it has had its fair share of roadblocks that have slowed down and limited growth. We have also had very attractive staking APR that gave a higher return than most liquidity pools, and a bridge exploit that destroyed the TVL of Evmos DeFi in a matter of hours.
 
 Despite the hurdles, we are confident in saying that we had great success with our incentivization initiative for the EVMOS/OSMO pool through Prop 39 which provided 600,000 EVMOS tokens for external incentives over 90 days on the Osmosis DEX. Since then, EVMOS has become one of the most popular pools on Osmosis in nearly all areas including TVL, volume, and daily APRs. At the time of writing, the pool has grown from just $2M, now to the 5th largest pool on osmosis with a TVL of $9.8M and one of the highest volume pools of over $3M. The incentives that helped drive this success will be expiring soon, and while we do plan on extending the Osmosis program, we must also begin looking inward: our native TVL.
 
