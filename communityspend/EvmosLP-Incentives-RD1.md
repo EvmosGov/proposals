@@ -9,11 +9,9 @@ govreviewed: true
 
 ---
 
-Also known as "Kickstart DeFi on Evmos" from our lengthy Commonwealth discussion.
-
 ## **Summary** 
 
-This proposal will kickstart the Evmos Liquidity Incentives Program with the bootstrapping of liquidity pools on the Diffusion DEX. More initiatives are in the works with other DeFi projects, and will be proposed when ready. 
+This proposal, also known as "Kickstart DeFi on Evmos", will begin the Evmos Liquidity Incentives Program with the bootstrapping of liquidity pools on the Diffusion DEX. More initiatives are in the works with other DeFi projects, and will be proposed when ready. 
 
 ## **Motivation** 
 
