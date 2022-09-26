@@ -3,6 +3,7 @@ title: Launching the Evmos Liquidity Incentives Program
 authors: Tricky, Benny Lava, LPX
 proposal: ECP-PS-1
 type: CommunityPoolSpend
+funding_amt: 2000000
 discussion: https://commonwealth.im/evmos/discussion/6977-prevote-kickstart-defi-on-evmos
 polls: https://bafybeieyr4vsc3gubivurtvvuunhmkl3uqvsuv3zuag34gnh3xzgdyzcpe.ipfs.w3s.link/polls.json
 govreviewed: true
@@ -12,7 +13,7 @@ created_at: 2022-09-17T19:14:49.280Z
 
 ## **Summary** 
 
-This proposal, also known as "Kickstart DeFi on Evmos", will begin the Evmos Liquidity Incentives Program with the bootstrapping of liquidity pools on the Diffusion DEX. More initiatives are in the works with other DeFi projects, and will be proposed when ready. 
+This proposal, also known as ["Kickstart DeFi on Evmos"](https://commonwealth.im/evmos/discussion/6977-prevote-kickstart-defi-on-evmos) from Commonwealth, will begin the Evmos Liquidity Incentives Program with the bootstrapping of liquidity pools on the Diffusion DEX. More initiatives are in the works with other DeFi projects, and will be proposed when ready. 
 
 ## **Motivation** 
 
@@ -28,7 +29,7 @@ The Community Treasury is currently sitting around 33mil EVMOS tokens with 75mil
 
 In total, roughly 143mil EVMOS (~$357mil @ $2.5), is left sitting with no benefits, when they can be put to strategic use that not only encourages more network participants, but also brings the community rewards for helping with the bootstrap initiative. 
 
-In summary, this is an aggressive but needed first step in further growing the Evmos network. Liam from Evmos explains eloquently in [this comment](https://commonwealth.im/evmos/discussion/6977-prevote-kickstart-defi-on-evmos?comment=30063) why this proposal is so important. We highly suggest reading it if you are unsure or on the fence.
+In summary, this is an aggressive but needed first step in further growing the Evmos network. Liam from Evmos explains eloquently in [this comment](https://commonwealth.im/evmos/discussion/6977-prevote-kickstart-defi-on-evmos?comment=30063) why this proposal is so important. We highly suggest reading the comment for context.
 
 ## **Plan of Action**
 
@@ -76,9 +77,9 @@ Future proposals can use this data to gauge their own bridge incentives. This wi
 Diffusion is the a Uniswap v2 fork with Sushi's MinichefV2 implemented for rewards distribution. Diffusion was the first DEX and by far the largest in TVL and volume before the Nomad hack. With stablecoins back on Evmos and incentives to give them a boost, the revitalized team will soon be releasing a new roadmap and their plans to continually improve the DEX.
 
 ---
-- Authors: Tricky, Benny Lava, & LPX of Evmos DAO Governance Workstream
-- Reviewed by Diffusion team
-- Funding amount signaled by [the Evmos Community on Commonwealth](https://commonwealth.im/evmos/discussion/6977-kickstart-defi-on-evmos) and during Governance Call.
+
+IPFS: https://bafybeiftslqvljku5szkumbeoy3s2fje5j56xio5mwydxpxbnajcvunpwa.ipfs.w3s.link/ECP-PS-1.md
+
 ---
   
 Payload:
@@ -92,8 +93,8 @@ Payload:
     "title": "Launching the Evmos Liquidity Incentives Program",
     "description: "",
     "recipient": "evmos1xhpr0w43nedcjuy0s5fmwhls7parc2sfs33xef",
-    "amount": "0aevmos",
-    "deposit":"10000000000000000aevmos"
+    "amount": "0atevmos",
+    "deposit":"10000000000000000atevmos"
  }
   ```
 
