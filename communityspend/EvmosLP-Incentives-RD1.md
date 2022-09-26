@@ -9,7 +9,7 @@ govreviewed: true
 
 ---
 
-# Launching the Evmos Liquidity Incentives Program
+Also known as "Kickstart DeFi on Evmos" from our lengthy Commonwealth discussion.
 
 ## **Summary** 
 
@@ -58,7 +58,7 @@ The EVMOS incentives will go towards attracting liquidity for EVMOS pairs with A
 - EVMOS / JUNO - 100k
 - EVMOS / DIFF - 100k
   
-For the kickoff program, we propose the equal distribution of incentives between the bridged assets **with the exception of gUSDC and gWETH pools**, as they are already being incentivized and are locked into smart contracts for the time being. 
+For the kickoff program, we propose the equal distribution of incentives between the bridged assets **with the exception of gUSDC and gWETH pools**, as they are already being incentivized and are locked into smart contracts for the time being. This distribution will take course over a 90 day period.
 
 ![image](https://user-images.githubusercontent.com/16395727/192063915-ba6c8ae0-6e67-4eaf-9e87-3704002cfa8a.png)
 
