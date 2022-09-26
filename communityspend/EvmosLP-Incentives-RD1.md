@@ -51,11 +51,11 @@ The EVMOS incentives will go towards attracting liquidity for EVMOS pairs with A
 
 - (POOL PAIRS) - EVMOS INCENTIVES (Amount per Bridge)
 - EVMOS / ATOM - 400k
-- EVMOS / wETH - 300k (150k each Axelar, Celer)
-- EVMOS / wBTC - 300k (100k each Axelar, Gravity Bridge, Celer)
-- EVMOS / Stablecoins - 800k (USDC split evenly between Axelar and Celer -- USDT and DAI for Gravity Bridge) 
-- EVMOS / OSMO - 50k
-- EVMOS / JUNO - 50k
+- EVMOS / wETH - 400k (200k each Axelar, Celer)
+- EVMOS / wBTC - 200k (66.7K each Axelar, Gravity Bridge, Celer)
+- EVMOS / Stablecoins - 700k (USDC split evenly between Axelar and Celer -- USDT and DAI for Gravity Bridge) 
+- EVMOS / OSMO - 100k
+- EVMOS / JUNO - 100k
 - EVMOS / DIFF - 100k
   
 For the kickoff program, we propose the equal distribution of incentives between the bridged assets **with the exception of gUSDC and gWETH pools**, as they are already being incentivized and are locked into smart contracts for the time being. 
