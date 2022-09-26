@@ -62,8 +62,8 @@ For the kickoff program, we propose the equal distribution of incentives between
 
 **Rebalancing of Pool Allocations** - Over the first 14 days funds will be split evenly between pools in each category, followed by distribution proportionate to each pool's TVL & Volume accordingly. 50% of the category incentives based upon TVL, and 50% based upon volume to fairly distribute incentives to the most valuable pools.
   
+![image](https://user-images.githubusercontent.com/16395727/192321522-df012984-1edf-4a39-b9df-b3d959a532c5.png)
 
-![image](https://user-images.githubusercontent.com/16395727/192063915-ba6c8ae0-6e67-4eaf-9e87-3704002cfa8a.png)
 
   
 ## **Future Plans**
