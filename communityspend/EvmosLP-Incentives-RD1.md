@@ -60,6 +60,9 @@ The EVMOS incentives will go towards attracting liquidity for EVMOS pairs with A
   
 For the kickoff program, we propose the equal distribution of incentives between the bridged assets **with the exception of gUSDC and gWETH pools**, as they are already being incentivized and are locked into smart contracts for the time being. This distribution will take course over a 90 day period.
 
+**Rebalancing of Pool Allocations** - Over the first 14 days funds will be split evenly between pools in each category, followed by distribution proportionate to each pool's TVL & Volume accordingly. 50% of the category incentives based upon TVL, and 50% based upon volume to fairly distribute incentives to the most valuable pools.
+  
+
 ![image](https://user-images.githubusercontent.com/16395727/192063915-ba6c8ae0-6e67-4eaf-9e87-3704002cfa8a.png)
 
   
