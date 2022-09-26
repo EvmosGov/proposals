@@ -90,7 +90,7 @@ Payload:
  {
     "title": "Launching the Evmos Liquidity Incentives Program",
     "description: "",
-    "recipient": "TBD",
+    "recipient": "evmos1xhpr0w43nedcjuy0s5fmwhls7parc2sfs33xef",
     "amount": "0aevmos",
     "deposit":"10000000000000000aevmos"
  }
