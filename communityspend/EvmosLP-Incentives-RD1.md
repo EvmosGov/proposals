@@ -41,7 +41,7 @@ The multisig will be managed by:
 
 - 3 Evmos DAO Governance members (Benny Lava, Tricky, LPX)
 - 1 Diffusion team member (mercenaryApe)
-- 1 Evmos Foundation member (<WHO WILL IT BE>
+- 1 Validator (Swiss Staking)
 
 ## **Incentives Allocations**
 
