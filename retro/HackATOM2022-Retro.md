@@ -39,16 +39,15 @@ Some more specific thank you's and awknowledgement of frens we've made (in no pa
 
 - Catdotfish from ICF and Erica from KryptoSeoul for dealing with and helping my annoyingly persistant efforts to get Evmos involved in as many ways as possible
 - Chainapsis & team for allowing us to borrow the Keplr/Osmosis office as a makeshift Evmos-Seoul office on multiple occassions
-- Beehive Validator & team for assisting in all kinds of logistics, from last minute merch and tools acquisition to helping with boothing, to even going out of your  ways to make introductions to other Korea-based teams and projects. 
+- Beehive Validator & team for assisting in all kinds of logistics, from last minute merch and tools acquisition to helping with boothing, to even going out of your ways to make introductions to other Korea-based teams and projects.
 - Cosmostation & team for inviting us to their office on multiple occassions where we got to see where all the Mintscan magic goes down, as well as inviting us to multiple lunches and dinners.
 - Crescent Network & team for the welcoming invitations to multiple events and the resulting fun times
 - Stargaze & team for the random laughs we've shared constantly bumping into eachother at the same hotel; p.s. I was promised a POAP, wen POAP?
-- Nonce Community for the invitations to your exciting "basecamp for rebels" with the awesome rooftop that apparently everyone (except me...) had the privelege of visiting
-- Loredena from The Laurel Project and evmos4volunteers validator for stepping up for Evmos when the community requested your prescence 🦾
-- The Orbital Apes team for the efforts that went into the minting of the *awesome* limited edition HackATOM and KBW NFTs 
-- The newly formed connections with friends at DSRV Labs, Blockwave Labs, Sooho, Xangle, Web3Korea, BlitzLab, CoinDesk Korea, and others I am most likely forgetting. Hopefully we can continue to explore more collaborative projects!
-- Fellow blockchain warriors we've met from Ethereum, Solana, Polygon, Klaytn, and others I am most likely forgetting.
-
+- Nonce Community for the invitations to your exciting "basecamp for rebels" with the awesome rooftop that apparently everyone (except me...) had the privilege of visiting
+- Loredana from The Laurel Project and evmos4volunteers validator for stepping up for Evmos when the community requested your presence 🦾
+- The Orbital Apes team for the efforts that went into the minting of the awesome limited edition HackATOM and KBW NFTs
+- The newly formed connections with friends at DSRV Labs, Blockwave Labs, Sooho, Xangle, Web3Korea, BlitzLab, CoinDesk Korea, and others I am most likely forgetting (forgive me). 
+- Fellow blockchain warriors we've met from Ethereum, Solana, Polygon, Klaytn, and everyone else fighting the good fight.
 
 ## Financials
 
