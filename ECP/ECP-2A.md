@@ -2,13 +2,17 @@
 
 ---
 
-**Author:** LPX, Evmos DAO Governance Council
+**Authors:** 
+
+- LPX, Evmos DAO Governance Council
+- GV, Evmos DAO Governance Council
+- Benny Lava, Evmos DAO Governance Council
 
 **Summary**: The Governance Workstream that has been serving the Evmos DAO and the Community is officially requesting formalization by funding. 
 
 ### **Workstream Introduction**
 
-Decentralized governance is a double-edged sword with constant challenges to overcome and is often burdened with inefficient processes. It is also the beauty and soul of a DAO, with the ethos of decentralization and equality at the very core. The Governance Council exists and operates as a neutral party with allegiances only to the Evmos network and the guiding values of the Evmos Constitution. While the workstream is tasked with various duties, our mandate is simple: to facilitate and protect the integrity of Evmos' governance processes and, to the best of our ability, create a fair and transparent environment in which the network and the community can prosper and thrive.  
+Decentralized governance is a double-edged sword with constant challenges to overcome and is often burdened with inefficient processes. It is also the beauty and soul of a DAO, with the ethos of decentralization and equality at the very core. The Governance Council exists and operates as a neutral party with allegiances only to the Evmos network and the guiding values of the Evmos Constitution. While the workstream is tasked with various duties, our mandate is simple: to facilitate and protect the integrity of Evmos' governance processes and, to the best of our ability, create a fair and transparent environment in which the network and the community can prosper and thrive.  
 
 **Mission**: Protect, improve, and serve the Evmos network and community with neutrality and transparency.
 
@@ -128,7 +132,7 @@ The concept of a perpetual bounty fund is very straightforward and the establish
 
 When compared to a normal community pool budget request, this model would A) take the initial funding amount out of the unbonded circulating supply; B) align with the community goals of striving towards more decentralization; C) provide a steady stream of a workable budget to be bountied out responsibly and methodically.
 
-**D. Governance Engagement Initiatives** (In Research)
+**D. Governance Engagement Initiatives** (In Research)
 
 The Governance Council is constantly looking into ideas or tools that may help with participation rate pre-voting on chain.
 
@@ -136,13 +140,13 @@ We strongly believe that the best way to reduce failed proposals is to address a
 
 Some projects we are strongly considering in this area are a much comprehensive governance dashboard, engagement tracking, and more.
 
-**E. Proposal Summary and Risk Assessment Reports** (Planned)
+**E. Proposal Summary and Risk Assessment Reports** (Planned)
 
 The Governance Council is looking to provide proposal summaries, context, and our risk assessments for all proposals that go on chain.
 
 Talks of potentially integrating these reports and other valuable metadata around a proposal into popular block explorers have been initiated and may be considered.
 
-**F. Deployment of Public Goods and Services** (In Progress)
+**F. Deployment of Public Goods and Services** (In Progress)
 
 The Governance Council is currently looking into public goods and infrastructure that we believe is needed to:
 
@@ -160,7 +164,7 @@ Some projects that the Governance Council has initiated in this domain:
  - Smart contracts for: token vesting, payment streaming, payment splits
  - [Dashboard for Vesting Contracts](https://github.com/EvmosGov/contributor-vesting-ui)
 
-**G. Validator Fairness Initiative** (In Progress)
+**G. Validator Fairness Initiative** (In Progress)
 
  - The VFI Group was created a few months back in an attempt to get consensus on a Code of Conduct for Validators.
  - Although currently at a stalemate, there has been great discussions and is now over 100 members strong. 
@@ -204,7 +208,11 @@ The Governance Council and DAO Contributors have assisted in, provided support t
 | 70  | Extending Osmosis External Incentives                               | Direct, Multisig  |
 | 71  | Evmos Faucet for DeFi Kickoff                                       | Direct, Multisig  |
 
-After posting the ["Passing a Community Proposal, Best Practices"](https://commonwealth.im/evmos/discussion/6022-passing-a-community-proposal-best-practices) guide, the Governance Workstream and DAO contributors assisted in passing **24 out of 25 proposals for a success rate of 96%.**
+After posting the ["Passing a Community Proposal, Best Practices"](https://commonwealth.im/evmos/discussion/6022-passing-a-community-proposal-best-practices) guide, the Governance Workstream and DAO contributors assisted in passing **24 out of 25 proposals for a success rate of 96%.**
+
+The Governance Council has been involved with 13 out of 15 passed Community Pool Spend Proposals (Excluding Proposal 66 - Recover IBC tokens from Airdrop). Which covers nearly **98%** of the total community pool spend!
+
+![](https://i.imgur.com/Vhk6Zc1.png)
 
 We are currently assisting in the facilitation and/or drafting of various additional proposals ranging from protocol onboarding to incentives programs.
 
@@ -246,10 +254,7 @@ In addition to all the proposals that have gone on-chain, the Evmos Community ha
 |---|---|---|
 |LPX<br> |Governance Steward<br> |Meta-Governance, Off-Chain Community Governance Framework, Perpetual Bounty Program, Governance Engagement Initiatives, DAO Sustainability Programs<br> |
 |Benny Lava<br> |Governance Steward<br> |Community Liquidity Incentives Programs, Protocol & Cross-Chain Collaboration, DeFi Initiatives, IBC Liaison<br> |
-|Kilo <br> |CMS Workstream Leader<br> |Management of Community Mod & Support Team<br> |
-|Tricky<br> |Foundation Liaison<br> |Evmos DAO and Evmos Core Goal Alignment, Biz Dev Lead<br> |
-|GV<br> |Validator Liaison<br> |Validator Fairness Initiative, Validator Communications and Notices, Network Decentralization Research, Evmos node and IBC relayer research<br> |
-
+|GV<br> |Governance Steward<br> |Validator Liaison, Validator Fairness Initiative, Interim CMS Leader, Validator Communications and Notices, Network Decentralization Research, Evmos node and IBC relayer research<br> |
 
 **Governance Contributors** 
 
@@ -257,6 +262,7 @@ We are looking for part-time or full-time contributors to fill the following pos
 
 |Name |Role |Responsibilities |
 |---|---|---|
+|OPEN<br> |Community Mod & Support Workstream Leader (FT) |  <br> |
 |OPEN<br> |Secretary of the Council (FT) | The Council Secretary will be responsible for various high-level administrative support including the scheduling and preparations of weekly meetings, maintaining a public DAO calendar, ensuring deadlines are met, etc. <br> |
 |OPEN<br> |Governance Advisor (PT) |Governance Advisors assist projects and developers through our governance process, including pre-proposal feedback to proposal drafting assistance. Governance Advisors should have excellent written communication skills and should be experts in Evmos DAO’s Governance Framework.  |
 |OPEN<br> |Governance Advisor (PT) |  |
@@ -272,65 +278,63 @@ In accordance with our Interim Constitution, the Community may initiate an on-ch
 
 #### A. Contributor Compensations
 
-|Name |PT/FT |Expected Hours | Base (USD) | Retro (EVMOS) | Vesting (EVMOS) |
-|---|---|---|---|---|---|
-|LPX <br> |FT<br> |60-80 / wk<br> |14,000<br> | TB: 0<br>AB: 12,500|300,000|
-|Benny Lava<br> |FT<br> |40-60 / wk<br> |11,000<br> |TB: 7,500<br>AB: 2,500|125,000|
-|Kilo <br> |FT<br> |40 / wk<br> |7,500<br> |TB: 0<br>AB: 0|60,000|
-|Tricky <br> |FT<br> |40 / wk<br> |N/A<br> |TB: 7,500<br>AB: 1,000|N/A|
-|GV <br> |FT<br> |40 / wk<br> |7,500<br> |TB: 7,500<br>AB: 2,500|80,000|
-|Council Secretary (TBD) <br> |FT<br> |40 / wk<br> |5000<br> |TB: 0<br>AB: 0| TBD |
-|Governance Advisor (TBD) <br> |PT<br> |20 / wk<br> |2500<br> |TB: 0<br>AB: 0| TBD |
-|Governance Advisor (TBD) <br> |PT<br> |20 / wk<br> |2500<br> |TB: 0<br>AB: 0| TBD |
-|Governance Advisor (TBD) <br> |PT<br> |20 / wk<br> |2500<br> |TB: 0<br>AB: 0| TBD |
-|Projected 6 Mo. Total |  |  |302K<br>143K EVMOS | 41,000| 565,000 |
+|Name |PT/FT |Base (USD) | Retro (EVMOS) | Initial Vesting (EVMOS) |
+|---|---|---|---|---|
+|LPX <br> |FT<br> |10,080<br> |30,000|170,000|
+|Benny Lava<br> |FT<br> |8,064<br> |25,000|136,000|
+|GV <br> |FT<br> |8,064<br> |15,000|136,000
+|Community Mod & Support Leader (TBD) <br> |FT<br> |6,720 (est.)<br> |0| TBD Cycle 2 |
+|Council Secretary (TBD) <br> |FT<br> |6,720 (est.)<br> |0| TBD Cycle 2 |
+|Governance Advisor (TBD) <br> |PT<br> |2,800 (est.)<br> |0| TBD Cycle 2 |
+|Governance Advisor (TBD) <br> |PT<br> |2,800 (est.)<br> |0| TBD Cycle 2 |
+|Governance Advisor (TBD) <br> |PT<br> |2,800 (est.)<br> |0| TBD Cycle 2 |
+|Projected 6 Mo. Total |  |$288K | 70,000| 442,000 |
 
-*TB: Time-based; AB: Achievement-based 
-*Retroactive compensations are one-time.
-*Vesting Schedule: 3-year linear, 6 month cliff. Vesting start time set retroactively to time of beginning of DAO contributions per member.
-*Vesting contracts are revokeable.
+*Vesting amounts are calculated in USD but paid in EVMOS at each funding cycle's market price.
+
+*For this initial funding request, we will peg the price of EVMOS ~~@ $1,30~~ @ $0.65
+
+*Vesting Schedule: 4-year linear, 6 month cliff. 
+
+*Vesting contracts are revoceable by the DAO. See ECP-1C.
+
 
 **Compensation Rationale**
 
-|Name |PT/FT |Expected Hours | Base (USD) | Retro (EVMOS) | Vesting (EVMOS) |
-|---|---|---|---|---|---|
-|LPX <br> |FT<br> |60-80 / wk<br> |14,000<br> | TB: 0<br>AB: 12,500|300,000|
+|Name |PT/FT | Base (USD) | Retro (EVMOS) | Initial Vesting (USD) |
+|---|---|---|---|---|
+|LPX <br> |FT<br> |10,080<br> |~~15,000~~ 30,000| $108,864 / 4yr|
 
-**Base**: Amount of hours, domain expertise, competitive salary at 168,000 USD / year.
-**Retroactive**: Foregoing time-based compensation; 12.5K EVMOS for achievements in architecting Evmos DAO Governance Framework and Constitution
-**Vesting**: As a Governance Council Director responsible for the development of incredibly ambitious and important projects for the DAO, there must be an alignment of long-term interests. Without this incentive in place, there is no motivator to continue the extended work in Evmos DAO when opportunities for more attractive projects presents itself. 
+**Base**: $28/hr * 2.5 VL * 0.9 CL = $120,960/yr
 
-|Name |PT/FT |Expected Hours | Base (USD) | Retro (EVMOS) | Vesting (EVMOS) |
-|---|---|---|---|---|---|
-|Benny Lava<br> |FT<br> |40-60 / wk<br> |11,000<br> |TB: 7,500<br>AB: 5,000|125,000|
+**Retroactive**: ~~15,000~~ 30,000 EVMOS  for past 6 months of contributions
 
-**Base**: Full time commitment, domain expertise, competitive salary at 132,000 USD / year.
-**Retroactive**: Time-based - 5 months x 1.5K EVMOS; Achievement-based - 5K EVMOS for spearheading Osmosis Incentives and Diffusion Incentives
-**Vesting**: As a Governance Council Director responsible for the crucial external and internal incentives programs, the long term growth of Evmos network should be aligned with long term incentives. 
+**Initial Vesting**: Salary * 0.45 CP * 2 AL = $108,864 / 4 years revocable
 
-|Name |PT/FT |Expected Hours | Base (USD) | Retro (EVMOS) | Vesting (EVMOS) |
-|---|---|---|---|---|---|
-|Kilo <br> |FT<br> |40 / wk<br> |7,500<br> |TB: 0<br>AB: 0|50,000|
+---
 
-**Base**: Full time commitment, CMS workstream leader.
-**Retroactive**: N/A
-**Vesting**: As the first non-governance workstream leader, the long term incentivization of the stability and growth of the Community Mod and Support team is crucial.
+|Name |PT/FT | Base (USD) | Retro (EVMOS) | Initial Vesting (USD) |
+|---|---|---|---|---|
+|Benny Lava <br> |FT<br> |8,064<br> | ~~12,500~~ 25,000| $87,091 / 4yr|
 
-|Name |PT/FT |Expected Hours | Base (USD) | Retro (EVMOS) | Vesting (EVMOS) |
-|---|---|---|---|---|---|
-|Tricky <br> |FT<br> |40 / wk<br> |N/A<br> |TB: 10,000<br>AB: 1,000|N/A|
+**Base**: $28/hr * 2.0 VL * 0.9 CL = $96,768/yr
 
-**Base**: N/A - compensated by Evmos Foundation.
-**Retroactive**: Time-based - 5 months x 1.5K EVMOS; Achievement-based - 1K EVMOS for the early assistance in Governance Workstream
-**Vesting**: N/A
+**Retroactive**: ~~12,500~~ 25,000 EVMOS for past 6 months of contributions
 
-|Name |PT/FT |Expected Hours | Base (USD) | Retro (EVMOS) | Vesting (EVMOS) |
-|---|---|---|---|---|---|
-|GV <br> |FT<br> |40 / wk<br> |7,500<br> |TB: 5,000<br>AB: 2,500|80,000|
+**Initial Vesting**: Salary * 0.45 CP * 2 AL = $87,091 / 4 years revocable
 
-**Base**: Commitment, domain expertise.
-**Retroactive**: Time-based - 5 months x 1K EVMOS; Achievement-based - 2.5K EVMOS for all the assistance in ERC20 module proposals and governance assistance
-**Vesting**: 
+---
+
+|Name |PT/FT | Base (USD) | Retro (EVMOS) | Initial Vesting (USD) |
+|---|---|---|---|---|
+|GV <br> |FT<br> |8,064<br> | ~~7,500~~ 15,000| $87,091 / 4yr|
+
+**Base**: $28/hr * 2.0 VL * 0.9 CL = $96,768/yr
+
+**Retroactive**: ~~7,500~~ 15,000 EVMOS for past 6 months of contributions
+
+**Initial Vesting**: Salary * 0.45 CP * 2 AL = $87,091 / 4 years revocable
+
 
 #### B. Research & Development Fund
 
@@ -344,42 +348,44 @@ Our goal is to roll out each program detailed in ECP-3 in a modular basis with t
 
 The R&D funding requests are rough estimates; unused funds will remain in the workstream treasury as reserves.
 
-**R&D Fund Request**
+**Itemized R&D Funding Request**
 
-| # | Purpose | Description | Req. Amount |
+| # | Purpose | Description | Req. Amount (EVMOS) |
 | -------- | -------- | -------- |-------- |
-| 1 | Smart Contract Development  | Funds allocated for the development of the core contracts that make up the ecosystem of our initiatives | 200,000 EVMOS |
-| 2 | Dashboard Development  | Funds allocated for the development of the front-end dashboard that will allow users to interact with our contracts |50,000 EVMOS     |
-| 3 | Parameter Testing  | Funds utilized in the testing and tweaking of the protocol parameters to optimize incentives and confirm feasibility | 25,000 EVMOS  |
-| 4 | Audits  | Funds allocated for smart contract auditing pre-launch. | 50,000 EVMOS     |
-|  | Total  |  | 325,000 EVMOS     |
+| 1 | Smart Contract Development  | Funds allocated for the development of the core contracts that make up the ecosystem of our initiatives | ~~250,000~~ 500,000 |
+| 2 | Dashboard Development  | Funds allocated for the development of the front-end dashboard that will allow users to interact with our contracts |~~50,000~~ 100,000  |
+| 3 | Parameter Testing  | Funds utilized in the testing and tweaking of the protocol parameters to optimize incentives and confirm feasibility | ~~25,000~~ 50,000  |
+| 4 | Audits  | Funds allocated for smart contract auditing pre-launch. | ~~50,000~~ 100,000     |
+|  | **Total**  |  | ~~375,000~~ **750,000**|
 
-#### C. Ecosystem Bootstrap Fund
+#### C. Ecosystem Bootstrap and Onboarding Fund
 
 The Ecosystem Bootstrap Fund will be the pre-cursor to the eventual Perpetual Bounty Fund detailed in ECP-3. While the core concept of a self-replenishing fund through delegation is the same, the Bootstrap Fund will have to be manually managed until the deGOV program and Delegation Gauges are ready to be deployed. 
 
-The Ecosytem Bootstrap Fund is currently seeded with a $50,000 grant from the Foundation.
+The Ecosytem Bootstrap Fund is currently seeded with a ~30K EVMOS grant from the Foundation.
 
-The Governance Council is requesting **300,000 EVMOS** for the strengthening of the Ecosystem Bootstrap Fund. 200K will be delegated on the network, which equates to roughly 25,000 EVMOS / month that will be used for bounties and community initiatives. 100K will be kept in reserves for usage in micro-grants and liquidity bootstrapping assistance for new projects deploying on the Evmos network.
+The Governance Council is requesting **500,000** for the strengthening of the Ecosystem Bootstrap Fund. 300K will be delegated on the network, which equates to roughly 25,000 EVMOS / month that will be used for bounties and community initiatives. 100K will be kept in reserves for usage in micro-grants and liquidity bootstrapping assistance for new projects deploying on the Evmos network.
 
 
-#### D. Treasury Diversification & Future Workstreams
+#### D. Treasury Diversification & Future Workstream Compensations
 
-The Governance Council is requesting **600,000 EVMOS** to be allocated for treasury diversification into stablecoins. The obtained stablecoins will be reserved for Workstream & subDAO members' compensation. 
+The Governance Council is requesting ~~**600,000 EVMOS**~~ **1,200,000** to be allocated for treasury reserves and stablecoin diversification. The obtained stablecoins will be utilized for workstream (subDAO) members compensation. 
 
-Diversification methodology: we are currently exploring a DAO2DAO token-for-stable swap with Ethereum-based DAOs that are looking to diversify their revenue streams. This allows for the diversification of our treasury and the extension of our runway without creating sell-pressure of EVMOS in the open market. 
+We are currently exploring a few potential DAO2DAO token-for-stable swap with Ethereum-based DAOs that are looking to diversify their revenue streams. This allows for the diversification of our treasury and the extension of our operational runway without creating sell-pressure of EVMOS in the open market. 
+
+Non-stablecoin tokenswaps may also be considered to build liquidity and secondary reserves to achieve our long-term goal of self-sustainability. 
 
 When an opportunity for a token-stable swap is not available at a moment when the Treasury is in need of stables, no more than 50K Evmos from the Diversification Fund can be sold on the open market per month.
 
 ### Total Funding Request for Phase 1
 
-| # | Purpose | Description | Req. Amount |
+| # | Purpose | Description | Req. Amount (EVMOS) |
 | -------- | -------- | -------- |-------- |
-| A | Funding Governance Workstream | Retroactive compensation and long-term vesting for Council. **Base compensation to come out of Item D.** | 606,000 EVMOS |
-| B | Research & Development | The development of the initiatives and programs listed in ECP-3. |325,000 EVMOS     |
-| C | Ecosystem Bootstrap Fund  | Alpha implementation of the self-replenishing bounty fund and project bootstrapping for the Evmos ecosystem. | 300,000 EVMOS  |
-| D | Treasury Diversification & Future Workstreams  | DAO2DAO swaps for stablecoins to be used for funding the compensation of current and future workstreams. | 600,000 EVMOS     |
-|  | Total Requested  |  | 1,831,000 EVMOS     |
+| A | Funding Governance Workstream | Retroactive compensations and long-term vesting contracts. **Monthly base compensations will be paid out of Item D** assuming that stablecoins have been secured. | ~~267,614~~ 505,455 |
+| B | Research & Development | The development of the initiatives and programs listed in ECP-3. |~~325,000~~ 750,000 |
+| C | Ecosystem Bootstrap & Onboarding Fund  | Alpha implementation of the self-replenishing bounty fund and project bootstrapping for the Evmos ecosystem. | ~~500,000~~ 625,000  |
+| D | Treasury Diversification & Future Workstreams  | DAO2DAO swaps for stablecoins to be used for funding the compensation of current and future workstreams. | ~~600,000~~ 1,200,000 |
+|  | **Total Requested**  |  | ~~1,792,614~~ **2,980,455**     |
 
 The Governance Council treasury will be deployed as a Gnosis Safe with a 4-of-6 configuration on Evmos mainnet. 
 
@@ -419,3 +425,6 @@ We are looking for full-time contributors to fill the following roles. The goal 
 
 
      - The Department of R&D will work closely with the Governance Council to research, develop, and maintain key infrastructure, public goods, and the development of smart contracts. 
+
+
+
