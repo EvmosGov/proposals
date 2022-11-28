@@ -1,75 +1,67 @@
-# ECP-0: Crucial Proposals to Advance Governance and Support the Growth of Evmos DAO and the Network Ecosystem
+# The Interim Constitution of Evmos DAO
 
-**Author:** LPX, Evmos DAO Governance Council
+![](https://i.imgur.com/9eVficu.png)
 
-**Summary:** The following proposals are the culmination of thousands of hours of research and calculated deliberation. I strongly urge the Evmos Community to make time to read and understand the core concepts and philosophies surrounding these proposals. 
+## Preamble: The Evmos Mission
 
-**Abstract:** This proposal set is the continuation of the work which we committed to in the Evmos Interim Constitution, and draws inspiration from our ratified *Guiding Values*. 
+We, the Evmos Community, formally declare our shared beliefs and mission to build and assist in growing the Evmos network. We strive to be the leading EVM network in the Cosmos Ecosystem, utilizing the Cosmos SDK modules, Tendermint's consensus engine, and the Inter Blockchain Protocol for a fully decentralized, censorship-resistant, interoperable chain. The Evmos network, our community, and our governance processes must strive to play a role in laying the foundation for a more equitable, hyper-connected, decentralized future.
 
-Each proposal was carefully designed as they will each have long-term ripple effects on the DAO and Community as a whole. 
+## 1. The Evmos Community
 
-The following lists the proposals being presented.
+The Evmos Community (“community”) is a general all-encompassing term that comprises various groups that are participants in the Evmos network. The level and degree of participation may vary by group, but the common denominator of all members of the community should be the shared interest in the continued growth of the Evmos network.  
 
- - ECP-1A: Formalizing the Evmos Community Proposal Framework
- - ECP-1B: Formalizing the Workstream (sub-DAO) and Compensation Framework 
- - ECP-2A: Formalizing and Funding the Evmos DAO Governance Council (Phase 1)
- - ECP-2B: Formalizing and Funding of the Community Mod & Support Workstream
- - ECP-3: Empowering the Community and Building a Sustainable Treasury (Phase 2)*
- - ECP-4: The Establishment of the Evmos DAO Grants Program*
+**1. Protocol Developers** - this group of developers focuses mainly on improving the Evmos network on the protocol level; this group includes core developers as well as individual contributors not considered as core team members.
 
-**ECP-3 and ECP-4 to be finalized and presented Q1 2023.*
+**2. Network Validators** - network validators are key members of the community responsible for securing the network through the Tendermint proof-of-stake consensus mechanism. 
 
-**Motivation:** The Evmos ecosystem — to be blunt — is in need of much more than liquidity incentives. While our strong governance processes and collaborative community culture have propelled us to the top of the Cosmos ecosystem in terms of governance participation, there are countless roles to be filled, infrastructure and public goods to build and fund, projects and initiatives in need of manpower, and the growing list of tasks at hand for the Evmos Foundation is becoming harder to manage. 
+**3. Network Delegators** - network delegators are the predominant group that assist in network consensus and security by delegating power to validators through the staking of tokens.
 
-The urgency to get our community more involved in the efforts of growing the Evmos ecosystem is increasing by the day, and systems must be put in place in which allows for the more efficient use of our resources. The power of networks and DAOs lies in the strength of the community — while all DAOs are different, this is a single common denominator that has held true for years. It's time for the Community to step up and assist in growing our ecosystem.
+**4. Workstream and Committee Members** - workstream and committee members are those that work to improve and grow the Evmos network on a non-protocol level. 
 
-![](https://i.imgur.com/958lw35.png)
+**5. Community Leaders** - workstreams and special projects, although not required, may have an appointed leader to steward and lead his or her group.
 
----
+**6. Application Developers and End Users** - application developers and end users are those that develop, deploy, utilize, interact, transact, and ultimately bring value to the Evmos ecosystem.  
 
-### ECP-1A: Formalizing the Evmos Community Proposal Framework
+While the aforementioned groups make up the majority of the community, the definition and composition of the community are not strictly limited to these groups.
 
-**Summary**: All community proposals that go on-chain for voting must first go through the proposal lifecycle as outlined in the Evmos Community Proposal (ECP) Framework. The proposal lifecycle is designed to have technical, human, and procedural elements for a self-sustainable governance that holds the entire Evmos Community accountable for the continued growth of the ecosystem. 
+## 2. The Evmos Governance Framework
 
-A strong proposal framework is arguably the most important component of our governance, as proposals are the main drivers of the future of our network. 
+The Evmos Governance Framework (“framework”) is the foundational set of guidelines and processes developed for the community and network contributors to follow and flourish. The framework should be designed to recognize and incentivize contributors and curate a culture that creates long-term, positive-sum interactions between all community members and the Evmos ecosystem.
 
-### ECP-1B: Formalizing the Workstream (subDAO) and Compensation Framework 
+The framework is to be proposed and adopted separately from the Constitution. The Constitution shall take priority over the Governance Framework and should be regarded as the supreme guiding document. 
 
-**Summary:** Workstreams, also known as subDAOs, guilds, committees, etc., are long-term projects with distinct, high-level objectives that are aligned with the main DAO. Coordination at scale requires a distributed organization — and distributed organizations require a certain level of coordination and set expectations to work together effectively. 
+## 3. Guiding Principles and Values
 
-Workstreams and subDAOs are key in “scaling a DAO” and are crucial in grassroots community growth. The Workstream Framework introduces a fractalized blueprint of subDAOs and teams, the incentive alignment mechanics, funding and formation processes, and expectations.
+**1. Progressive Decentralization:** The Evmos network aims to be as decentralized as possible, in the context of network validation as well as governance and finances. While network resiliency and the decentralization of power is paramount, we recognize the need to proceed with strategic and scientific-based planning. The community must not haphazardly rush into decisions that may potentially destabilize the chain or provoke a strong negative community reaction. The community will take the stance of progressive decentralization as we research and analyze the social, legal, and/or financial ramifications our decisions may potential have. 
 
----
+**2. Neutrality and Non-Partisanship:** We believe in the principles of equality for all and must act in accordance with this core principle. All groups and community members have equal access to information, equal rights, and equal responsibilities, as defined by this Constitution. No one group or community member should be favored over any other members. No one group or community member should be disfavored over any other members. We define “favor” as an unfair benefit that is not a direct consequence of provable effort and actions done, in alignment with our mission and goals. We define “disfavor” as an unfair punishment or loss of opportunity that is not a direct consequence of provable actions done against Evmos’ mission and goals.
 
-### ECP-2A: Formalizing and Funding the Governance Council Workstream 
+**3. User-Centrism:** Evmos is specialized to provide a unique EVM experience in the Cosmos ecosystem. We must therefore continue to optimize for 1) user adoption and 2) the qualities that contribute to steady growth: network liquidity, improvement of user experience, data sovereignty, stable production of blocks, educational resources, strong governance, etc.
 
-**Summary**: Decentralized governance is a double-edged sword with constant challenges to overcome and is often burdened with inefficient processes. It is also the beauty and soul of a DAO, with the ethos of decentralization and equality at the very core. The Governance Council exists and operates as a neutral party with allegiances only to the Evmos network and the guiding values of the Evmos Constitution. While the workstream is tasked with various duties, our mandate is simple: to facilitate and protect the integrity of Evmos’ governance processes and, to the best of our ability, create a fair and transparent environment in which the network and the community can prosper and thrive.
+**4. Agnosticism:** Evmos should maintain neutrality as a chain with roots in both the Ethereum and Cosmos ecosystems. While the governance of Evmos may be reliant from time to time on other networks or tools, the Evmos community should retain a stance of neutrality. Community members must leave tribalism at the door; we should refrain from engaging in political debates that are not directly relevant to improving the Evmos network.
 
-The Governance Workstream that has been serving the Evmos DAO and the Community for nearly half a year is finally requesting formalization by funding. 
+**5. Cross-Chain Diplomacy:** Evmos is a network with a long history in the decentralization movement, with inspirations, ideas, protocols, and allies in various networks. Our community will come from a wide range of blockchain communities. Cross-chain collaborations, outreach initiatives, diplomacy missions, and continued participation in events are highly encouraged — especially with chains from the EVM and IBC ecosystems. 
 
-### ECP-2B: Formalizing and Funding of the Community Mod & Support Workstream
+**6. Consensual Collaboration:** While the Cosmos SDK’s implementation of governance is relatively permissionless, this does not mean anyone is entitled to work or compensation. Proposals will be assessed by the community on their merits alone and eventually voted on. In addition, proposals must follow the Governance Framework of the Evmos network and adhere to the principles outlined in the Constitution.
 
-**Summary**: The community is the heart and soul of any project. The strength of a community’s network effect is not only determined by quantity, but the value of their interactions - it’s the face of the ecosystem. The Evmos Community Moderation and Support Workstream is a continuation of the work which began in late 2021 voluntarily. With over 30,000 Discord and 19,000 Telegram members, both platforms must be maintained professionally at the highest quality possible 24/7. 
+**7. Sovereignty to Work:** The purpose of the Governance Framework is not to micro-manage proposals or teams. Sovereignty will be given to those that are working in accordance with the original proposal passed by the community, and are not in violation of any governance processes or principles of the Constitution. 
 
-The CMS Workstream that has been serving the Evmos Community is requesting formalization by funding.
+## 4. Removal of Community Leaders
 
----
+All community members appointed to a role of higher responsibility, including workstream members, may be removed via a formal vote on-chain. The Governance Framework shall outline the appointment, removal, and appeals process, along with a detailed dispute resolution guideline.
 
-### ECP-3: Empowering the Community and Building a Sustainable Treasury (Phase 2)
+## 5. Constitutional Rights
 
-**Summary**: Our long term vision for Evmos DAO is to be fully decentralized and governed autonomously by the community. But getting to that ideal vision of a “true” DAO while maintaining effective governance is not a simple task nor is there a cookie-cut method to follow. DAOs are still in the very early days of trying to figure out which mechanisms and processes work best — even the most seemingly established and respected DAOs are constantly iterating their governance process.
+Constitutional rights protect the members of the community from any unjust or cruel treatment by another member or the DAO itself. The Governance workstream shall amend a Bill of Rights to the Constitution as soon as a general consensus can be confidently reached.
 
-The Phase 2 funding of the DAO’s treasury will mark the beginning of a new era for the Evmos network. Staying true to our core values of progressive decentralization and autonomy, the projects detailed in ECP-3 will empower the community through the decentralization and incentivization of off-chain governance while strengthening our network through Community-Owned Liquidity. 
+## 6. Constitutional Amendments and Revisions
 
+The community holds the power to propose an amendment to the Constitution by following the standard Evmos Proposal Lifecycle. The reasoning for the amendment must be justified and petitioned. If possible, there should be an attempt made to resolve the issue before a proposal for amendment is initiated.
 
 ---
 
-### ECP-4: The Establishment of the Evmos DAO Grants Program
+**Validator/Community Code of Conduct and Constitutional Rights**
 
-**Summary**: The Foundation has voiced its desire to pass the torch for the development and funding of ecosystem grants to the DAO. Although there is yet to be a formal decision or agreement, the Governance Council has shared its vision for a decentralized, transparent, and responsible grants program. 
+We recognize that this Constitution is missing a few key topics — however, we also see the need to tread carefully in these sensitive and controversial topics. While it is inarguable that these are necessary components of the Constitution, there was clear signaling that we needed more time to allow for the natural growth of the community before we could formally ratify some sections with confidence. We pledge to continue our research and continue to engage with the community to find general consensus on the best step forward. 
 
-While we propose to create a Grants Committee to overlook the program, much like our Liquidity Incentives 2.0 proposed in ECP-3, we seek to design a system in which the community has part-ownership via the democratization of grants. 
-
-We refuse to allow Community Funds to stream into the wallets of entities that operate in the dark. 
-
-
+While some topics will be amended into the Constitution when they are ready, most will likely be implemented through the Governance Framework.
