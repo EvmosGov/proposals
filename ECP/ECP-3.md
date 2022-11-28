@@ -1,4 +1,4 @@
-# ECP-3: Empowering the Community and Building a Sustainable Treasury
+# ECP-3: Empowering the Community with Strategic Growth Initiatives
 
 ## ⚠ Work in Progress - Live & Changing Document
 
