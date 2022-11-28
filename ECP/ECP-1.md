@@ -52,7 +52,7 @@ We strongly believe that our governance participation is among the highest in th
 
 Please refer to the full version of the proposal for the Framework Definitions.
 
-## 2. The ECP Lifecycle
+### 2. The ECP Lifecycle
 
 ![](https://i.imgur.com/D8IcfJS.png)
 
@@ -90,21 +90,23 @@ The Evmos DAO Governance Council may prioritize a proposal onto on-chain voting 
 Core developers are not bound to the ECP Framework for network and protocol related proposals. It is expected, however, that thorough testing and due diligence is performed by the developers for all network upgrades. It should be noted, however, that network upgrades must still go through the process of on-chain voting.
 
 
-## 3. ECP Standards and Templates
+### 3. ECP Standards and Templates
 
-### Standardized Proposal Templates
+**Standardized Proposal Templates**
 
 The Evmos Governance Framework allows for various different types of proposals, both on-chain and off-chain. All proposals must include the core components of the template. Depending on the proposal type, additional components may be required. 
 
 Some proposal templates can be found in the [Governance Documentation.](https://gov.evmos.community/governance/proposals/templates) The Governance Council currently plans to improve the template system through a guided proposal creation dashboard.
 
-## 4. ECP Submission Guidelines
+### 4. ECP Submission Guidelines
 
 Submission guidelines and tips can be found in the [Governance Documentation](https://gov.evmos.community/governance/proposals/submission) as well as the official [Developers Documentation](https://evmos.dev).
 
 Proposals that have not followed the guidelines will most likely be rejected by the Community. If a proposal is made in bad faith, the Community is encouraged to vote `No with Veto`.
 
 We strongly encourage all proposers to first submit it on testnet to check the formatting and deposit amount. Do not hesitate to reach out to a Governance Council member for review.
+
+===
 
 ## ECP-1B: Formalizing the Workstream (subDAO) and Compensation Framework 
 
