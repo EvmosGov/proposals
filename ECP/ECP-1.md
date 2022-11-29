@@ -106,7 +106,6 @@ Proposals that have not followed the guidelines will most likely be rejected by 
 
 We strongly encourage all proposers to first submit it on testnet to check the formatting and deposit amount. Do not hesitate to reach out to a Governance Council member for review.
 
-===
 
 ## ECP-1B: Formalizing the Workstream (subDAO) and Compensation Framework 
 
