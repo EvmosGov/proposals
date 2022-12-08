@@ -39,9 +39,9 @@ We recognize the current market conditions and its volatility, while unfortunate
 
 - **A. Contributor Compensations:** 1,233,668 EVMOS
 - **B. Research & Development Fund:** 975,000 EVMOS
-- **C. Ecosystem Bootstrap Fund:** 750,000 EVMOS
+- **C. Ecosystem Bootstrap Fund:** 975,000 EVMOS
 - **D. Treasury Diversification & Future WS Comps:** 1,560,000 EVMOS
-- **TOTAL:** 4,518,668 EVMOS (~753,111 EVMOS / month)
+- **TOTAL:** 4,743,668 EVMOS (~790,611 EVMOS / month)
 
 We are currently in talks with a few Ethereum-based DAOs that are looking to diversify their revenue streams via a token-for-stable swap. This allows for the diversification of our treasury and the extension of our operational runway without creating sell-pressure of EVMOS in the open market.
 
