@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="mobile-web-app-capable" content="yes">
+    <title>
+        ECP-2A: Formalizing and Funding the Governance Council Workstream - HackMD
+    </title>
+    <link rel="icon" type="image/png" href="https://hackmd.io/favicon.png">
+    <link rel="apple-touch-icon" href="https://hackmd.io/apple-touch-icon.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha256-916EbMg70RQy9LHiGkXzG8hSg9EdNy97GazNG/aiY1w=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" integrity="sha256-3iu9jgsy9TpTwXKb7bNQzqWekRX7pPK+2OLj3R922fo=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.min.css" integrity="sha256-QiWfLIsCT02Sdwkogf6YMiQlj4NE84MKkzEMkZnMGdg=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/themes/prism.min.css" integrity="sha256-vtR0hSWRc3Tb26iuN2oZHt3KRUomwTufNIf5/4oeCyg=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@hackmd/emojify.js@2.1.0/dist/css/basic/emojify.min.css" integrity="sha256-UOrvMOsSDSrW6szVLe8ZDZezBxh5IoIfgTwdNDgTjiU=" crossorigin="anonymous" />
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i|Source+Code+Pro:300,400,500|Source+Sans+Pro:300,300i,400,400i,600,600i|Source+Serif+Pro&subset=latin-ext);.hljs{background:#fff;color:#333;display:block;overflow-x:auto;padding:.5em}.hljs-comment,.hljs-meta{color:#969896}.hljs-emphasis,.hljs-quote,.hljs-string,.hljs-strong,.hljs-template-variable,.hljs-variable{color:#df5000}.hljs-keyword,.hljs-selector-tag,.hljs-type{color:#a71d5d}.hljs-attribute,.hljs-bullet,.hljs-literal,.hljs-number,.hljs-symbol{color:#0086b3}.hljs-built_in,.hljs-builtin-name{color:#005cc5}.hljs-name,.hljs-section{color:#63a35c}.hljs-tag{color:#333}.hljs-attr,.hljs-selector-attr,.hljs-selector-class,.hljs-selector-id,.hljs-selector-pseudo,.hljs-title{color:#795da3}.hljs-addition{background-color:#eaffea;color:#55a532}.hljs-deletion{background-color:#ffecec;color:#bd2c00}.hljs-link{text-decoration:underline}.markdown-body{word-wrap:break-word;font-size:16px;line-height:1.5}.markdown-body:after,.markdown-body:before{content:"";display:table}.markdown-body:after{clear:both}.markdown-body>:first-child{margin-top:0!important}.markdown-body>:last-child{margin-bottom:0!important}.markdown-body a:not([href]){color:inherit;text-decoration:none}.markdown-body .absent{color:#c00}.markdown-body .anchor{float:left;line-height:1;margin-left:-20px;padding-right:4px}.markdown-body .anchor:focus{outline:none}.markdown-body blockquote,.markdown-body dl,.markdown-body ol,.markdown-body p,.markdown-body pre,.markdown-body table,.markdown-body ul{margin-bottom:16px;margin-top:0}.markdown-body hr{background-color:#e7e7e7;border:0;height:.25em;margin:24px 0;padding:0}.markdown-body blockquote{border-left:.25em solid #ddd;color:#777;font-size:16px;padding:0 1em}.markdown-body blockquote>:first-child{margin-top:0}.markdown-body blockquote>:last-child{margin-bottom:0}.markdown-body kbd,.popover kbd{background-color:#fcfcfc;border:1px solid;border-color:#ccc #ccc #bbb;border-radius:3px;box-shadow:inset 0 -1px 0 #bbb;color:#555;display:inline-block;font-size:11px;line-height:10px;padding:3px 5px;vertical-align:middle}.markdown-body .loweralpha{list-style-type:lower-alpha}.markdown-body h1,.markdown-body h2,.markdown-body h3,.markdown-body h4,.markdown-body h5,.markdown-body h6{font-weight:600;line-height:1.25;margin-bottom:16px;margin-top:24px}.markdown-body h1 .octicon-link,.markdown-body h2 .octicon-link,.markdown-body h3 .octicon-link,.markdown-body h4 .octicon-link,.markdown-body h5 .octicon-link,.markdown-body h6 .octicon-link{color:#000;vertical-align:middle;visibility:hidden}.markdown-body h1:hover .anchor,.markdown-body h2:hover .anchor,.markdown-body h3:hover .anchor,.markdown-body h4:hover .anchor,.markdown-body h5:hover .anchor,.markdown-body h6:hover .anchor{text-decoration:none}.markdown-body h1:hover .anchor .octicon-link,.markdown-body h2:hover .anchor .octicon-link,.markdown-body h3:hover .anchor .octicon-link,.markdown-body h4:hover .anchor .octicon-link,.markdown-body h5:hover .anchor .octicon-link,.markdown-body h6:hover .anchor .octicon-link{visibility:visible}.markdown-body h1 code,.markdown-body h1 tt,.markdown-body h2 code,.markdown-body h2 tt,.markdown-body h3 code,.markdown-body h3 tt,.markdown-body h4 code,.markdown-body h4 tt,.markdown-body h5 code,.markdown-body h5 tt,.markdown-body h6 code,.markdown-body h6 tt{font-size:inherit}.markdown-body h1{font-size:2em}.markdown-body h1,.markdown-body h2{border-bottom:1px solid #eee;padding-bottom:.3em}.markdown-body h2{font-size:1.5em}.markdown-body h3{font-size:1.25em}.markdown-body h4{font-size:1em}.markdown-body h5{font-size:.875em}.markdown-body h6{color:#777;font-size:.85em}.markdown-body ol,.markdown-body ul{padding-left:2em}.markdown-body ol.no-list,.markdown-body ul.no-list{list-style-type:none;padding:0}.markdown-body ol ol,.markdown-body ol ul,.markdown-body ul ol,.markdown-body ul ul{margin-bottom:0;margin-top:0}.markdown-body li>p{margin-top:16px}.markdown-body li+li{padding-top:.25em}.markdown-body dl{padding:0}.markdown-body dl dt{font-size:1em;font-style:italic;font-weight:700;margin-top:16px;padding:0}.markdown-body dl dd{margin-bottom:16px;padding:0 16px}.markdown-body table{display:block;overflow:auto;width:100%;word-break:normal;word-break:keep-all}.markdown-body table th{font-weight:700}.markdown-body table td,.markdown-body table th{border:1px solid #ddd;padding:6px 13px}.markdown-body table tr{background-color:#fff;border-top:1px solid #ccc}.markdown-body table tr:nth-child(2n){background-color:#f8f8f8}.markdown-body img{background-color:#fff;box-sizing:initial;max-width:100%}.markdown-body img[align=right]{padding-left:20px}.markdown-body img[align=left]{padding-right:20px}.markdown-body .emoji{background-color:initial;max-width:none;vertical-align:text-top}.markdown-body span.frame{display:block;overflow:hidden}.markdown-body span.frame>span{border:1px solid #ddd;display:block;float:left;margin:13px 0 0;overflow:hidden;padding:7px;width:auto}.markdown-body span.frame span img{display:block;float:left}.markdown-body span.frame span span{clear:both;color:#333;display:block;padding:5px 0 0}.markdown-body span.align-center{clear:both;display:block;overflow:hidden}.markdown-body span.align-center>span{display:block;margin:13px auto 0;overflow:hidden;text-align:center}.markdown-body span.align-center span img{margin:0 auto;text-align:center}.markdown-body span.align-right{clear:both;display:block;overflow:hidden}.markdown-body span.align-right>span{display:block;margin:13px 0 0;overflow:hidden;text-align:right}.markdown-body span.align-right span img{margin:0;text-align:right}.markdown-body span.float-left{display:block;float:left;margin-right:13px;overflow:hidden}.markdown-body span.float-left span{margin:13px 0 0}.markdown-body span.float-right{display:block;float:right;margin-left:13px;overflow:hidden}.markdown-body span.float-right>span{display:block;margin:13px auto 0;overflow:hidden;text-align:right}.markdown-body code,.markdown-body tt{background-color:#0000000a;border-radius:3px;font-size:85%;margin:0;padding:.2em 0}.markdown-body code:after,.markdown-body code:before,.markdown-body tt:after,.markdown-body tt:before{content:"\00a0";letter-spacing:-.2em}.markdown-body code br,.markdown-body tt br{display:none}.markdown-body del code{text-decoration:inherit}.markdown-body pre{word-wrap:normal}.markdown-body pre>code{background:#0000;border:0;font-size:100%;margin:0;padding:0;white-space:pre;word-break:normal}.markdown-body .highlight{margin-bottom:16px}.markdown-body .highlight pre{margin-bottom:0;word-break:normal}.markdown-body .highlight pre,.markdown-body pre{background-color:#f7f7f7;border-radius:3px;font-size:85%;line-height:1.45;overflow:auto;padding:16px}.markdown-body pre code,.markdown-body pre tt{word-wrap:normal;background-color:initial;border:0;display:inline;line-height:inherit;margin:0;max-width:auto;overflow:visible;padding:0}.markdown-body pre code:after,.markdown-body pre code:before,.markdown-body pre tt:after,.markdown-body pre tt:before{content:normal}.markdown-body .csv-data td,.markdown-body .csv-data th{font-size:12px;line-height:1;overflow:hidden;padding:5px;text-align:left;white-space:nowrap}.markdown-body .csv-data .blob-line-num{background:#fff;border:0;padding:10px 8px 9px;text-align:right}.markdown-body .csv-data tr{border-top:0}.markdown-body .csv-data th{background:#f8f8f8;border-top:0;font-weight:700}.news .alert .markdown-body blockquote{border:0;padding:0 0 0 40px}.activity-tab .news .alert .commits,.activity-tab .news .markdown-body blockquote{padding-left:0}.task-list-item{list-style-type:none}.task-list-item label{font-weight:400}.task-list-item.enabled label{cursor:pointer}.task-list-item+.task-list-item{margin-top:3px}.task-list-item-checkbox{cursor:default!important;float:left;margin:.31em 0 .2em -1.3em!important;vertical-align:middle}.markdown-body{max-width:758px;overflow:visible!important;padding-bottom:40px;padding-top:40px;position:relative}.markdown-body .emoji{vertical-align:top}.markdown-body pre{border:inherit!important}.markdown-body code{color:inherit!important}.markdown-body pre code .wrapper{display:-moz-inline-flex;display:-ms-inline-flex;display:-o-inline-flex;display:inline-flex}.markdown-body pre code .gutter{float:left;overflow:hidden;-webkit-user-select:none;user-select:none}.markdown-body pre code .gutter.linenumber{border-right:3px solid #6ce26c!important;box-sizing:initial;color:#afafaf!important;cursor:default;display:inline-block;min-width:20px;padding:0 8px 0 0;position:relative;text-align:right;z-index:4}.markdown-body pre code .gutter.linenumber>span:before{content:attr(data-linenumber)}.markdown-body pre code .code{float:left;margin:0 0 0 16px}.markdown-body .gist .line-numbers{border-bottom:none;border-left:none;border-top:none}.markdown-body .gist .line-data{border:none}.markdown-body .gist table{border-collapse:inherit!important;border-spacing:0}.markdown-body code[data-gist-id]{background:none;padding:0}.markdown-body code[data-gist-id]:after,.markdown-body code[data-gist-id]:before{content:""}.markdown-body code[data-gist-id] .blob-num{border:unset}.markdown-body code[data-gist-id] table{margin-bottom:unset;overflow:unset}.markdown-body code[data-gist-id] table tr{background:unset}.markdown-body[dir=rtl] pre{direction:ltr}.markdown-body[dir=rtl] code{direction:ltr;unicode-bidi:embed}.markdown-body .alert>p:last-child{margin-bottom:0}.markdown-body pre.abc,.markdown-body pre.flow-chart,.markdown-body pre.graphviz,.markdown-body pre.mermaid,.markdown-body pre.sequence-diagram,.markdown-body pre.vega{background-color:inherit;border-radius:0;overflow:visible;text-align:center;white-space:inherit}.markdown-body pre.abc>code,.markdown-body pre.flow-chart>code,.markdown-body pre.graphviz>code,.markdown-body pre.mermaid>code,.markdown-body pre.sequence-diagram>code,.markdown-body pre.vega>code{text-align:left}.markdown-body pre.abc>svg,.markdown-body pre.flow-chart>svg,.markdown-body pre.graphviz>svg,.markdown-body pre.mermaid>svg,.markdown-body pre.sequence-diagram>svg,.markdown-body pre.vega>svg{height:100%;max-width:100%}.markdown-body pre>code.wrap{word-wrap:break-word;white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space:-o-pre-wrap}.markdown-body .alert>p:last-child,.markdown-body .alert>ul:last-child{margin-bottom:0}.markdown-body summary{display:list-item}.markdown-body summary:focus{outline:none}.markdown-body details summary{cursor:pointer}.markdown-body details:not([open])>:not(summary){display:none}.markdown-body figure{margin:1em 40px}.markdown-body .mark,.markdown-body mark{background-color:#fff1a7}.vimeo,.youtube{background-color:#000;background-position:50%;background-repeat:no-repeat;background-size:contain;cursor:pointer;display:table;overflow:hidden;text-align:center}.vimeo,.youtube{position:relative;width:100%}.youtube{padding-bottom:56.25%}.vimeo img{object-fit:contain;width:100%;z-index:0}.youtube img{object-fit:cover;z-index:0}.vimeo iframe,.youtube iframe,.youtube img{height:100%;left:0;position:absolute;top:0;width:100%}.vimeo iframe,.youtube iframe{vertical-align:middle;z-index:1}.vimeo .icon,.youtube .icon{color:#fff;height:auto;left:50%;opacity:.3;position:absolute;top:50%;transform:translate(-50%,-50%);transition:opacity .2s;width:auto;z-index:0}.vimeo:hover .icon,.youtube:hover .icon{opacity:.6;transition:opacity .2s}.slideshare .inner,.speakerdeck .inner{position:relative;width:100%}.slideshare .inner iframe,.speakerdeck .inner iframe{bottom:0;height:100%;left:0;position:absolute;right:0;top:0;width:100%}.figma{display:table;padding-bottom:56.25%;position:relative;width:100%}.figma iframe{border:1px solid #eee;bottom:0;height:100%;left:0;position:absolute;right:0;top:0;width:100%}.markmap-container{height:300px}.markmap-container>svg{height:100%;width:100%}.MJX_Assistive_MathML{display:none}#MathJax_Message{z-index:1000!important}.ui-infobar{color:#777;margin:25px auto -25px;max-width:760px;position:relative;z-index:2}.toc .invisable-node{list-style-type:none}.ui-toc{bottom:20px;position:fixed;z-index:998}.ui-toc.both-mode{margin-left:8px}.ui-toc.both-mode .ui-toc-label{border-bottom-left-radius:0;border-top-left-radius:0;height:40px;padding:10px 4px}.ui-toc-label{background-color:#e6e6e6;border:none;color:#868686;transition:opacity .2s}.ui-toc .open .ui-toc-label{color:#fff;opacity:1;transition:opacity .2s}.ui-toc-label:focus{background-color:#ccc;color:#000;opacity:.3}.ui-toc-label:hover{background-color:#ccc;opacity:1;transition:opacity .2s}.ui-toc-dropdown{margin-bottom:20px;margin-top:20px;max-height:70vh;max-width:45vw;overflow:auto;padding-left:10px;padding-right:10px;text-align:inherit;width:25vw}.ui-toc-dropdown>.toc{max-height:calc(70vh - 100px);overflow:auto}.ui-toc-dropdown[dir=rtl] .nav{letter-spacing:.0029em;padding-right:0}.ui-toc-dropdown a{overflow:hidden;text-overflow:ellipsis;white-space:pre}.ui-toc-dropdown .nav>li>a{color:#767676;display:block;font-size:13px;font-weight:500;padding:4px 20px}.ui-toc-dropdown .nav>li:first-child:last-child>ul,.ui-toc-dropdown .toc.expand ul{display:block}.ui-toc-dropdown .nav>li>a:focus,.ui-toc-dropdown .nav>li>a:hover{background-color:initial;border-left:1px solid #000;color:#000;padding-left:19px;text-decoration:none}.ui-toc-dropdown[dir=rtl] .nav>li>a:focus,.ui-toc-dropdown[dir=rtl] .nav>li>a:hover{border-left:none;border-right:1px solid #000;padding-right:19px}.ui-toc-dropdown .nav>.active:focus>a,.ui-toc-dropdown .nav>.active:hover>a,.ui-toc-dropdown .nav>.active>a{background-color:initial;border-left:2px solid #000;color:#000;font-weight:700;padding-left:18px}.ui-toc-dropdown[dir=rtl] .nav>.active:focus>a,.ui-toc-dropdown[dir=rtl] .nav>.active:hover>a,.ui-toc-dropdown[dir=rtl] .nav>.active>a{border-left:none;border-right:2px solid #000;padding-right:18px}.ui-toc-dropdown .nav .nav{display:none;padding-bottom:10px}.ui-toc-dropdown .nav>.active>ul{display:block}.ui-toc-dropdown .nav .nav>li>a{font-size:12px;font-weight:400;padding-bottom:1px;padding-left:30px;padding-top:1px}.ui-toc-dropdown[dir=rtl] .nav .nav>li>a{padding-right:30px}.ui-toc-dropdown .nav .nav>li>ul>li>a{font-size:12px;font-weight:400;padding-bottom:1px;padding-left:40px;padding-top:1px}.ui-toc-dropdown[dir=rtl] .nav .nav>li>ul>li>a{padding-right:40px}.ui-toc-dropdown .nav .nav>li>a:focus,.ui-toc-dropdown .nav .nav>li>a:hover{padding-left:29px}.ui-toc-dropdown[dir=rtl] .nav .nav>li>a:focus,.ui-toc-dropdown[dir=rtl] .nav .nav>li>a:hover{padding-right:29px}.ui-toc-dropdown .nav .nav>li>ul>li>a:focus,.ui-toc-dropdown .nav .nav>li>ul>li>a:hover{padding-left:39px}.ui-toc-dropdown[dir=rtl] .nav .nav>li>ul>li>a:focus,.ui-toc-dropdown[dir=rtl] .nav .nav>li>ul>li>a:hover{padding-right:39px}.ui-toc-dropdown .nav .nav>.active:focus>a,.ui-toc-dropdown .nav .nav>.active:hover>a,.ui-toc-dropdown .nav .nav>.active>a{font-weight:500;padding-left:28px}.ui-toc-dropdown[dir=rtl] .nav .nav>.active:focus>a,.ui-toc-dropdown[dir=rtl] .nav .nav>.active:hover>a,.ui-toc-dropdown[dir=rtl] .nav .nav>.active>a{padding-right:28px}.ui-toc-dropdown .nav .nav>.active>.nav>.active:focus>a,.ui-toc-dropdown .nav .nav>.active>.nav>.active:hover>a,.ui-toc-dropdown .nav .nav>.active>.nav>.active>a{font-weight:500;padding-left:38px}.ui-toc-dropdown[dir=rtl] .nav .nav>.active>.nav>.active:focus>a,.ui-toc-dropdown[dir=rtl] .nav .nav>.active>.nav>.active:hover>a,.ui-toc-dropdown[dir=rtl] .nav .nav>.active>.nav>.active>a{padding-right:38px}.markdown-body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol}html[lang^=ja] .markdown-body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,Hiragino Kaku Gothic Pro,ヒラギノ角ゴ Pro W3,Osaka,Meiryo,メイリオ,MS Gothic,ＭＳ ゴシック,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol}html[lang=zh-tw] .markdown-body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,PingFang TC,Microsoft JhengHei,微軟正黑,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol}html[lang=zh-cn] .markdown-body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,PingFang SC,Microsoft YaHei,微软雅黑,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol}html .markdown-body[lang^=ja]{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,Hiragino Kaku Gothic Pro,ヒラギノ角ゴ Pro W3,Osaka,Meiryo,メイリオ,MS Gothic,ＭＳ ゴシック,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol}html .markdown-body[lang=zh-tw]{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,PingFang TC,Microsoft JhengHei,微軟正黑,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol}html .markdown-body[lang=zh-cn]{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,PingFang SC,Microsoft YaHei,微软雅黑,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol}html[lang^=ja] .ui-toc-dropdown{font-family:Source Sans Pro,Helvetica,Arial,Meiryo UI,MS PGothic,ＭＳ Ｐゴシック,sans-serif}html[lang=zh-tw] .ui-toc-dropdown{font-family:Source Sans Pro,Helvetica,Arial,Microsoft JhengHei UI,微軟正黑UI,sans-serif}html[lang=zh-cn] .ui-toc-dropdown{font-family:Source Sans Pro,Helvetica,Arial,Microsoft YaHei UI,微软雅黑UI,sans-serif}html .ui-toc-dropdown[lang^=ja]{font-family:Source Sans Pro,Helvetica,Arial,Meiryo UI,MS PGothic,ＭＳ Ｐゴシック,sans-serif}html .ui-toc-dropdown[lang=zh-tw]{font-family:Source Sans Pro,Helvetica,Arial,Microsoft JhengHei UI,微軟正黑UI,sans-serif}html .ui-toc-dropdown[lang=zh-cn]{font-family:Source Sans Pro,Helvetica,Arial,Microsoft YaHei UI,微软雅黑UI,sans-serif}.ui-affix-toc{max-height:70vh;max-width:15vw;overflow:auto;position:fixed;top:0}.back-to-top,.expand-toggle,.go-to-bottom{color:#999;display:block;font-size:12px;font-weight:500;margin-left:10px;margin-top:10px;padding:4px 10px}.back-to-top:focus,.back-to-top:hover,.expand-toggle:focus,.expand-toggle:hover,.go-to-bottom:focus,.go-to-bottom:hover{color:#563d7c;text-decoration:none}.back-to-top,.go-to-bottom{margin-top:0}.ui-user-icon{background-position:50%;background-repeat:no-repeat;background-size:cover;border-radius:50%;display:block;height:20px;margin-bottom:2px;margin-right:5px;margin-top:2px;width:20px}.ui-user-icon.small{display:inline-block;height:18px;margin:0 0 .2em;vertical-align:middle;width:18px}.ui-infobar>small>span{line-height:22px}.ui-infobar>small .dropdown{display:inline-block}.ui-infobar>small .dropdown a:focus,.ui-infobar>small .dropdown a:hover{text-decoration:none}.ui-more-info{color:#888;cursor:pointer;vertical-align:middle}.ui-more-info .fa{font-size:16px}.ui-connectedGithub,.ui-published-note{color:#888}.ui-connectedGithub{line-height:23px;white-space:nowrap}.ui-connectedGithub a.file-path{color:#888;padding-left:22px;text-decoration:none}.ui-connectedGithub a.file-path:active,.ui-connectedGithub a.file-path:hover{color:#888;text-decoration:underline}.ui-connectedGithub .fa{font-size:20px}.ui-published-note .fa{font-size:20px;vertical-align:top}.unselectable{-webkit-user-select:none;-o-user-select:none;user-select:none}.selectable{-webkit-user-select:text;-o-user-select:text;user-select:text}.inline-spoiler-section{cursor:pointer}.inline-spoiler-section .spoiler-text{background-color:#333;border-radius:2px}.inline-spoiler-section .spoiler-text>*{opacity:0}.inline-spoiler-section .spoiler-img{filter:blur(10px)}.inline-spoiler-section.raw{background-color:#333;border-radius:2px}.inline-spoiler-section.raw>*{opacity:0}.inline-spoiler-section.unveil{cursor:auto}.inline-spoiler-section.unveil .spoiler-text{background-color:#3333331a}.inline-spoiler-section.unveil .spoiler-text>*{opacity:1}.inline-spoiler-section.unveil .spoiler-img{filter:none}@media print{blockquote,div,img,pre,table{page-break-inside:avoid!important}a[href]:after{font-size:12px!important}}.markdown-body.slides{color:#222;position:relative;z-index:1}.markdown-body.slides:before{background-color:currentColor;bottom:0;box-shadow:0 0 0 50vw;content:"";display:block;left:0;position:absolute;right:0;top:0;z-index:-1}.markdown-body.slides section[data-markdown]{background-color:#fff;margin-bottom:1.5em;position:relative;text-align:center}.markdown-body.slides section[data-markdown] code{text-align:left}.markdown-body.slides section[data-markdown]:before{content:"";display:block;padding-bottom:56.23%}.markdown-body.slides section[data-markdown]>div:first-child{left:1em;max-height:100%;overflow:hidden;position:absolute;right:1em;top:50%;transform:translateY(-50%)}.markdown-body.slides section[data-markdown]>ul{display:inline-block}.markdown-body.slides>section>section+section:after{border:3px solid #777;content:"";height:1.5em;position:absolute;right:1em;top:-1.5em}.site-ui-font{font-family:Source Sans Pro,Helvetica,Arial,sans-serif}html[lang^=ja] .site-ui-font{font-family:Source Sans Pro,Helvetica,Arial,Hiragino Kaku Gothic Pro,ヒラギノ角ゴ Pro W3,Osaka,Meiryo,メイリオ,MS Gothic,ＭＳ ゴシック,sans-serif}html[lang=zh-tw] .site-ui-font{font-family:Source Sans Pro,Helvetica,Arial,PingFang TC,Microsoft JhengHei,微軟正黑,sans-serif}html[lang=zh-cn] .site-ui-font{font-family:Source Sans Pro,Helvetica,Arial,PingFang SC,Microsoft YaHei,微软雅黑,sans-serif}body{font-smoothing:subpixel-antialiased!important;-webkit-font-smoothing:subpixel-antialiased!important;-moz-osx-font-smoothing:auto!important;-webkit-overflow-scrolling:touch;font-family:Source Sans Pro,Helvetica,Arial,sans-serif;letter-spacing:.025em}html[lang^=ja] body{font-family:Source Sans Pro,Helvetica,Arial,Hiragino Kaku Gothic Pro,ヒラギノ角ゴ Pro W3,Osaka,Meiryo,メイリオ,MS Gothic,ＭＳ ゴシック,sans-serif}html[lang=zh-tw] body{font-family:Source Sans Pro,Helvetica,Arial,PingFang TC,Microsoft JhengHei,微軟正黑,sans-serif}html[lang=zh-cn] body{font-family:Source Sans Pro,Helvetica,Arial,PingFang SC,Microsoft YaHei,微软雅黑,sans-serif}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}abbr[data-original-title],abbr[title]{cursor:help}body.modal-open{overflow-y:auto;padding-right:0!important}svg{text-shadow:none}
+                iframe{
+            display: block;
+            width: 728px;
+    height: 450px;
+            margin: 0 auto;
+            background-color: rgba(241,243,244,0.949) !important;
+        }
+        iframe .punch-viewer-navbar-logo{
+            display: none;
+        }
+    </style>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g=" crossorigin="anonymous"></script>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js" integrity="sha256-g6iAfvZp+nDQ2TdTR/VVKJf3bGro4ub5fvWSWVRi2NE=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.9/es5-shim.min.js" integrity="sha256-8E4Is26QH0bD52WoQpcB+R/tcWQtpzlCojrybUd7Mxo=" crossorigin="anonymous"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div id="doc" class="markdown-body container-fluid comment-enabled" data-hard-breaks="false"><h1 id="ECP-2A-Formalizing-and-Funding-the-Governance-Council-Workstream" data-id="ECP-2A-Formalizing-and-Funding-the-Governance-Council-Workstream" style=""><a class="anchor hidden-xs" href="#ECP-2A-Formalizing-and-Funding-the-Governance-Council-Workstream" title="ECP-2A-Formalizing-and-Funding-the-Governance-Council-Workstream"><span class="octicon octicon-link"></span></a><span>ECP-2A: Formalizing and Funding the Governance Council Workstream</span></h1><hr><h2 id="Authors" data-id="Authors" style=""><a class="anchor hidden-xs" href="#Authors" title="Authors"><span class="octicon octicon-link"></span></a><span>Authors</span></h2><ul>
+<li><span>LPX, Evmos DAO Governance Council</span></li>
+<li><span>GV, Evmos DAO Governance Council</span></li>
+<li><span>Benny Lava, Evmos DAO Governance Council</span></li>
+</ul>
+
+<h2 id="Summary" data-id="Summary" style=""><a class="anchor hidden-xs" href="#Summary" title="Summary"><span class="octicon octicon-link"></span></a><span>Summary</span></h2>
+    
+    <p><span>Operating under the community-ratified Interim Constituion of Evmos DAO (Proposal #51), the Governance Workstream has been serving the Evmos DAO and Community without funding for the past six months. We are officially requesting formalization by funding.</span></p>
+    
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRNd2oaab-YHbZggZNlXc0HzuxE8Qke9oheJeKUcm26UlJdjEU7xPPsf5zM6wum-w/embed?start=false&loop=false&delayms=10000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+    
+    <h3 id="Workstream-Introduction" data-id="Workstream-Introduction" style=""><a class="anchor hidden-xs" href="#Workstream-Introduction" title="Workstream-Introduction"><span class="octicon octicon-link"></span></a><span>Workstream Introduction</span></h3><p><span>Decentralized governance is a double-edged sword with constant challenges to overcome and is often burdened with inefficient processes. It is also the beauty and soul of a DAO, with the ethos of decentralization and equality at the very core. The Governance Council exists and operates as a neutral party with allegiances only to the Evmos network and the guiding values of the Evmos Constitution. While the workstream is tasked with various duties, our mandate is simple: to facilitate and protect the integrity of Evmos’ governance processes and, to the best of our ability, create a fair and transparent environment in which the network and the community can prosper and thrive.</span></p><p><strong><span>Mission</span></strong><span>: Protect, improve, and serve the Evmos network and community with neutrality and transparency.</span></p><p><strong><span>Vision</span></strong><span>: To see Evmos DAO evolve into a fully decentralized and self-sustainable organization that is capable of propelling the growth of the network.</span></p><p><strong><span>Values:</span></strong><span> Progressive Decentralization, Continuous Improvement, Hybrid-Governance</span></p><h3 id="Primary-Duties-Ongoing-amp-Planned" data-id="Primary-Duties-Ongoing-amp-Planned" style=""><a class="anchor hidden-xs" href="#Primary-Duties-Ongoing-amp-Planned" title="Primary-Duties-Ongoing-amp-Planned"><span class="octicon octicon-link"></span></a><span>Primary Duties (Ongoing &amp; Planned)</span></h3><p><strong><span>A. Governance Framework Improvement &amp; Implementation</span></strong></p><p><span>The Evmos Governance Framework serves to empower each member of the community by providing clear and standardized methods of interacting with the wider DAO, thereby defining its future shape and trajectory. It is crucial that we strive to continuously improve our processes, we intend to facilitate that by adhering to the following.</span></p><ul>
+<li><span>The Constitution must be completed and amended as committed in Proposal 51, which ratified the Interim Constitution of Evmos DAO.</span></li>
+<li><span>Governance proposals that have been passed by the community must be implemented and enforced, as long as they adhere to the Guiding Principles of our Constitution.</span></li>
+<li><span>We must be diligent in listening to the community’s feedback on governance pain-points, shortcomings, and inefficiencies.</span></li>
+<li><span>We must strive to fix or improve inefficiencies and shortcomings when a viable plan is ideated or presented.</span></li>
+<li><span>We must continue our research and observations into other DAOs and remain up to date with evolving DAO philosophies, tools, and scientific research.</span></li>
+</ul><p><strong><span>B. Continuous Efforts in Increasing Governance Participation &amp; Engagement</span></strong></p><p><span>The strength of our governance relates directly to the participation levels in both on-chain and off-chain governance. Decisions and proposals can only be as well-rounded and well-defined as the number of participants that played a role in contributing to the ideation and feedback process. Similarly, a decision or proposal is only as credible as the consensus surrounding it.</span></p><ul>
+<li><span>The Governance Council will continue to promote and increase engagement by stakeholders in all aspects of the governance processes.</span></li>
+<li><span>The Governance Council will work to improve and provide access to the resources necessary to participate in the governance process — for all members of the community.</span></li>
+<li><span>The Governance Council should be in constant engagement with the community, in as many mediums as possible.</span></li>
+</ul><p><strong><span>C. Facilitating Communications and the Flow of Information</span></strong></p><p><span>Effective communication is a crucial strategy that must be used by the Governance Workstream. Transparent and effective governance requires an effective, reliable, and unbiased communications strategy. Without communication and information flow, it is extremely difficult to facilitate an effective and efficient governance.</span></p><ul>
+<li><span>The Governance Council will work to improve and create easier access to the resources necessary to understand and stay up-to-date in our governance — for all members of the community.</span></li>
+<li><span>The Governance Council must establish a more consistent, high-quality information feed of all issues and proposals for the community at large to digest.</span></li>
+<li><span>The Governance Council, when requested by the community, will act as a liaison to the Evmos Foundation and attempt to seek information and clarity into concerns or issues brought up.</span></li>
+<li><span>The Governance Council will remain in constant communication with the Foundation to ensure the alignment of the goals of the DAO, the community, and the core members.</span></li>
+<li><span>The Governance Council will work with the Community Moderation &amp; Support team in the ideation of better communication initiatives, as well as pinpointing areas that are in need of improvements or clarifications.</span></li>
+<li><span>The Governance Council will host community meetings, project introductions, and public forums when requested.</span></li>
+<li><span>The Governance Council will continue to attend, participate in, and — if requested — take on the responsibility of hosting the weekly Governance meetings on Discord</span></li>
+</ul><p><strong><span>D. Governance and Proposal Assistance and Feedback</span></strong></p><ul>
+<li><span>The Governance Workstream will continue to provide assistance to individuals, teams, and projects that are seeking to submit a proposal. This includes all phases, from pre-Commonwealth ideation to the final on-chain submission, assuming that all procedures are being followed properly and in good faith. Our assistance in drafting proposals should not be seen as an endorsement or guarantee.</span></li>
+<li><span>The Governance Workstream will always strive to voice all thoughts on an issue or proposal from a neutral, rational point of view.</span></li>
+<li><span>The Governance Council will continue to work on improving governance documentation and begin building tools and resources for a more effective, transparent, and user-friendly governance.</span></li>
+</ul><p><strong><span>E.</span></strong><span> </span><strong><span>Onboarding of New Workstreams and sub-DAOs</span></strong></p><p><span>The Governance Council will assist in the creation of new workstreams. When focusing on accelerating the progress of the DAO, the goal is to grow horizontally via more sub-DAOs (vs. growing vertically). Through more sub-DAOs, the entire org can increase the number of teams trying new approaches to solving and innovating on existing problems and focuses while maintaining the same level of meta-organizational admin/overhead required to run. Our general stance on workstream or funding proposals will be:</span></p><ul>
+<li><span>Support funding proposals that presents a decent chance of driving forward KPIs</span></li>
+<li><span>Explore funding proposals that may have a chance of bringing value and test the waters</span></li>
+<li><span>Support the allocation of more resources to sub-DAOs that are producing results and are looking to expand</span></li>
+<li><span>Investigate and potentially look into de-funding teams or initiatives that are not producing any results</span></li>
+</ul><p><strong><span>F. Protocol &amp; Cross-Chain Collaboration</span></strong></p><ul>
+<li><span>The Governance Council will continue to engage with and act as a community liaison with protocols and projects seeking to build or collaborate with Evmos.</span></li>
+<li><span>The Governance Council will continue to engage in outreach to projects and protocols for potential collaborative initiatives that could be beneficial to the overall Evmos ecosystem.</span></li>
+</ul><p><strong><span>G. Evmos DAO’s Treasury Management, Diversification, &amp; Growth</span></strong></p><p><strong><span>Phase 1</span></strong></p><ul>
+<li><span>The Governance Council will deploy a Gnosis Safe multi-sig contract to be used as Evmos DAO’s Liquid Treasury.</span></li>
+<li><span>This contract will act as the DAO’s liquid treasury for various purposes, including contributor and bounty rewards, liquidity and incentive programs, asset diversification, and minor expenses that do not warrant its own proposal.</span></li>
+<li><span>The Governance Council will make two treasury funding requests. The initial request will fund the development of the projects detailed in ECP-3.</span></li>
+</ul><p><strong><span>Phase 2</span></strong></p><ul>
+<li><span>ECP-3 will be formally proposed when the projects detailed are close to completion, and receives the approval of the Evmos Community.</span></li>
+</ul><h3 id="Projects-and-Initiatives-Ongoing-amp-Planned" data-id="Projects-and-Initiatives-Ongoing-amp-Planned" style=""><a class="anchor hidden-xs" href="#Projects-and-Initiatives-Ongoing-amp-Planned" title="Projects-and-Initiatives-Ongoing-amp-Planned"><span class="octicon octicon-link"></span></a><span>Projects and Initiatives (Ongoing &amp; Planned)</span></h3><p><strong><span>A. Liquidity Incentives Programs 2.0</span></strong><span> (In Progress)</span></p><p><span>Although we have begun the “manual” Liquidity Incentives Program with our recent “Kickstart Evmos DeFi” proposal, our goal is to ultimately have this process determined by the community on a merit or milestone-based system.</span></p><p><span>In order to achieve this in a truly transparent and permissionless way, an Off-Chain Governance Framework is required.</span></p><p><strong><span>(More info in ECP-3)</span></strong></p><p><strong><span>B. Off-Chain Community Governance</span></strong><span> (In Progress)</span></p><p><span>Off-chain governance is often required for decisions in which the ultimate result is unknown and cannot be derived from on-chain data, thus requiring some human input. These decisions should be made with the mission, vision and goals of the DAO in mind.</span></p><blockquote>
+<p><span>DAOs work best when the governance burden related to curation, security, and risk can be reduced faster than the natural increase in coordination costs that accompanies the need to have members involved in voting on every decision made. - Tarun Chitra</span></p>
+</blockquote><p><span>Optimizing for the right people to participate in governance processes is an ever-evolving discussion in governance circles today. It may not be pragmatic to assume that all voters should participate in every governance decision. Participating in governance is a lot of work—reading and digesting a proposal, providing feedback for discussion and going to vote can be mentally fatiguing. In addition, many do not have the subject matter expertise or desire to participate in proposals outside of their domain.</span></p><p><span>Off-Chain governance, </span><strong><span>in the context of Evmos DAO and the Cosmos ecosystem,</span></strong><span> in simplified terms, can be explained as governance decisions that do not need to commence a network-wide vote through the utilization of the Cosmos SDKs `gov` module.</span></p><p><span>Off-Chain governance, </span><strong><span>in the context of Decentralized Governance and DAOs in the Ethereum ecosystem</span></strong><span>, can be explained as all governance decisions that utilize decentralized data and DID protocols like Ceramic and IPFS to allow for gas-free voting, encouraging the participation of more token holders.</span></p><p><span>DAO operations will likely be governed by contracts and tooling that are battle-tested and available on the EVM side of the chain. This opens up a new realm of possibilities for governance, trustless contracts, incentive alignment, and community collaboration.</span></p><p><span>While this is a particularly complex and interesting topic, we do not want to dwell in contemplation more than needed nor do we want to be married to one idea or framework. Our off-chain governance styling, processes, and direction will likely evolve over time, as is common with all DAOs, new and old. (Reference: </span><a href="https://en.wikipedia.org/wiki/John_Gall_(author)#Gall's_law" target="_blank" rel="noopener"><span>Gall’s Law</span></a><span>)</span></p><p><span>High-priority items needed for off-chain governance are currently under research and in experimentation phases in some cases; these include:</span></p><ul>
+<li><span>Different Voting Mechanisms</span></li>
+<li><span>The Alignment of Incentives</span></li>
+<li><span>Contracts, Protocols, and DAO Toolings</span></li>
+<li><span>Risk Reduction Efforts</span></li>
+<li><span>(More in ECP-3)</span></li>
+</ul><p><strong><span>C. Perpetual Bounty Fund</span></strong><span> (In Progress)</span></p><p><span>The Perpetual Bounty Fund is a perpetual, self-replenishing bounty fund that is designed to minimize community spending while helping with network decentralization efforts.</span></p><p><span>The concept of a perpetual bounty fund is very straightforward and the establishment of the fund would only require a one-time spend request from the community pool.</span></p><ol>
+<li><span>The initial funds are delegated to a distributed set of validators that are in the mid-low ranking.</span></li>
+<li><span>The authz module from Cosmos SDK is utilized to re-stake a minimum “maintenance” amount (to account for decreasing APY rates)</span></li>
+<li><span>Utilizing authz, the remainder of the rewards are sent to a multisig wallet.</span></li>
+<li><span>The daily rewards are then utilized to fund bounty programs for the community.</span></li>
+</ol><p><span>When compared to a normal community pool budget request, this model would A) take the initial funding amount out of the unbonded circulating supply; B) align with the community goals of striving towards more decentralization; C) provide a steady stream of a workable budget to be bountied out responsibly and methodically.</span></p><p><strong><span>D. Governance Engagement Initiatives</span></strong><span> (In Research)</span></p><p><span>The Governance Council is constantly looking into ideas or tools that may help with participation rate pre-voting on chain.</span></p><p><span>We strongly believe that the best way to reduce failed proposals is to address all community concerns during the early stages of a proposal. Increased participation in these early stage proposals would greatly benefit Evmos governance, and is an initiative we are taking seriously.</span></p><p><span>Some projects we are strongly considering in this area are a much comprehensive governance dashboard, engagement tracking, and more.</span></p><p><strong><span>E. Proposal Summary and Risk Assessment Reports</span></strong><span> (Planned)</span></p><p><span>The Governance Council is looking to provide proposal summaries, context, and our risk assessments for all proposals that go on chain.</span></p><p><span>Talks of potentially integrating these reports and other valuable metadata around a proposal into popular block explorers have been initiated and may be considered.</span></p><p><strong><span>F. Deployment of Public Goods and Services</span></strong><span> (In Progress)</span></p><p><span>The Governance Council is currently looking into public goods and infrastructure that we believe is needed to:</span></p><ul>
+<li><span>Attract more projects and organizations to migrate to Evmos</span></li>
+<li><span>Attract more developers to build on Evmos</span></li>
+<li><span>Allow more flexibility and functionality in what’s possible via governance</span></li>
+<li><span>Increase governance participation rate and the flow of information</span></li>
+</ul><p><span>Some projects that the Governance Council has initiated in this domain:</span></p><ul>
+<li><a href="https://evmos.community" target="_blank" rel="noopener"><span>Governance Issue Tracker</span></a></li>
+<li><a href="https://github.com/EvmosGov/evmos-rpc-proxy" target="_blank" rel="noopener"><span>Evmos RPC Proxy</span></a></li>
+<li><a href="https://github.com/EvmosGov/evmos-datahub" target="_blank" rel="noopener"><span>Evmos Datahub</span></a></li>
+<li><a href="https://github.com/EvmosGov/webmos" target="_blank" rel="noopener"><span>Webmos React Bootstrapping Kit</span></a></li>
+<li><span>Smart contracts for: token vesting, payment streaming, payment splits</span></li>
+<li><a href="https://github.com/EvmosGov/contributor-vesting-ui" target="_blank" rel="noopener"><span>Dashboard for Vesting Contracts</span></a></li>
+</ul><p><strong><span>G. Validator Fairness Initiative</span></strong><span> (In Progress)</span></p><ul>
+<li><span>The VFI Group was created a few months back in an attempt to get consensus on a Code of Conduct for Validators.</span></li>
+<li><span>Although currently at a stalemate, there has been great discussions and is now over 100 members strong.</span></li>
+<li><span>We must reach a consensus, as the Interim Constitution was proposed on the premise that these difficult but pressing issues would not be forgotten.</span></li>
+</ul><h3 id="Progress-Report-and-Achievements" data-id="Progress-Report-and-Achievements" style=""><a class="anchor hidden-xs" href="#Progress-Report-and-Achievements" title="Progress-Report-and-Achievements"><span class="octicon octicon-link"></span></a><span>Progress Report and Achievements</span></h3><p><span>The Evmos DAO has been operating informally with Governance Initiatives since early June 2022, and was formally recognized by the Evmos Community when the Constitution was ratified on August 31st, 2022. While we realize that we have much work ahead of us, we humbly celebrate the achievements the workstream and DAO members have made thus far.</span></p><p><strong><span>Evmos Community Proposals</span></strong></p><p><span>The Governance Council and DAO Contributors have assisted in, provided support to, or played a direct role in the proposals listed below.</span></p><table>
+<thead>
+<tr>
+<th><span>#</span></th>
+<th><span>Title</span></th>
+<th><span>Role</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span>27</span></td>
+<td><span>Evmos Get Momentum - $1m Evmos Developer Incentive Program Proposal</span></td>
+<td><span>Feedback, Support</span></td>
+</tr>
+<tr>
+<td><span>31</span></td>
+<td><span>Grant Request to Sponsor EVMOS Public RPC by Pocket Network</span></td>
+<td><span>Feedback</span></td>
+</tr>
+<tr>
+<td><span>34</span></td>
+<td><span>Extend Rektdrop Claims Period by 21 days</span></td>
+<td><span>Direct</span></td>
+</tr>
+<tr>
+<td><span>35</span></td>
+<td><span>Register ERC20 for Osmosis</span></td>
+<td><span>Direct</span></td>
+</tr>
+<tr>
+<td><span>37</span></td>
+<td><span>Register ERC20 for ATOM (Cosmos Hub)</span></td>
+<td><span>Direct</span></td>
+</tr>
+<tr>
+<td><span>39</span></td>
+<td><span>Evmos external incentives on Osmosis</span></td>
+<td><span>Direct, Multisig</span></td>
+</tr>
+<tr>
+<td><span>40</span></td>
+<td><span>Evmos Developer Acquisition with Dystopia Labs</span></td>
+<td><span>Feedback, Support</span></td>
+</tr>
+<tr>
+<td><span>42</span></td>
+<td><span>Evmos Sponsorship of HackAtom Seoul 2022 / Korea Blockchain Week</span></td>
+<td><span>Direct, Multisig</span></td>
+</tr>
+<tr>
+<td><span>44</span></td>
+<td><span>Parameter change (maximum deposit time, minimum deposit amount.)</span></td>
+<td><span>Direct</span></td>
+</tr>
+<tr>
+<td><span>45</span></td>
+<td><span>Sponsor volunteer researcher for EVM-Inter-Chain lobby for Evmos</span></td>
+<td><span>Multisig</span></td>
+</tr>
+<tr>
+<td><span>48</span></td>
+<td><span>Register ERC20 for Stargaze (STARS)</span></td>
+<td><span>Direct</span></td>
+</tr>
+<tr>
+<td><span>49</span></td>
+<td><span>Register ERC20 for Regen Network (REGEN)</span></td>
+<td><span>Direct</span></td>
+</tr>
+<tr>
+<td><span>51</span></td>
+<td><span>The Interim Constitution of Evmos DAO</span></td>
+<td><span>Direct</span></td>
+</tr>
+<tr>
+<td><span>53</span></td>
+<td><span>Register ERC20 for Juno</span></td>
+<td><span>Direct</span></td>
+</tr>
+<tr>
+<td><span>54</span></td>
+<td><span>Covalent API’s Integration and the #OneMillionWallets Hackathon</span></td>
+<td><span>Support, Multisig</span></td>
+</tr>
+<tr>
+<td><span>56</span></td>
+<td><span>Register ERC20 for EEUR (e-Money Euro)</span></td>
+<td><span>Direct</span></td>
+</tr>
+<tr>
+<td><span>57</span></td>
+<td><span>Incubation: ChainHub Texas Blockchain Projects for Evmos</span></td>
+<td><span>Support, Feedback</span></td>
+</tr>
+<tr>
+<td><span>58</span></td>
+<td><span>Register ERC20 for axlUSDC (Axelar USDC)</span></td>
+<td><span>Direct</span></td>
+</tr>
+<tr>
+<td><span>60</span></td>
+<td><span>Register ERC20 for axlWBTC (Axelar wBTC)</span></td>
+<td><span>Direct</span></td>
+</tr>
+<tr>
+<td><span>61</span></td>
+<td><span>Register ERC20 for axlWETH (Axelar wETH)</span></td>
+<td><span>Direct</span></td>
+</tr>
+<tr>
+<td><span>62</span></td>
+<td><span>Ethermint Funding Proposal For Past Development</span></td>
+<td><span>Multisig</span></td>
+</tr>
+<tr>
+<td><span>64</span></td>
+<td><span>Launching the Evmos Liquidity Incentives Program</span></td>
+<td><span>Direct, Multisig</span></td>
+</tr>
+<tr>
+<td><span>65</span></td>
+<td><span>Register ERC20 for stATOM (Stride Staked Atom)</span></td>
+<td><span>Direct</span></td>
+</tr>
+<tr>
+<td><span>67</span></td>
+<td><span>Liquidity Mining for Axelar, Celer, and Gravity on Kinesis</span></td>
+<td><span>Support, Multisig</span></td>
+</tr>
+<tr>
+<td><span>68</span></td>
+<td><span>Register ERC20 for USK (Stablecoin of Kujira)</span></td>
+<td><span>Direct</span></td>
+</tr>
+<tr>
+<td><span>70</span></td>
+<td><span>Extending Osmosis External Incentives</span></td>
+<td><span>Direct, Multisig</span></td>
+</tr>
+<tr>
+<td><span>71</span></td>
+<td><span>Evmos Faucet for DeFi Kickoff</span></td>
+<td><span>Direct, Multisig</span></td>
+</tr>
+</tbody>
+</table><p><span>After posting the </span><a href="https://commonwealth.im/evmos/discussion/6022-passing-a-community-proposal-best-practices" target="_blank" rel="noopener"><span>“Passing a Community Proposal, Best Practices”</span></a><span> guide, the Governance Workstream and DAO contributors assisted in passing </span><strong><span>24 out of 25 proposals for a success rate of 96%.</span></strong></p><p><span>The Governance Council has been involved with 13 out of 15 passed Community Pool Spend Proposals (Excluding Proposal 66 - Recover IBC tokens from Airdrop). Which covers nearly </span><strong><span>98%</span></strong><span> of the total community pool spend!</span></p><ul>
+<li><span>Total Community Pool Spend: ~3.79mil EVMOS</span></li>
+<li><span>Total Community Pool Spend with Gov. Council Support: ~3.70mil EVMOS</span></li>
+</ul><p><img src="https://i.imgur.com/0VbXvqZ.png" alt="" loading="lazy"></p><p><span>We are currently assisting in the facilitation and/or drafting of various additional proposals ranging from protocol onboarding to incentives programs.</span></p><p><strong><span>On-Chain Governance Participation</span></strong></p><p><span>Evmos on-chain governance participation rate is currently the highest among the top Cosmos chains (as of data pulled Oct. 8th 2022) and is barely managing to maintain an upwards trend. With a participation rate of almost 90%, the Governance Workstream will most likely be fighting to maintain the status quo, as we are almost at the ceiling.</span></p><table>
+<thead>
+<tr>
+<th><span>Rank</span></th>
+<th><span>Network</span></th>
+<th><span>Voter Turnout</span></th>
+<th><span>Sample Data (20 Props)</span></th>
+<th><span>Data</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span>1</span></td>
+<td><span>Evmos</span></td>
+<td><span>87.35%</span></td>
+<td><span>Proposals 44 - 64</span></td>
+<td><a href="https://docs.google.com/spreadsheets/d/1gOeVy87__DMSnd-qMkrD2zt4sLU_hNGU1B7KsTf25bo/edit#gid=1701165887" target="_blank" rel="noopener"><span>Source 🔗</span></a></td>
+</tr>
+<tr>
+<td><span>2</span></td>
+<td><span>Juno</span></td>
+<td><span>82.88%</span></td>
+<td><span>Proposals 14 - 39</span></td>
+<td><a href="https://docs.google.com/spreadsheets/d/1gOeVy87__DMSnd-qMkrD2zt4sLU_hNGU1B7KsTf25bo/edit#gid=248293121" target="_blank" rel="noopener"><span>Source 🔗</span></a></td>
+</tr>
+<tr>
+<td><span>3</span></td>
+<td><span>Osmosis</span></td>
+<td><span>64.74%</span></td>
+<td><span>Proposals 319 - 340</span></td>
+<td><a href="https://docs.google.com/spreadsheets/d/1gOeVy87__DMSnd-qMkrD2zt4sLU_hNGU1B7KsTf25bo/edit#gid=1919390603" target="_blank" rel="noopener"><span>Source 🔗</span></a></td>
+</tr>
+<tr>
+<td><span>4</span></td>
+<td><span>Stargaze</span></td>
+<td><span>61.85%</span></td>
+<td><span>Proposals 30 - 53</span></td>
+<td><a href="https://docs.google.com/spreadsheets/d/1gOeVy87__DMSnd-qMkrD2zt4sLU_hNGU1B7KsTf25bo/edit#gid=508354030" target="_blank" rel="noopener"><span>Source 🔗</span></a></td>
+</tr>
+<tr>
+<td><span>5</span></td>
+<td><span>Cosmos</span></td>
+<td><span>47.49%</span></td>
+<td><span>Proposals 56 - 77</span></td>
+<td><a href="https://docs.google.com/spreadsheets/d/1gOeVy87__DMSnd-qMkrD2zt4sLU_hNGU1B7KsTf25bo/edit#gid=206262929" target="_blank" rel="noopener"><span>Source 🔗</span></a></td>
+</tr>
+</tbody>
+</table><p><img src="https://i.imgur.com/7I6nd2O.png" alt="" loading="lazy"></p><p><strong><span>Off-Chain Governance Participation</span></strong></p><p><span>In addition to all the proposals that have gone on-chain, the Evmos Community has seen a tremendous, sustained growth in off-chain governance participation, specifically on Commonwealth.</span></p><p><img src="https://i.imgur.com/413Pd2P.png" alt="" loading="lazy"></p><hr><h3 id="Workstream-Members-and-Organizational-Structure" data-id="Workstream-Members-and-Organizational-Structure" style=""><a class="anchor hidden-xs" href="#Workstream-Members-and-Organizational-Structure" title="Workstream-Members-and-Organizational-Structure"><span class="octicon octicon-link"></span></a><span>Workstream Members and Organizational Structure</span></h3><p><strong><span>Workstream Structure</span></strong></p><ul>
+<li><span>The Governance Workstream will function as a two-level hierarchy, consisting of</span></li>
+<li><span>This difference in accountability means that decision-making power must lie in the hands of the stewards rather than the contributors, and is the reason for this explicit hierarchy.</span></li>
+<li><span>Workstream leaders in their second term are automatically elected to a Governance Council Director role.</span></li>
+<li><span>In practice, it is expected that Council Contributors and Council Directors operate and communicate as equals. Stewards will seek to always consult Contributors when making decisions regarding the future of the Governance Workstream.</span></li>
+</ul><p><strong><span>Governance Council Directors</span></strong></p><table>
+<thead>
+<tr>
+<th><span>Name</span></th>
+<th><span>Role</span></th>
+<th><span>Responsibilities</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span>LPX</span><br></td>
+<td><span>Governance Steward</span><br></td>
+<td><span>Meta-Governance, Off-Chain Community Governance Framework, Perpetual Bounty Program, Governance Engagement Initiatives, DAO Sustainability Programs</span><br></td>
+</tr>
+<tr>
+<td><span>Benny Lava</span><br></td>
+<td><span>Governance Steward</span><br></td>
+<td><span>Community Liquidity Incentives Programs, Protocol &amp; Cross-Chain Collaboration, DeFi Initiatives, IBC Liaison</span><br></td>
+</tr>
+<tr>
+<td><span>GV</span><br></td>
+<td><span>Governance Steward</span><br></td>
+<td><span>Validator Liaison, Validator Fairness Initiative, Interim CMS Leader, Validator Communications and Notices, Network Decentralization Research, Evmos node and IBC relayer research</span><br></td>
+</tr>
+</tbody>
+</table><p><strong><span>Governance Contributors</span></strong></p><p><span>We are looking for part-time or full-time contributors to fill the following positions that play a crucial role in assisting the Governance Council.</span></p><table>
+<thead>
+<tr>
+<th><span>Name</span></th>
+<th><span>Role</span></th>
+<th><span>Responsibilities</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span>OPEN</span><br></td>
+<td><span>Community Mod &amp; Support Workstream Leader (FT)</span></td>
+<td><br></td>
+</tr>
+<tr>
+<td><span>OPEN</span><br></td>
+<td><span>Secretary of the Council (FT)</span></td>
+<td><span>The Council Secretary will be responsible for various high-level administrative support including the scheduling and preparations of weekly meetings, maintaining a public DAO calendar, ensuring deadlines are met, etc. </span><br></td>
+</tr>
+<tr>
+<td><span>OPEN</span><br></td>
+<td><span>Governance Advisor (PT)</span></td>
+<td><span>Governance Advisors assist projects and developers through our governance process, including pre-proposal feedback to proposal drafting assistance. Governance Advisors should have excellent written communication skills and should be experts in Evmos DAO’s Governance Framework.</span></td>
+</tr>
+<tr>
+<td><span>OPEN</span><br></td>
+<td><span>Governance Advisor (PT)</span></td>
+<td></td>
+</tr>
+<tr>
+<td><span>OPEN</span><br></td>
+<td><span>Governance Advisor (PT)</span></td>
+<td></td>
+</tr>
+</tbody>
+</table><p><strong><span>Removal and Replacement of Council Members</span></strong></p><p><span>In accordance with our Interim Constitution, the Community may initiate an on-chain proposal for the removal and replacement of a Council Member.</span></p><hr><h3 id="Funding-Request" data-id="Funding-Request" style=""><a class="anchor hidden-xs" href="#Funding-Request" title="Funding-Request"><span class="octicon octicon-link"></span></a><span>Funding Request</span></h3><h4 id="A-Contributor-Compensations" data-id="A-Contributor-Compensations"><a class="anchor hidden-xs" href="#A-Contributor-Compensations" title="A-Contributor-Compensations"><span class="octicon octicon-link"></span></a><span>A. Contributor Compensations</span></h4><table>
+<thead>
+<tr>
+<th><span>Name</span></th>
+<th><span>PT/FT</span></th>
+<th><span>Base (USD)</span></th>
+<th><span>Retro (EVMOS)</span></th>
+<th><span>Initial Vesting (EVMOS)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span>LPX </span><br></td>
+<td><span>FT</span><br></td>
+<td><span>10,080</span><br></td>
+<td><span>39,000</span></td>
+<td><span>217,728</span></td>
+</tr>
+<tr>
+<td><span>Benny Lava</span><br></td>
+<td><span>FT</span><br></td>
+<td><span>8,064</span><br></td>
+<td><span>32,500</span></td>
+<td><span>174,182</span></td>
+</tr>
+<tr>
+<td><span>GV </span><br></td>
+<td><span>FT</span><br></td>
+<td><span>8,064</span><br></td>
+<td><span>19,500</span></td>
+<td><span>174,182</span></td>
+</tr>
+<tr>
+<td><span>Community Mod &amp; Support Leader (TBD) </span><br></td>
+<td><span>FT</span><br></td>
+<td><span>6,720 (est.)</span><br></td>
+<td><span>0</span></td>
+<td><span>TBD Cycle 2</span></td>
+</tr>
+<tr>
+<td><span>Council Secretary (TBD) </span><br></td>
+<td><span>FT</span><br></td>
+<td><span>6,720 (est.)</span><br></td>
+<td><span>0</span></td>
+<td><span>TBD Cycle 2</span></td>
+</tr>
+<tr>
+<td><span>Governance Advisor (TBD) </span><br></td>
+<td><span>PT</span><br></td>
+<td><span>2,800 (est.)</span><br></td>
+<td><span>0</span></td>
+<td><span>TBD Cycle 2</span></td>
+</tr>
+<tr>
+<td><span>Governance Advisor (TBD) </span><br></td>
+<td><span>PT</span><br></td>
+<td><span>2,800 (est.)</span><br></td>
+<td><span>0</span></td>
+<td><span>TBD Cycle 2</span></td>
+</tr>
+<tr>
+<td><span>Governance Advisor (TBD) </span><br></td>
+<td><span>PT</span><br></td>
+<td><span>2,800 (est.)</span><br></td>
+<td><span>0</span></td>
+<td><span>TBD Cycle 2</span></td>
+</tr>
+<tr>
+<td><span>Projected 6 Mo. Total</span></td>
+<td></td>
+<td><span>$288K</span></td>
+<td><span>70,000</span></td>
+<td><span>442,000</span></td>
+</tr>
+</tbody>
+</table><p><span>*Vesting amounts are calculated in USD but paid in EVMOS at each funding cycle’s market price.</span></p><p><span>*For this initial funding request, we will peg the price of EVMOS @0.50$</span></p><p><span>*Vesting Schedule: 4-year linear, 6 month cliff.</span></p><p><span>*Vesting contracts are revocable by the DAO. See ECP-1C.</span></p><p><strong><span>Compensation Rationale</span></strong></p><table>
+<thead>
+<tr>
+<th><span>Name</span></th>
+<th><span>PT/FT</span></th>
+<th><span>Base (USD)</span></th>
+<th><span>Retro (EVMOS)</span></th>
+<th><span>Initial Vesting (USD)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span>LPX </span><br></td>
+<td><span>FT</span><br></td>
+<td><span>10,080</span><br></td>
+<td><span>39,000</span></td>
+<td><span>$108,864 / 4yr</span></td>
+</tr>
+</tbody>
+</table><p><strong><span>Base</span></strong><span>: $28/hr * 2.5 VL * 0.9 CL = $120,960/yr</span></p><p><strong><span>Retroactive</span></strong><span>: 39,000 EVMOS  for past 6 months of contributions</span></p><p><strong><span>Initial Vesting</span></strong><span>: Salary * 0.45 CP * 2 AL = $108,864 / 4 years revocable</span></p><hr><table>
+<thead>
+<tr>
+<th><span>Name</span></th>
+<th><span>PT/FT</span></th>
+<th><span>Base (USD)</span></th>
+<th><span>Retro (EVMOS)</span></th>
+<th><span>Initial Vesting (USD)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span>Benny Lava </span><br></td>
+<td><span>FT</span><br></td>
+<td><span>8,064</span><br></td>
+<td><span>32,500</span></td>
+<td><span>$87,091 / 4yr</span></td>
+</tr>
+</tbody>
+</table><p><strong><span>Base</span></strong><span>: $28/hr * 2.0 VL * 0.9 CL = $96,768/yr</span></p><p><strong><span>Retroactive</span></strong><span>: 32,500 EVMOS for past 6 months of contributions</span></p><p><strong><span>Initial Vesting</span></strong><span>: Salary * 0.45 CP * 2 AL = $87,091 / 4 years revocable</span></p><hr><table>
+<thead>
+<tr>
+<th><span>Name</span></th>
+<th><span>PT/FT</span></th>
+<th><span>Base (USD)</span></th>
+<th><span>Retro (EVMOS)</span></th>
+<th><span>Initial Vesting (USD)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span>GV </span><br></td>
+<td><span>FT</span><br></td>
+<td><span>8,064</span><br></td>
+<td><span>19,500</span></td>
+<td><span>$87,091 / 4yr</span></td>
+</tr>
+</tbody>
+</table><p><strong><span>Base</span></strong><span>: $28/hr * 2.0 VL * 0.9 CL = $96,768/yr</span></p><p><strong><span>Retroactive</span></strong><span>: 19,500 EVMOS for past 6 months of contributions</span></p><p><strong><span>Initial Vesting</span></strong><span>: Salary * 0.45 CP * 2 AL = $87,091 / 4 years revocable</span></p><h4 id="B-Research-amp-Development-Fund" data-id="B-Research-amp-Development-Fund"><a class="anchor hidden-xs" href="#B-Research-amp-Development-Fund" title="B-Research-amp-Development-Fund"><span class="octicon octicon-link"></span></a><span>B. Research &amp; Development Fund</span></h4><p><span>As over 109 million tokens sit idly in the Community Pool, the DAO wishes to utilize a relatively small portion in its continued efforts to advance the Evmos ecosystem. As the main driving force in community-led growth of Evmos, we hope that the Community is able to see our vision in what is possible with a workable treasury.</span></p><p><span>ECP-3 (WIP) lays out our strategic and ambitious programs that will pave the path for a self-sustainable DAO with mechanisms designed to decentralize decision making, incentivize governance participation, and assist with network decentralization.</span></p><p><span>While most of the underlying research has been conducted, the implementation, development, auditing, and testing of the GOV ecosystem will require a considerable amount of resources.</span></p><p><span>Our goal is to roll out each program detailed in ECP-3 in a modular basis with the veGOV and Liquidity Incentives Gauge program as first priority (target launch date of mid-late Q1 2023). We have already initiated discussions with developers and DAOs with experience in the creation of similar DeFi programs, and we fully intend to collaborate with and compensate for the assistance received.</span></p><p><span>The R&amp;D funding requests are rough estimates; unused funds will remain in the workstream treasury as reserves.</span></p><p><strong><span>Itemized R&amp;D Funding Request</span></strong></p><table>
+<thead>
+<tr>
+<th><span>#</span></th>
+<th><span>Purpose</span></th>
+<th><span>Description</span></th>
+<th><span>Req. Amount (EVMOS)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span>1</span></td>
+<td><span>Smart Contract Development</span></td>
+<td><span>Funds allocated for the development of the core contracts that make up the ecosystem of our initiatives</span></td>
+<td><span>650,000</span></td>
+</tr>
+<tr>
+<td><span>2</span></td>
+<td><span>Dashboard Development</span></td>
+<td><span>Funds allocated for the development of the front-end dashboard that will allow users to interact with our contracts</span></td>
+<td><span>120,000</span></td>
+</tr>
+<tr>
+<td><span>3</span></td>
+<td><span>Parameter Testing</span></td>
+<td><span>Funds utilized in the testing and tweaking of the protocol parameters to optimize incentives and confirm feasibility</span></td>
+<td><span>65,000</span></td>
+</tr>
+<tr>
+<td><span>4</span></td>
+<td><span>Audits</span></td>
+<td><span>Funds allocated for smart contract auditing pre-launch.</span></td>
+<td><span>140,000</span></td>
+</tr>
+<tr>
+<td></td>
+<td><strong><span>Total</span></strong></td>
+<td></td>
+<td><strong><span>975,000</span></strong></td>
+</tr>
+</tbody>
+</table><h4 id="C-Ecosystem-Bootstrap-and-Onboarding-Fund" data-id="C-Ecosystem-Bootstrap-and-Onboarding-Fund"><a class="anchor hidden-xs" href="#C-Ecosystem-Bootstrap-and-Onboarding-Fund" title="C-Ecosystem-Bootstrap-and-Onboarding-Fund"><span class="octicon octicon-link"></span></a><span>C. Ecosystem Bootstrap and Onboarding Fund</span></h4><p><span>The Ecosystem Bootstrap Fund will be the pre-cursor to the eventual Perpetual Bounty Fund detailed in ECP-3. While the core concept of a self-replenishing fund through delegation is the same, the Bootstrap Fund will have to be manually managed until the deGOV program and Delegation Gauges are ready to be deployed.</span></p><p><span>The Governance Council is requesting </span><strong><span>975,000</span></strong><span> for the strengthening of the Ecosystem Bootstrap Fund. 375K will be delegated on the network, which equates to roughly $27K / month at current prices that will be used for bounties and community initiatives. 600K will be kept in reserves for usage in micro-grants and liquidity bootstrapping assistance for new projects deploying on the Evmos network.</span></p><h4 id="D-Treasury-Diversification-amp-Future-Workstream-Compensations" data-id="D-Treasury-Diversification-amp-Future-Workstream-Compensations"><a class="anchor hidden-xs" href="#D-Treasury-Diversification-amp-Future-Workstream-Compensations" title="D-Treasury-Diversification-amp-Future-Workstream-Compensations"><span class="octicon octicon-link"></span></a><span>D. Treasury Diversification &amp; Future Workstream Compensations</span></h4><p><span>The Governance Council is requesting </span><strong><span>1,560,000</span></strong><span> to be allocated for treasury reserves and stablecoin diversification. The obtained stablecoins will be utilized for workstream (subDAO) members compensation.</span></p><p><span>We are currently exploring a few potential DAO2DAO token-for-stable swap with Ethereum-based DAOs that are looking to diversify their revenue streams. This allows for the diversification of our treasury and the extension of our operational runway without creating sell-pressure of EVMOS in the open market.</span></p><p><span>Non-stablecoin tokenswaps may also be considered to build liquidity and secondary reserves to achieve our long-term goal of self-sustainability.</span></p><p><span>When an opportunity for a token-stable swap is not available at a moment when the Treasury is in need of stables, no more than 50K Evmos from the Diversification Fund can be sold on the open market per month.</span></p><h3 id="Total-Funding-Request-for-Phase-1" data-id="Total-Funding-Request-for-Phase-1" style=""><a class="anchor hidden-xs" href="#Total-Funding-Request-for-Phase-1" title="Total-Funding-Request-for-Phase-1"><span class="octicon octicon-link"></span></a><span>Total Funding Request for Phase 1</span></h3><table>
+<thead>
+<tr>
+<th><span>#</span></th>
+<th><span>Purpose</span></th>
+<th><span>Description</span></th>
+<th><span>Req. Amount (EVMOS)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span>A</span></td>
+<td><span>Funding Governance Workstream</span></td>
+<td><span>Retroactive compensations and long-term vesting contracts. </span><strong><span>Monthly base compensations will be paid out of Item D</span></strong><span> assuming that stablecoins have been secured.</span></td>
+<td><span>1,233,668</span></td>
+</tr>
+<tr>
+<td><span>B</span></td>
+<td><span>Research &amp; Development</span></td>
+<td><span>The development of the initiatives and programs listed in ECP-3.</span></td>
+<td><span>975,000</span></td>
+</tr>
+<tr>
+<td><span>C</span></td>
+<td><span>Ecosystem Bootstrap &amp; Onboarding Fund</span></td>
+<td><span>Alpha implementation of the self-replenishing bounty fund and project bootstrapping for the Evmos ecosystem.</span></td>
+<td><span>975,000</span></td>
+</tr>
+<tr>
+<td><span>D</span></td>
+<td><span>Treasury Diversification &amp; Future Workstreams</span></td>
+<td><span>DAO2DAO swaps for stablecoins to be used for funding the compensation of current and future workstreams.</span></td>
+<td><span>1,560,000</span></td>
+</tr>
+<tr>
+<td></td>
+<td><strong><span>Total Requested</span></strong></td>
+<td><span>4,743,668 EVMOS (~790,611 EVMOS / month)</span></td>
+<td></td>
+</tr>
+</tbody>
+</table><p><span>The Governance Council treasury will be deployed as a Gnosis Safe with a 4-of-6 configuration on Evmos mainnet.</span></p><p><span>Upon the initiation of Phase 2 funding as detailed in </span><a href="https://github.com/EvmosGov/proposals/blob/main/ECP/ECP-3.md" target="_blank" rel="noopener"><span>ECP-3</span></a><span>, the Council Treasury will be repurposed or a new contract will be deployed as the main Evmos DAO Treasury.</span></p><hr><h2 id="Appendix" data-id="Appendix" style=""><a class="anchor hidden-xs" href="#Appendix" title="Appendix"><span class="octicon octicon-link"></span></a><span>Appendix</span></h2><p><strong><span>Future Workstream Leaders / Council Directors</span></strong></p><p><span>We are looking for full-time contributors to fill leadership roles. The goal of these full-time contributor roles is to find the next leaders that will step up and establish their own workstreams. The following is a rough suggestion and ideas of what helpful roles can be filled by the community.</span></p><ul>
+<li>
+<p><span>Department of Education</span></p>
+<ul>
+<li><span>The mission of the Department of Education is to develop, maintain, and promote educational contents and programs for the Evmos Community.</span></li>
+<li><span>This includes the creation of interactive educational content in governance related topics, and eventually the creation of technical content for developers.</span></li>
+</ul>
+</li>
+<li>
+<p><span>Department of Communications</span></p>
+<ul>
+<li><span>The Department of Communications is responsible for creating and coordinating direct dialogue between the Evmos DAO and the diverse Community Members.</span></li>
+<li><span>Through outreach, communication, townhall meetings, and official announcements from the Governance Council and the various workstreams of the DAO, the Dept. of Communications removes obstacles and barriers and creates opportunities to improve public awareness and involvement in the DAO.</span></li>
+<li><span>The Department of Communications will also be responsible for the creation of documentation and communication channels in non-English languages.</span></li>
+<li><span>The Department of Communications helps build and maintain the transparent, responsible, and accountable governance system that the Constitution calls for.</span></li>
+</ul>
+</li>
+<li>
+<p><span>Department of Growth &amp; Outreach</span></p>
+<ul>
+<li><span>The Department of Growth will be responsible for the strategic outreach and engagement of developers, projects, and other DAOs for the purpose of ecosystem growth.</span></li>
+<li><span>Through the generation of leads, coordination with biz dev, outreach campaigns, and strategic bounties, the Department of Growth should ramp up community engagement, elevate the Evmos brand and awareness, illustrate our vision, mission, and values, and enable the facilitation of easy onboarding of projects and developers.</span></li>
+</ul>
+</li>
+<li>
+<p><span>Department of Research &amp; Development</span></p>
+<ul>
+<li><span>The Department of R&amp;D will work closely with the Governance Council to research, develop, and maintain key infrastructure, public goods, and the development of smart contracts.</span></li>
+</ul>
+</li>
+</ul></div>
+    <div class="ui-toc dropup unselectable hidden-print" style="display:none;">
+        <div class="pull-right dropdown">
+            <a id="tocLabel" class="ui-toc-label btn btn-default" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" title="Table of content">
+                <i class="fa fa-bars"></i>
+            </a>
+            <ul id="ui-toc" class="ui-toc-dropdown dropdown-menu" aria-labelledby="tocLabel">
+                <div class="toc"><ul class="nav">
+<li class=""><a href="#ECP-2A-Formalizing-and-Funding-the-Governance-Council-Workstream" title="ECP-2A: Formalizing and Funding the Governance Council Workstream">ECP-2A: Formalizing and Funding the Governance Council Workstream</a><ul class="nav">
+<li class=""><a href="#Authors" title="Authors">Authors</a></li>
+<li class=""><a href="#Summary" title="Summary">Summary</a><ul class="nav">
+<li class=""><a href="#Workstream-Introduction" title="Workstream Introduction">Workstream Introduction</a></li>
+<li class=""><a href="#Primary-Duties-Ongoing-amp-Planned" title="Primary Duties (Ongoing &amp; Planned)">Primary Duties (Ongoing &amp; Planned)</a></li>
+<li class=""><a href="#Projects-and-Initiatives-Ongoing-amp-Planned" title="Projects and Initiatives (Ongoing &amp; Planned)">Projects and Initiatives (Ongoing &amp; Planned)</a></li>
+<li><a href="#Progress-Report-and-Achievements" title="Progress Report and Achievements">Progress Report and Achievements</a></li>
+<li><a href="#Workstream-Members-and-Organizational-Structure" title="Workstream Members and Organizational Structure">Workstream Members and Organizational Structure</a></li>
+<li><a href="#Funding-Request" title="Funding Request">Funding Request</a></li>
+<li><a href="#Total-Funding-Request-for-Phase-1" title="Total Funding Request for Phase 1">Total Funding Request for Phase 1</a></li>
+</ul>
+</li>
+<li><a href="#Appendix" title="Appendix">Appendix</a></li>
+</ul>
+</li>
+</ul>
+</div><div class="toc-menu"><a class="expand-toggle" href="#">Expand all</a><a class="back-to-top" href="#">Back to top</a><a class="go-to-bottom" href="#">Go to bottom</a></div>
+            </ul>
+        </div>
+    </div>
+    <div id="ui-toc-affix" class="ui-affix-toc ui-toc-dropdown unselectable hidden-print" data-spy="affix" style="top:17px;display:none;" null null>
+        <div class="toc"><ul class="nav">
+<li class=""><a href="#ECP-2A-Formalizing-and-Funding-the-Governance-Council-Workstream" title="ECP-2A: Formalizing and Funding the Governance Council Workstream">ECP-2A: Formalizing and Funding the Governance Council Workstream</a><ul class="nav">
+<li class=""><a href="#Authors" title="Authors">Authors</a></li>
+<li class=""><a href="#Summary" title="Summary">Summary</a><ul class="nav">
+<li class=""><a href="#Workstream-Introduction" title="Workstream Introduction">Workstream Introduction</a></li>
+<li class=""><a href="#Primary-Duties-Ongoing-amp-Planned" title="Primary Duties (Ongoing &amp; Planned)">Primary Duties (Ongoing &amp; Planned)</a></li>
+<li class=""><a href="#Projects-and-Initiatives-Ongoing-amp-Planned" title="Projects and Initiatives (Ongoing &amp; Planned)">Projects and Initiatives (Ongoing &amp; Planned)</a></li>
+<li><a href="#Progress-Report-and-Achievements" title="Progress Report and Achievements">Progress Report and Achievements</a></li>
+<li><a href="#Workstream-Members-and-Organizational-Structure" title="Workstream Members and Organizational Structure">Workstream Members and Organizational Structure</a></li>
+<li><a href="#Funding-Request" title="Funding Request">Funding Request</a></li>
+<li><a href="#Total-Funding-Request-for-Phase-1" title="Total Funding Request for Phase 1">Total Funding Request for Phase 1</a></li>
+</ul>
+</li>
+<li><a href="#Appendix" title="Appendix">Appendix</a></li>
+</ul>
+</li>
+</ul>
+</div><div class="toc-menu"><a class="expand-toggle" href="#">Expand all</a><a class="back-to-top" href="#">Back to top</a><a class="go-to-bottom" href="#">Go to bottom</a></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gist-embed/2.6.0/gist-embed.min.js" integrity="sha256-KyF2D6xPIJUW5sUDSs93vWyZm+1RzIpKCexxElmxl8g=" crossorigin="anonymous" defer></script>
+    <script>
+        var markdown = $(".markdown-body");
+        //smooth all hash trigger scrolling
+        function smoothHashScroll() {
+            var hashElements = $("a[href^='#']").toArray();
+            for (var i = 0; i < hashElements.length; i++) {
+                var element = hashElements[i];
+                var $element = $(element);
+                var hash = element.hash;
+                if (hash) {
+                    $element.on('click', function (e) {
+                        // store hash
+                        var hash = this.hash;
+                        if ($(hash).length <= 0) return;
+                        // prevent default anchor click behavior
+                        e.preventDefault();
+                        // animate
+                        $('body, html').stop(true, true).animate({
+                            scrollTop: $(hash).offset().top
+                        }, 100, "linear", function () {
+                            // when done, add hash to url
+                            // (default click behaviour)
+                            window.location.hash = hash;
+                        });
+                    });
+                }
+            }
+        }
+
+        smoothHashScroll();
+        var toc = $('.ui-toc');
+        var tocAffix = $('.ui-affix-toc');
+        var tocDropdown = $('.ui-toc-dropdown');
+        //toc
+        tocDropdown.click(function (e) {
+            e.stopPropagation();
+        });
+
+        var enoughForAffixToc = true;
+
+        function generateScrollspy() {
+            $(document.body).scrollspy({
+                target: ''
+            });
+            $(document.body).scrollspy('refresh');
+            if (enoughForAffixToc) {
+                toc.hide();
+                tocAffix.show();
+            } else {
+                tocAffix.hide();
+                toc.show();
+            }
+            $(document.body).scroll();
+        }
+
+        function windowResize() {
+            //toc right
+            var paddingRight = parseFloat(markdown.css('padding-right'));
+            var right = ($(window).width() - (markdown.offset().left + markdown.outerWidth() - paddingRight));
+            toc.css('right', right + 'px');
+            //affix toc left
+            var newbool;
+            var rightMargin = (markdown.parent().outerWidth() - markdown.outerWidth()) / 2;
+            //for ipad or wider device
+            if (rightMargin >= 133) {
+                newbool = true;
+                var affixLeftMargin = (tocAffix.outerWidth() - tocAffix.width()) / 2;
+                var left = markdown.offset().left + markdown.outerWidth() - affixLeftMargin;
+                tocAffix.css('left', left + 'px');
+            } else {
+                newbool = false;
+            }
+            if (newbool != enoughForAffixToc) {
+                enoughForAffixToc = newbool;
+                generateScrollspy();
+            }
+        }
+        $(window).resize(function () {
+            windowResize();
+        });
+        $(document).ready(function () {
+            windowResize();
+            generateScrollspy();
+        });
+
+        //remove hash
+        function removeHash() {
+            window.location.hash = '';
+        }
+
+        var backtotop = $('.back-to-top');
+        var gotobottom = $('.go-to-bottom');
+
+        backtotop.click(function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            if (scrollToTop)
+                scrollToTop();
+            removeHash();
+        });
+        gotobottom.click(function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            if (scrollToBottom)
+                scrollToBottom();
+            removeHash();
+        });
+
+        var toggle = $('.expand-toggle');
+        var tocExpand = false;
+
+        checkExpandToggle();
+        toggle.click(function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            tocExpand = !tocExpand;
+            checkExpandToggle();
+        })
+
+        function checkExpandToggle () {
+            var toc = $('.ui-toc-dropdown .toc');
+            var toggle = $('.expand-toggle');
+            if (!tocExpand) {
+                toc.removeClass('expand');
+                toggle.text('Expand all');
+            } else {
+                toc.addClass('expand');
+                toggle.text('Collapse all');
+            }
+        }
+
+        function scrollToTop() {
+            $('body, html').stop(true, true).animate({
+                scrollTop: 0
+            }, 100, "linear");
+        }
+
+        function scrollToBottom() {
+            $('body, html').stop(true, true).animate({
+                scrollTop: $(document.body)[0].scrollHeight
+            }, 100, "linear");
+        }
+    </script>
+</body>
+
+</html>
