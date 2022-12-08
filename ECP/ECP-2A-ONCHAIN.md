@@ -64,4 +64,5 @@ This funding proposal will kick off the "DAO Treasury - Phase 1" which is manage
 **DAO Treasury - Phase 2** will be implemented when ready. This change in Treasury Management will mean funds will need to pass off-chain spending proposals as shown in the Litepaper.
 
 👉 [ECP-2A: Full Proposal](https://github.com/EvmosGov/proposals/blob/main/ECP/ECP-2A.md)
+
 👉 [Governance Council Litepaper](https://evmos.community/litepaper)
