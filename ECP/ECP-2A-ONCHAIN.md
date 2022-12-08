@@ -1,4 +1,4 @@
-# [ECP-2A] Formalizing and Funding the Governance Council Workstream
+# ECP-2A: Formalizing and Funding the Governance Council Workstream
 
 ## Authors 
 
@@ -8,7 +8,7 @@
 
 ## Summary
 
-[ECP-2](https://github.com/EvmosGov/proposals/blob/main/ECP/ECP-2A.md) is the follow-up proposal of [ECP-1](https://github.com/EvmosGov/proposals/blob/main/ECP/ECP-1.md), which set the foundational layer for Evmos DAO Governance ([Proposal #83](https://www.mintscan.io/evmos/proposals/83)).
+[ECP-2A](https://evmos.community/ECP/2A.html) is the follow-up proposal of [ECP-1](https://github.com/EvmosGov/proposals/blob/main/ECP/ECP-1.md), which set the foundational layer for Evmos DAO Governance ([Proposal #83](https://www.mintscan.io/evmos/proposals/83)).
 
 Operating under the community-ratified Interim Constituion of Evmos DAO (Proposal #51), the Governance Workstream has been serving the Evmos DAO and Community without funding for the past six months. We are officially requesting formalization by funding.
 
@@ -17,7 +17,8 @@ Operating under the community-ratified Interim Constituion of Evmos DAO (Proposa
 This post has been modified to fit within the maximum allowed character count. 
 
 - [Governance Council Litepaper](https://evmos.community/litepaper)
-- [ECP-2A - Full Proposal](https://github.com/EvmosGov/proposals/blob/main/ECP/ECP-2A.md)
+- [ECP-2A - Full Proposal (GitHub)](https://github.com/EvmosGov/proposals/blob/main/ECP/ECP-2A.md)
+- [ECP-2A - Full Proposal (HTML)](https://evmos.community/ECP/2A.html)
 
 ## Abstract
 
@@ -31,6 +32,8 @@ The Governance Council exists and operates as a neutral party with allegiances o
 
 The Governance Council's wide array of achievements and community work for the past half-year are listed in the *Progress Report* section of ECP-2A.
 
+We also want to emphasize that we are not trying to hold on to power or exert control over the ecosystem. We expect to be scrutinized every funding cycle, and even replaced if needed. Our goal is to accelerate the development of the decentralized ecosystem, and to create a future in which power is distributed back to the Evmos Community.
+
 Get familiarized with our short to mid-term initiatives with through the [Governance Council Litepaper](https://evmos.community/litepaper).
 
 ## Funding Request
@@ -41,7 +44,7 @@ We recognize the current market conditions and its volatility, while unfortunate
 - **B. Research & Development Fund:** 975,000 EVMOS
 - **C. Ecosystem Bootstrap Fund:** 975,000 EVMOS
 - **D. Treasury Diversification & Future WS Comps:** 1,560,000 EVMOS
-- **TOTAL:** 4,743,668 EVMOS (~790,611 EVMOS / month)
+- **Total:** 4,743,668 EVMOS (~790,611 EVMOS / month)
 
 We are currently in talks with a few Ethereum-based DAOs that are looking to diversify their revenue streams via a token-for-stable swap. This allows for the diversification of our treasury and the extension of our operational runway without creating sell-pressure of EVMOS in the open market.
 
@@ -51,7 +54,8 @@ A more detailed itemized list of requested funds can be found in the full [ECP-2
 
 This funding proposal will kick off the "DAO Treasury - Phase 1" which is managed by 3 Council Members and 3 Active Validators in a `4-6` Gnosis Safe configuration. All treasury spending is publicly available for viewing with full transparency.
 
-**Fund Signatories** 
+**Fund Signatories**:
+
 - Tam | TC Network
 - CO | Orbital Apes 
 - Rok | Qubelabs 
@@ -63,6 +67,8 @@ This funding proposal will kick off the "DAO Treasury - Phase 1" which is manage
 
 **DAO Treasury - Phase 2** will be implemented when ready. This change in Treasury Management will mean funds will need to pass off-chain spending proposals as shown in the Litepaper.
 
-👉 [ECP-2A: Full Proposal](https://github.com/EvmosGov/proposals/blob/main/ECP/ECP-2A.md)
+👉 [ECP-2A: Full Proposal on GitHub](https://github.com/EvmosGov/proposals/blob/main/ECP/ECP-2A.md)
+
+👉 [ECP-2A: Full Proposal HTML Version](https://www.evmos.community/ECP/2A.html)
 
 👉 [Governance Council Litepaper](https://evmos.community/litepaper)
