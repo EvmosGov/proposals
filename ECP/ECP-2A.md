@@ -10,6 +10,8 @@
 
 ## Summary 
 
+👉 [View the Governance Council Litepaper!](https://evmos.community/litepaper)
+
 Operating under the community-ratified Interim Constituion of Evmos DAO (Proposal #51), the Governance Workstream has been serving the Evmos DAO and Community without funding for the past six months. We are officially requesting formalization by funding.
 
 ### Workstream Introduction
@@ -359,18 +361,16 @@ The R&D funding requests are rough estimates; unused funds will remain in the wo
 | # | Purpose | Description | Req. Amount (EVMOS) |
 | -------- | -------- | -------- |-------- |
 | 1 | Smart Contract Development  | Funds allocated for the development of the core contracts that make up the ecosystem of our initiatives | 650,000 |
-| 2 | Dashboard Development  | Funds allocated for the development of the front-end dashboard that will allow users to interact with our contracts | 130,000  |
+| 2 | Dashboard Development  | Funds allocated for the development of the front-end dashboard that will allow users to interact with our contracts | 120,000  |
 | 3 | Parameter Testing  | Funds utilized in the testing and tweaking of the protocol parameters to optimize incentives and confirm feasibility | 65,000  |
-| 4 | Audits  | Funds allocated for smart contract auditing pre-launch. |  130,000     |
+| 4 | Audits  | Funds allocated for smart contract auditing pre-launch. |  140,000     |
 |  | **Total**  |  | **975,000**|
 
 #### C. Ecosystem Bootstrap and Onboarding Fund
 
 The Ecosystem Bootstrap Fund will be the pre-cursor to the eventual Perpetual Bounty Fund detailed in ECP-3. While the core concept of a self-replenishing fund through delegation is the same, the Bootstrap Fund will have to be manually managed until the deGOV program and Delegation Gauges are ready to be deployed. 
 
-The Ecosytem Bootstrap Fund is currently seeded with a ~30K EVMOS grant from the Foundation.
-
-The Governance Council is requesting **750,000** for the strengthening of the Ecosystem Bootstrap Fund. 300K will be delegated on the network, which equates to roughly 25,000 EVMOS / month that will be used for bounties and community initiatives. 100K will be kept in reserves for usage in micro-grants and liquidity bootstrapping assistance for new projects deploying on the Evmos network.
+The Governance Council is requesting **975,000** for the strengthening of the Ecosystem Bootstrap Fund. 375K will be delegated on the network, which equates to roughly $27K / month at current prices that will be used for bounties and community initiatives. 600K will be kept in reserves for usage in micro-grants and liquidity bootstrapping assistance for new projects deploying on the Evmos network.
 
 
 #### D. Treasury Diversification & Future Workstream Compensations
