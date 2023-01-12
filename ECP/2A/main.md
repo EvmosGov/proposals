@@ -11,15 +11,17 @@ Operating under the community-ratified Interim Constituion of Evmos DAO ([Propos
 This proposal applies all rules defined and approved by the community in ECP-1 ([Proposal #83](https://www.mintscan.io/evmos/proposals/83)).
 
 ## Preface 
+Since the rejection of Proposal 86 we have been reflecting on the original proposal and the incredible feedback we received from the Evmos community and validators. Our goal was to address the community concerns and flaws of the original proposal while still upholding the stated Mission, Vision, & Values of the Governance Workstream. We believe that this updated proposal accomplishes that!
 
-Following the rejection of Proposal 86, we have conducted a thorough review of the initial proposal and the valuable feedback provided by the Evmos community and validators. This revised proposal was created with objectives to address issues and concerns raised by the community while remaining aligned with the Governance Workstream's Mission, Vision, and Values. We are confident that this revised proposal achieves this goal.
+Resolved flaws from Proposal 86:
+1. Total proposal token request was too high. The requested amount is reduced by 61% in this proposal. 
+2. R&D and the Ecosystem Bootstrap fund were removed in order to have a more focused discussion with the community about these initiatives and potential funding associated.
+3. Retroactive payment request is too high. The requested amount is reduced by 64% in this proposal. 
+4. Other cost reduction efforts include the removal of 2 future workstream contributors and requesting only the first year of vesting emissions.
 
-Addressed issues from Proposal 86:
 
-1. The total token request has been significantly reduced by 61% in this proposal.
-2. R&D and the Ecosystem Bootstrap fund have been excluded in order to facilitate a more targeted dialogue with the community regarding these initiatives and potential funding.
-3. The retroactive payment request has been decreased by 64% ($750/mo per contributor).
-4. Additional cost-saving measures include the elimination of 2 future workstream contributors and the request for only the first year of vesting emissions for existing members.
+For a full and detailed breakdown please read here  > [TokenRequestReduction](https://hackmd.io/@vWDrf8BETtuqiVV7iCwtkw/ECP-2A-TokenRequestReduction) 
+**NOTE RE-UPLOAD FROM HACKMD TO GITHUB** 
 
 ## Abstract
 
@@ -27,13 +29,13 @@ Addressed issues from Proposal 86:
 
 The Governance Council exists and operates as a neutral party with allegiances only to the Evmos network and the guiding values of the Evmos Constitution. While the workstream is tasked with various duties, our mandate is simple: to facilitate and protect the integrity of Evmos' governance processes and, to the best of our ability, create a fair and transparent environment in which the network and the community can prosper and thrive.
 
-- Duties, Responsibilities, Deliverables of the Governance Workstream: [READ HERE](https://github.com/EvmosGov/proposals/blob/main/ECP/2A/duties.md)
+- Duties, Responsibilities, Deliverables of the Governance Workstream > [Read](https://hackmd.io/@EvmosGov/ECP-2A-Duties)  **NOTE RE-UPLOAD FROM HACKMD TO GITHUB**
 
 ### Contributions to Evmos
 
 The Governance Workstream's wide array of contributions and community service for the past half-year range from simple proposal guidance for projects to both native and external liquidity programs responsible for the movement of tens of millions of dollars. 
 
-- List of Achievements and Progress Report: [READ HERE](https://github.com/EvmosGov/proposals/blob/main/ECP/2A/report.md)
+- List of Achievements and Progress Report > [Read]([xxx](https://hackmd.io/@EvmosGov/GovernanceProgressReport)) **NOTE RE-UPLOAD FROM HACKMD TO GITHUB**
 
 ### Progressive Decentralization 
 
@@ -43,9 +45,8 @@ While we have ambitious plans to create an ecosystem of community owned liquidit
 
 ## Funding Request
 
-This 6-month funding proposal has been pegged to the price of $0.40 / EVMOS. The total funding amount was reduced by ~61% to the previous proposal and represents now 1.6% of the community pool. The dollar amount requested at current price was also reduced from $2.37mil to $740K. For a breakdown of the ask reduction, please [READ HERE](https://github.com/EvmosGov/proposals/blob/main/ECP/2A/revision.md).
+This 6-month funding proposal has been pegged to the price of $0.40 / EVMOS. The total funding amount was reduced by ~61% to the previous proposal and represents now 1.6% of the community pool. 
 
-The new funding request looks like the following: 
 - **A. Contributor Compensations:** 850,000 EVMOS
 - **B. Treasury Diversification & Reserves:** 1,000,000 EVMOS
 - **Total:** 1,850,000 EVMOS
@@ -53,7 +54,7 @@ The new funding request looks like the following:
 **A. Contributor Compensations**
 
 The funding ask includes the base, retro, and vesting pay for 3 existing Governance workstream members as well as the onboarding of three more members, for a total of 6 Governance workstream members.
-- A detailed outline of contributor compensation: [READ HERE](https://github.com/EvmosGov/proposals/blob/main/ECP/2A/contributors.md)
+- A detailed outline of contributor compensation can be read here [UPDATE LINK](xxx) **NOTE RE-UPLOAD FROM HACKMD TO GITHUB**
 
 **B. Treasury Diversification & Reserves**
 
@@ -80,4 +81,4 @@ This funding proposal will kick off the "DAO Treasury" which is managed by 3 Gov
 
 **Safe Deployment Address**: [0xC3C5156911bf53f12913b68E0532096536B30600](https://safe.evmos.org/evmos:0xC3C5156911bf53f12913b68E0532096536B30600) (evmos1c0z326g3haflz2gnk68q2vsfv5mtxpsqgqgd0v)
 
-*The total funding request of the proposal may be adjusted accordingly in the event of market volatility and major price swings. This clause serves as a safeguard for our planned 6-month runway and our treasury diversification plans, and is a notice to the Evmos community that the final ask amount may be different than what is being presented today.*
+The total funding request of the proposal may be adjusted accordingly in the event of market volatility and major price swings. This clause serves as a safeguard for our planned 6-month runway and our treasury diversification plans, and is a notice to the Evmos community that the final ask amount may be different than what is being presented today.
