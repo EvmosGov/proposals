@@ -27,13 +27,13 @@ Addressed issues from Proposal 86:
 
 The Governance Council exists and operates as a neutral party with allegiances only to the Evmos network and the guiding values of the Evmos Constitution. While the workstream is tasked with various duties, our mandate is simple: to facilitate and protect the integrity of Evmos' governance processes and, to the best of our ability, create a fair and transparent environment in which the network and the community can prosper and thrive.
 
-- Duties, Responsibilities, Deliverables of the Governance Workstream: [READ HERE](https://github.com/EvmosGov/proposals/blob/main/ECP/2A/duties.md)
+- Duties, Responsibilities, Deliverables of the Governance Workstream: [Detailed Page](https://github.com/EvmosGov/proposals/blob/main/ECP/2A/duties.md)
 
 ### Contributions to Evmos
 
 The Governance Workstream's wide array of contributions and community service for the past half-year range from simple proposal guidance for projects to both native and external liquidity programs responsible for the movement of tens of millions of dollars. 
 
-- List of Achievements and Progress Report: [READ HERE](https://github.com/EvmosGov/proposals/blob/main/ECP/2A/report.md)
+- List of Achievements and Progress Report: [Detailed Page](https://github.com/EvmosGov/proposals/blob/main/ECP/2A/report.md)
 
 ### Progressive Decentralization 
 
@@ -43,7 +43,7 @@ While we have ambitious plans to create an ecosystem of community owned liquidit
 
 ## Funding Request
 
-This 6-month funding proposal has been pegged to the price of $0.40 / EVMOS. The total funding amount was reduced by ~61% to the previous proposal and represents now 1.6% of the community pool. The dollar amount requested at current price was also reduced from $2.37mil to $740K. For a breakdown of the ask reduction, please [READ HERE](https://github.com/EvmosGov/proposals/blob/main/ECP/2A/revision.md).
+This 6-month funding proposal has been pegged to the price of $0.40 / EVMOS. The total funding amount was reduced by ~61% to the previous proposal and represents now 1.6% of the community pool. The dollar amount requested at current price was also reduced from $2.37mil to $740K. For a breakdown of the ask reduction, please [refer to this page.](https://github.com/EvmosGov/proposals/blob/main/ECP/2A/revision.md).
 
 The new funding request looks like the following: 
 - **A. Contributor Compensations:** 850,000 EVMOS
@@ -53,7 +53,7 @@ The new funding request looks like the following:
 **A. Contributor Compensations**
 
 The funding ask includes the base, retro, and vesting pay for 3 existing Governance workstream members as well as the onboarding of three more members, for a total of 6 Governance workstream members.
-- A detailed outline of contributor compensation: [READ HERE](https://github.com/EvmosGov/proposals/blob/main/ECP/2A/contributors.md)
+- A detailed outline of contributor compensation: [Detailed Page](https://github.com/EvmosGov/proposals/blob/main/ECP/2A/contributors.md)
 
 **B. Treasury Diversification & Reserves**
 
