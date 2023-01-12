@@ -1,0 +1,20 @@
+{
+    "title": "Parameter change: maximum deposit time, minimum deposit amount.",
+    "description": "**Summary: decrease maximum deposit time to 72 hours and increase proposal deposit amount to 192 EVMOS.** \n\nThis param change proposal will decrease the maximum deposit time to 72 hours (three days) and raise the minimum deposit amount to 192 EVMOS. At the current state the deposit time is set to 14 days, which is unnecessarily long and allows potentially malicious proposals to be in the public view for an extended period of time.\n\nThese decisions have been discussed and voted on Commonwealth for several weeks, and have followed the recommended proposal lifecycle guidelines.\n\nDiscussion thread: [Commonwealth Post](https://commonwealth.im/evmos/discussion/6208-prevote-raise-the-proposal-deposit-amount-to-192-evmos)",
+    "changes": [
+        {
+            "subspace": "gov",
+            "key": "depositparams",
+            "value": {
+                "min_deposit": [
+                    {
+                        "denom": "atevmos",
+                        "amount": "192000000000000000000"
+                    }
+                ],
+                "max_deposit_period": "259200000000000"
+            }
+        }
+    ],
+    "deposit": "1000000000000000atevmos"
+}
