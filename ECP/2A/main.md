@@ -16,7 +16,7 @@ Following the rejection of Proposal 86, we have conducted a thorough review of t
 
 Addressed issues from Proposal 86:
 
-1. The total token request has been significantly reduced by 61% in this proposal.
+1. The total token request has been significantly [reduced by 61% in this proposal](https://github.com/EvmosGov/proposals/blob/main/ECP/2A/revision.md).
 2. R&D and the Ecosystem Bootstrap fund have been excluded in order to facilitate a more targeted dialogue with the community regarding these initiatives and potential funding.
 3. The retroactive payment request has been decreased by 64% ($750/mo per contributor).
 4. Additional cost-saving measures include the elimination of 2 future workstream contributors and the request for only the first year of vesting emissions for existing members.
@@ -62,7 +62,6 @@ One of the first treasury strengthening initiatives will be to slowly diversify 
 Our stablecoin acquisitions will not be through selling tokens on the open market, but through DAO2DAO token-for-stable swaps, sales of convertible bonds, and DeFi protocols that are available to us. Some partners we are in discussions with and plan to work with include ShapeShift DAO, Hedgey Finance, PrimeDAO, and Arbor Finance. Tokens will only be sold when absolutely necessary in small batches. 
 
 A small reserve will be kept for operational expenses (tools, subscriptions, licenses) and micro-payments for services that do not warrant an on-chain proposal. 
-
 
 ### Fund Disbursements
 
