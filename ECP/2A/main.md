@@ -8,7 +8,7 @@
 
 Operating under the community-ratified Interim Constituion of Evmos DAO ([Proposal #51](https://www.mintscan.io/evmos/proposals/51)), the Governance Workstream has been serving the Evmos DAO and Community without funding for the past eight months. We are officially requesting formalization by funding.
 
-This proposal applies all rules defined and approved by the community in ECP-1 ([Proposal #83](https://www.mintscan.io/evmos/proposals/83)).
+This proposal applies all rules defined and approved by the community in ECP-1 ([Proposal #83](https://www.mintscan.io/evmos/proposals/83)). An [FAQ page](https://github.com/EvmosGov/proposals/blob/main/ECP/2A/faq.md) has been created and will kept up to date with important questions asked by the Community.
 
 ## Preface 
 
