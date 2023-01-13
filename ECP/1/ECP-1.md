@@ -163,7 +163,7 @@ Workstreams have four potential states. The states of each stages are outlined b
 
 ## The Standardized Compensation Framework
 
-Our goal is to scale the Evmos DAO by attracting and retaining great contributors and leaders. However, as the DAO is still experimenting as a relatively player in the space, the Compensation Framework is likely to be amended or even completely overhauled in the future through a governance proposal.
+Our goal is to scale the Evmos DAO by attracting and retaining great contributors and leaders. However, as the DAO is still experimenting as a relatively new player in the space, the Compensation Framework is likely to be amended or even completely overhauled in the future through a governance proposal.
 
 **Compensation Principles**
 
