@@ -23,7 +23,7 @@ Compensation table based on the approved framework of [ECP-1 | Propsal #83](http
 
 ### B. Compensation Rationale
 
-Base and vesting calculations follow the parameters set in [ECP-1B - Standardized Compensation Framework](https://github.com/EvmosGov/proposals/blob/main/ECP/ECP-1.md#ecp-1b-formalizing-the-workstream-subdao-and-compensation-framework), please refer to the prior proposal for more details on the parameters such as Value Level (VL), Commitment Level (CL), Accountability Level (AL), Contribution Points (CP), etc.
+Base and vesting calculations follow the parameters set in [ECP-1B - Standardized Compensation Framework](https://github.com/EvmosGov/proposals/blob/main/ECP/ECP-1.md), please refer to the prior proposal for more details on the parameters such as Value Level (VL), Commitment Level (CL), Accountability Level (AL), Contribution Points (CP), etc.
 
 ---
 
