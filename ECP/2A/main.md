@@ -1,7 +1,6 @@
 # ECP-2A: Formalizing and Funding the Governance Workstream (Rev. 2)
 
 ## Authors 
-
 - LPX | Evmos DAO
 - GV | Evmos DAO 
 - Benny Lava | Evmos DAO
@@ -65,7 +64,7 @@ A small reserve will be kept for operational expenses (tools, subscriptions, lic
 
 ### Fund Disbursements
 
-This funding proposal will kick off the "DAO Treasury" which is managed by 3 Governance members and 4 Validators in a `4-7` Gnosis Safe configuration. All treasury spending will be publicly viewable with full transparency. Spending, compensations, swaps, and all expense reports will be rigorously kept up to date. 
+This funding proposal will kick off the "DAO Treasury" which is managed by 3 Governance members and 5 Validators in a `5-8` Gnosis Safe configuration. All treasury spending will be publicly viewable with full transparency. Spending, compensations, swaps, and all expense reports will be rigorously kept up to date. 
 
 **Treasury Signatories**:
 
@@ -76,6 +75,7 @@ This funding proposal will kick off the "DAO Treasury" which is managed by 3 Gov
 - Benny | Governance
 - LPX | Governance
 - GV | Governance
+- Yubin Park | a41
 
 **Safe Deployment Address**: [0xC3C5156911bf53f12913b68E0532096536B30600](https://safe.evmos.org/evmos:0xC3C5156911bf53f12913b68E0532096536B30600) (evmos1c0z326g3haflz2gnk68q2vsfv5mtxpsqgqgd0v)
 
