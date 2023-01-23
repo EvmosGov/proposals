@@ -72,10 +72,10 @@ This funding proposal will kick off the "DAO Treasury" which is managed by 3 Gov
 - CO | Orbital Apes
 - Rok | Qubelabs
 - OutCast | Legion Nodes
+- Yubin Park | a41
 - Benny | Governance
 - LPX | Governance
 - GV | Governance
-- Yubin Park | a41
 
 **Safe Deployment Address**: [0xC3C5156911bf53f12913b68E0532096536B30600](https://safe.evmos.org/evmos:0xC3C5156911bf53f12913b68E0532096536B30600) (evmos1c0z326g3haflz2gnk68q2vsfv5mtxpsqgqgd0v)
 
