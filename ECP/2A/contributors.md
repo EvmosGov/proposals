@@ -6,7 +6,7 @@ Compensation table based on the approved framework of [ECP-1 | Propsal #83](http
 
 |Name         |PT/FT |Base (USD) | Retro (EVMOS) | Vesting Emission Rate(1y - EVMOS)|
 |---          |---   |---        |---            |---                        |
-|LPX          |FT    |10,080     |15,000         |68,040                     |
+|LPX          |FT    |9,680      |15,000         |65,340                     |
 |Benny Lava   |FT    |8,064      |15,000         |54,432                     |
 |GV           |FT    |8,064      |15,000         |54,432                     |
 |Council Secretary (TBD) <br> |FT |6,720 (est.)<br> |0| TBD Cycle 2 |
@@ -29,13 +29,13 @@ Base and vesting calculations follow the parameters set in [ECP-1B - Standardize
 
 |Name |PT/FT | Base (USD) | Retro (EVMOS) | Initial Vesting Amount |
 |---|---|---|---|---|
-|LPX <br> |FT<br> |10,080<br> | 15,000| $108,864 over 4yrs|
+|LPX <br> |FT<br> |9,680<br> | 15,000| $104,544 over 4yrs|
 
-**Base**: $28/hr * 2.5 VL * 0.9 CL = $120,960/yr
+**Base**: $28/hr * 2.4 VL * 0.9 CL = $116,160/yr
 
 **Retroactive**: 15,000 EVMOS  for past 8 months of contributions (~$750/mo)
 
-**Initial Vesting (4y)**: Salary * 0.45 CP * 2 AL = $108,864 / 4 years revocable
+**Initial Vesting (4y)**: Salary * 0.45 CP * 2 AL = $104,544 / 4 years revocable
 
 ---
 
