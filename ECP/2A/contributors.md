@@ -4,21 +4,26 @@
 ### A. Projected Compensation Table
 Compensation table based on the approved framework of [ECP-1 | Propsal #83](https://www.mintscan.io/evmos/proposals/83).
 
-|Name         |PT/FT |Base (USD) | Retro (EVMOS) | Vesting Emission Rate(1y - EVMOS)|
-|---          |---   |---        |---            |---                        |
-|LPX          |FT    |9,680      |15,000         |65,340                     |
-|Benny Lava   |FT    |8,064      |15,000         |54,432                     |
-|GV           |FT    |8,064      |15,000         |54,432                     |
-|Council Secretary (TBD) <br> |FT |6,720 (est.)<br> |0| TBD Cycle 2 |
-|Governance Advisor (TBD) <br> |PT |2,800 (est.)<br> |0| TBD Cycle 2 |
-|Governance Advisor (TBD) <br> |PT<br> |2,800 (est.)<br> |0| TBD Cycle 2 |
-|             |      |           |               |                       |
-|Projected 6 Mo. Total|  | 577,920 EVMOS (231,168 USD)| 45,000| 176,904 |
+| Name                          | PT/FT  | Base (USD)                  | Retro (EVMOS) | Vesting Emission Rate(1y - EVMOS) |
+| ----------------------------- | ------ | --------------------------- | ------------- |:--------------------------------- |
+| LPX                           | FT     | 9,680                       | 15,000        | 65,340                            |
+| Benny Lava                    | FT     | 8,064                       | 15,000        | 54,432                            |
+| GV                            | FT     | 8,064                       | 15,000        | 54,432                            |
+| Council Secretary (TBD) <br>  | FT     | 6,720 (est.)<br>            | 0             | TBD Cycle 2                       |
+| Governance Advisor (TBD) <br> | PT     | 2,800 (est.)<br>            | 0             | TBD Cycle 2                       |
+| Governance Advisor (TBD) <br> | PT<br> | 2,800 (est.)<br>            | 0             | TBD Cycle 2                       |
+| Governance Advisor (TBD) <br> | PT<br> | 2,800 (est.)<br>            | 0             | TBD Cycle 2                       |
+|                               |        |                             |               |                                   |
+| Projected 6 Mo. Total         |        | 571,920 EVMOS (228,768 USD) | 45,000        | 174,204                           |
 
 - Vesting amounts are calculated in USD but paid in EVMOS at each funding cycle's market price. The requested amount is for a single year of vesting emission. 
 - For this initial funding request, we will peg the price of EVMOS @0.40$
 - Vesting Schedule: 4-year linear, 6 month cliff. 
 - Vesting contracts are revocable by the DAO.
+
+On top of the projected costs (~800k EVMOS) a buffer of 160k Evmos is included to help protect against price volatility. Any non-rewarded EVMOS in a given funding cycle will be rolled over to the next cycle.
+
+Final request of **950,000 EVMOS** is composed of: 571,920 EVMOS (base) + 45,000 EVMOS (retro) + 174,204 EVMOS (vesting -1y) + 160,000 EVMOS (buffer)
 
 
 ### B. Compensation Rationale

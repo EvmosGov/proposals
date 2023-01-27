@@ -80,7 +80,7 @@ The Governance Council will assist in the creation of new workstreams. When focu
 
 **G. Treasury Management, Diversification, & Growth**
 
-At the moment the treasury will be managed by a Gnosis Safe with a 4-7 signatory composition as described in the proposal.
+At the moment the treasury will be managed by a Gnosis Safe with a 5-8 signatory composition as described in the proposal.
 
 Additional funding requests for other initiatives will be made through separate proposals when ready.
 

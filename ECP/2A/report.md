@@ -50,13 +50,14 @@ The Governance Council and DAO Contributors have assisted in, provided support t
 | 92  | Funding Request - MetaTank                                              | Feedback          |
 | 97  | Increase Deposit Amount for Evmos Proposals                             | Feedback          |
 | 103 | Ratify Governance-Official Meanings for Yes, No, Abstain and NoWithVeto | Feedback          |
+| 109 | New Evmos Liquidity Incentive and SpaceFi Whole Launching               | Support, Multisig |
 
-After posting the ["Passing a Community Proposal, Best Practices"](https://commonwealth.im/evmos/discussion/6022-passing-a-community-proposal-best-practices) guide, the Governance Workstream and DAO contributors assisted in passing **37 out of 39 proposals for a success rate of 95%.**
+After posting the ["Passing a Community Proposal, Best Practices"](https://commonwealth.im/evmos/discussion/6022-passing-a-community-proposal-best-practices) guide, the Governance Workstream and DAO contributors assisted in passing **38 out of 40 proposals for a success rate of 95%.**
 
-The Governance Council has been involved with 14 out of 16 passed Community Pool Spend Proposals (Excluding Proposal 66 - Recover IBC tokens from Airdrop). Which covers nearly **98%** of the total community pool spend!
+The Governance Council has been involved with 15 out of 17 passed Community Pool Spend Proposals (Excluding Proposal 66 - Recover IBC tokens from Airdrop). Which covers over **98%** of the total community pool spend!
 
-- Total Community Pool Spend: ~4.09mil EVMOS
-- Total Community Pool Spend with Gov. Council Support: ~4.0mil EVMOS
+- Total Community Pool Spend: ~5.09mil EVMOS
+- Total Community Pool Spend with Gov. Council Support: ~5.0mil EVMOS
 
 
 ![](https://i.imgur.com/0VbXvqZ.png)
@@ -110,6 +111,6 @@ Some projects that the Governance Council has initiated in the domain of public 
 - Osmosis External Incentives Round 1
 - Osmosis External Incentives Round 2
 - Diffusion "Kickstart DeFi" Program
-- Diffusion "Kickstart DeFi" Round 2 (Coming Soon)
 - Kinesis Stableswap Incentives
 - Gravity Bridge x Diffusion Incentives
+- SpaceFi Liquidity Incentives
