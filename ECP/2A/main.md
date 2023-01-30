@@ -69,3 +69,6 @@ This funding proposal will kick off the "DAO Treasury" which is managed by 3 Gov
 **Safe Deployment Address**: [0xC3C5156911bf53f12913b68E0532096536B30600](https://safe.evmos.org/evmos:0xC3C5156911bf53f12913b68E0532096536B30600) (evmos1c0z326g3haflz2gnk68q2vsfv5mtxpsqgqgd0v)
 
 *The total funding request of the proposal may be adjusted accordingly in the event of market volatility and major price swings. This clause serves as a safeguard for our planned 6-month runway and our treasury diversification plans, and is a notice to the Evmos community that the final ask amount may be different than what is being presented today.*
+
+## Forum
+Full discussion can be found on [Commonwealth](https://commonwealth.im/evmos/discussion/9421-ecp2a-formalizing-and-funding-the-governance-workstream-rev-2).
