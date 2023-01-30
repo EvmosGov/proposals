@@ -15,10 +15,10 @@ Following the rejection of Proposal 86, we have conducted a thorough review of t
 
 Addressed issues from Proposal 86:
 
-1. The total token request has been significantly [reduced by 80% in this proposal](https://github.com/EvmosGov/proposals/blob/main/ECP/2A/revision.md).
-2. R&D, Ecosystem Bootstrap, and Treasury Diversification funds have been excluded in order to facilitate a more targeted dialogue with the community regarding these initiatives and potential funding.
-3. The retroactive payment request has been decreased by 64% ($750/mo per contributor).
-4. Additional cost-saving measures include the elimination of 2 future workstream contributors and the request for only the first year of vesting emissions for existing members.
+- The total token request has been significantly [reduced by 80% in this proposal](https://github.com/EvmosGov/proposals/blob/main/ECP/2A/revision.md).
+- R&D, Ecosystem Bootstrap, and Treasury Diversification funds have been excluded in order to facilitate a more targeted dialogue with the community regarding these initiatives and potential funding.
+- The retroactive payment request has been decreased by 64% ($750/mo per contributor).
+- Additional cost-saving measures include the elimination of 2 future workstream contributors and the request for only the first year of vesting emissions for existing members.
 
 ## Abstract
 
