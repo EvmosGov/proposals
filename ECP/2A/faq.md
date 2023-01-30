@@ -4,6 +4,9 @@ We understand the importance of keeping the Evmos Community informed and up-to-d
 
 **Q1: Are any DAO2DAO swaps already confirmed?**
 
+⚠ **Note (added Jan 31st): This question is no longer relevant to this proposal as we have decided to move diversification into its own separate proposal. The question and answer is being left because it may be relevant to know for the future.**
+
+
 We've already begun discussions with ShapeShift DAO and even temperature checked with the community ([positive sentiment](https://messari.io/governor/proposal/0d626610-2f96-4364-98b3-d05406b7baad?daoSlug=shapeshift-governance&daoTab=proposals)). Discussions kind of halted when our funding prop v1 was struck down, but I still talk to many of them daily and they are very willing to move forward with a potentially creative DAO2DAO swap that is beneficial long term for both parties.
 
 We are also in talks with [Hedgey](https://app.hedgey.finance/dao2dao), in the process of scheduling a meeting with Arbor Financial (example [stablecoin raise](https://app.arbor.finance/offerings/399)), and we are also very keen on working with [PrimeDAO](https://deals.prime.xyz/). There dozens of other DAOs we can potentially begin discussions with, but will be waiting until for the time being.
@@ -28,4 +31,7 @@ In an effort to keep the vesting plan straightforward, ECP-1 was designed with t
 
 **Q5: What happens if the DAO fails to obtain stablecoins?"**
 
+⚠ **Note (added Jan 31st): This question is no longer relevant to this proposal as we have decided to move diversification into its own separate proposal. The question and answer is being left because it may be relevant to know for the future.**
+
 In extreme scenarios where obtaining stablecoins becomes challenging, we can utilize protocols such as Hedgey to facilitate partial payments in EVMOS. Additionally, we can also consider selling in-house treasury bonds, where EVMOS is sold at a discounted rate but is locked for a period of time through a simple contract. However, we are optimistic that this will not be a major issue as we expect any such sales to have minimal impact on the price of EVMOS. Furthermore, this highlights the benefit of community-owned liquidity. By having a significant position in a stablecoin pool, the treasury can generate revenue from swap fees, which can be used to support contributor salaries and build long-term total value locked (TVL) in the process.
+
