@@ -49,7 +49,7 @@ Addressed issues from Proposal 86:
 | Original    | 70,000      | $35,000   |
 | NEW         | 45,000      | $18,000   |
 |             |             |           |
-| % Reduction | 64%         | 49%       |
+| % Reduction | 36%         | 49%       |
 
 `Original proposal was for 6 months of past contribution.`
 `Revised proposal is for 8 months of past contribution. The retroactive payment equals to 15,000 EVMOS each ($750 / month per contributor)`
