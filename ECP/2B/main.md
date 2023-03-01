@@ -94,11 +94,8 @@ Thus, the salary is calculated as follows:
 | Kori                      | -        | -     | -                               | -                    |    4,447   | -                                  | Contract ended 12/19/22 |
 | Zotish                    | -        | -     | -                               | -                    |   6,512    | -                                  | Contract ended 11/30/22 |
 | OPEN                      | JR       | PT    | 3,360                           |                     |       | TBD                        |                         |
-| ~~OPEN~~                      | ~~SR~~       | ~~PT~~    | ~~4,032~~                           |                     |       | ~~TBD Cycle 2~~                        |                         |
-| ~~OPEN~~                      | ~~SR~~       | ~~PT~~    | ~~4,032~~                           |                     |       | ~~TBD Cycle 2~~                        |                         |
-| OPEN                      | LEAD     | FT    | 6,720     (est)                        |                    |       | TBD Cycle 2                        |                         |
-|                           |          |       |                                 |                      |       |                                    |                         |
-| ~~**Projected 6 Mo. Total**~~ | -        |       | ~~**624,960 EVMOS (249,894 USD)**~~ | ~~**85,438 EVMOS**~~    |  ~~**50,000 EVMOS**~~     | ~~**52,920 EVMOS**~~                                           |
+| OPEN                      | LEAD     | FT    | 6,720     (est)                        |                    |       | TBD                     |                         |
+|                           |          |       |                                 |                      |            |                                    |                         |
 | **Projected 6 Mo. Total** | -        |       | **504,000 EVMOS (201,600 USD)** | **86,050 EVMOS**    |  **50,000 EVMOS**     | **52,920 EVMOS**  |
 
 *RETRO: One time payment for retroactive unpaid work
@@ -132,7 +129,6 @@ Conditions:
 - Token vesting for contributors are executed on the EVM side. This allows the revocation of the vesting contracts through governance proposals - this ensures that the Council members are subject to the same terms.
 
 
-
 ### C. Accountability 
 Each CMS member is measured and accountable for their performance. This will be tracked with internal KPI metrics, such as tickets attended to, moderation commands used, time spent in the server and so on. If an individual CM is struggling to fulfill their duties, CMS leadership will work with them to understand the root cause and provide the necessary support and training.
 
@@ -142,7 +138,7 @@ This proposal requests funding for a 6 month period beginning March 2023. Retroa
 
 | CATEGORY                  | EVMOS       | Note                            |
 |:------------------------- |:----------- |:------------------------------- |
-| SALARY BASE               | 453,600     | 7 JR, 1 LEAD, 1 JR BUFFER       |
+| SALARY BASE               | 504,000     | 7 JR, 1 LEAD, 1 JR BUFFER       |
 | RETRO                     | 86,050      |                                 |
 | BONUS                     | 50,000      |                                 |
 | VESTING (EVMOS) 1y        | 52,920      |                                 |
@@ -151,7 +147,7 @@ This proposal requests funding for a 6 month period beginning March 2023. Retroa
 | TOOL COSTS (USD)          | 500         | Bots, GSuite, Notion, etc.      |
 | **Projected 6 Mo. Total** | **799,270** |                                 |
  
-`*TOKEN_PRICE of .40 USD is subject to change`
+`*TOKEN_PRICE of .40 USD`
 
 ### Fund Dispursements 
 Funds will be distributed to the DAO Treasury 5/8 multisig from [Proposal 113](https://www.mintscan.io/evmos/proposals/113). The DAO Treasury will distribute the workstreams salary in a batch transaction from the DAO safe wallet on a monthly basis. 
