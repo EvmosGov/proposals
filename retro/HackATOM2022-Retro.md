@@ -2,7 +2,7 @@
 
 **Authors:** 
 
-- LPX, EvmosDAO
+- LPX, EvmosDAO (Original 2022 Proposer)
 
 ## Summary
 
