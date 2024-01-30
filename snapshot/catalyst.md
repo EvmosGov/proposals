@@ -114,15 +114,19 @@ Based on the analysis of our metrics and their distributions, we've determined p
 
 ### Proposed Tier Thresholds:
 
-Tier 1 (Low Concern): Metrics falling within or below the 75th percentile.
-- ATFR ≤ 44.807, LMR ≤ 56.964, PI: above -0.000029, RI: within normal range indicating variability in trade intervals.
 
-Tier 2 (Moderate Concern): Metrics falling between the 75th and 90th percentile.
-- 44.807 < ATFR ≤ 110.678, 56.964 < LMR ≤ 725.614, PI between -0.000029 and 0.005138 signaling suboptimal trading, RI suggesting some repetitiveness but not excessively low.
 
-Tier 3 (High Concern): Metrics exceeding the 90th percentile, indicating potential concerns.
+~~Tier 1 (Low Concern): Metrics falling within or below the 75th percentile.~~
+~~- ATFR ≤ 44.807, LMR ≤ 56.964, PI: above -0.000029, RI: within normal range indicating variability in trade intervals.~~
 
-- ATFR > 110.678, LMR > 725.614, PI ≤ 0.005138 (considering extreme negative values), RI very low, near 1, indicating highly repetitive trading patterns.
+~~Tier 2 (Moderate Concern): Metrics falling between the 75th and 90th percentile.~~
+~~- 44.807 < ATFR ≤ 110.678, 56.964 < LMR ≤ 725.614, PI between -0.000029 and 0.005138 signaling suboptimal trading, RI suggesting some repetitiveness but not excessively low.~~
+
+~~Tier 3 (High Concern): Metrics exceeding the 90th percentile, indicating potential concerns.~~
+
+~~- ATFR > 110.678, LMR > 725.614, PI ≤ 0.005138 (considering extreme negative values), RI very low, near 1, indicating highly repetitive trading patterns.~~
+
+Note: being reworked.
 
 ## Closing Thoughts
 
