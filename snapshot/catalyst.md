@@ -1,5 +1,5 @@
-Author: LPX
-Status: Draft
+- Author: LPX
+- Status: Draft
 
 # Maintaining Integrity in Catalyst Incentives 
 
