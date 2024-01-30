@@ -56,7 +56,8 @@ Profitability Index (PI): [ \text{PI} = \frac{\text{Total Profit or Loss (PnL) i
 
 Repetitiveness Index (RI): [ \text{RI} = \frac{\text{Standard Deviation of Trade Intervals per User}}{\text{Mean Trade Interval per User}} ]
 
-[equation_3](https://github.com/EvmosGov/proposals/assets/16395727/2df469c0-784c-4878-b5e9-c598646fd7fc)
+![equation_3](https://github.com/EvmosGov/proposals/assets/16395727/c66173e5-5e69-4888-84f5-99307bd7056e)
+
 
 ## The Proposed Tier System
 
